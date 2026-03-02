@@ -1,4 +1,4 @@
-package binarysearch;
+package binarysearch.on1DArrays;
 
 public class LC153MinOfRotatedSortedArray {
 

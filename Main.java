@@ -1,8 +1,8 @@
 import arrays.ArraysOfVishal;
 import binarysearch.BinarySearch;
-import binarysearch.FindIndexOfTarget;
-import binarysearch.LC34FindFirstAndLastOccurrences;
 import binarysearch.LC88RotatedSortedArraySearch2;
+import binarysearch.on1DArrays.FindIndexOfTarget;
+import binarysearch.on1DArrays.LC34FindFirstAndLastOccurrences;
 import sorting.MergeSort;
 
 public class Main {
