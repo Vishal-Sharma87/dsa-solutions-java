@@ -1,16 +1,31 @@
-
-// Created at:
-// Last revised at:
-
-// link :
+// Created at: 11 - March - 2026
+// Last revised at: 11 - March - 2026
+// link : https://leetcode.com/problems/...
 
 /*
-Problem Description -> statement, example, constraints
-
+Problem Description:
+  Statement: ...
+  Example:   ...
+  Constraints: ...
 */
 
-//Method to solve the Problem
+/*
+Approaches:
+  1. Brute Force
+     Idea: ...
+     Time: ...  Space: ...
+     Drawbacks: ...
 
+  2. Optimal ✅
+     Key Insight: ...
+     Time: ...  Space: ...
+*/
 
-// Time Complexity:
-// Space Complexity:
+// Method to solve the Problem:
+//   Step 1: ...
+//   Step 2: ...
+
+/** JavaDoc for every method */
+
+// Time Complexity:  O(...)
+// Space Complexity: O(...)
