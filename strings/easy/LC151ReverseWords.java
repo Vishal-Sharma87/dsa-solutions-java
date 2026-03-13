@@ -66,59 +66,56 @@ public class LC151ReverseWords {
     // Step 5: Reverse the entire StringBuilder — this restores correct word order.
     // Step 6: Return the result as a String.
 
-    class Solution {
+    /**
+     * Reverses the order of words in a given string,
+     * removing leading, trailing, and extra spaces between words.
+     *
+     * @param s the input string containing one or more words
+     * @return a string with words in reversed order separated by a single space
+     */
+    public String reverseWords(String s) {
+        int len = s.length();
 
-        /**
-         * Reverses the order of words in a given string,
-         * removing leading, trailing, and extra spaces between words.
-         *
-         * @param s the input string containing one or more words
-         * @return a string with words in reversed order separated by a single space
-         */
-        public String reverseWords(String s) {
-            int len = s.length();
+        if (len <= 0)
+            return s;
 
-            if (len <= 0)
-                return s;
+        StringBuilder sb = new StringBuilder();
 
-            StringBuilder sb = new StringBuilder();
+        // remove leading spaces
+        int i = 0;
+        while (i < len && s.charAt(i) == ' ')
+            i++;
 
-            // remove leading spaces
-            int i = 0;
-            while (i < len && s.charAt(i) == ' ')
-                i++;
+        // remove trailing spaces
+        int j = len - 1;
+        while (j > i && s.charAt(j) == ' ')
+            j--;
 
-            // remove trailing spaces
-            int j = len - 1;
-            while (j > i && s.charAt(j) == ' ')
-                j--;
+        int last = j;
 
-            int last = j;
+        while (i <= last) {
+            int k = i + 1;
+            while (k <= last && s.charAt(k) != ' ')
+                k++;
 
-            while (i <= last) {
-                int k = i + 1;
-                while (k <= last && s.charAt(k) != ' ')
-                    k++;
+            // k is either exhausted or at a blank space
+            // push all characters in range [i, k-1] reversed
+            j = k - 1;
+            while (j >= i)
+                sb.append(s.charAt(j--));
 
-                // k is either exhausted or at a blank space
-                // push all characters in range [i, k-1] reversed
-                j = k - 1;
-                while (j >= i)
-                    sb.append(s.charAt(j--));
+            // insert the white space
+            sb.append(' ');
 
-                // insert the white space
-                sb.append(' ');
+            // k is at a blank space, find the start of next word
+            while (k <= last && s.charAt(k) == ' ')
+                k++;
 
-                // k is at a blank space, find the start of next word
-                while (k <= last && s.charAt(k) == ' ')
-                    k++;
-
-                i = k;
-            }
-
-            sb.deleteCharAt(sb.length() - 1);
-            return sb.reverse().toString();
+            i = k;
         }
+
+        sb.deleteCharAt(sb.length() - 1);
+        return sb.reverse().toString();
     }
 
     // Time Complexity: O(n) — each character is visited at most twice (forward +
