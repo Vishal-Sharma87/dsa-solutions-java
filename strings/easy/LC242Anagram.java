@@ -63,7 +63,7 @@ public class LC242Anagram {
      * Determines whether two strings are anagrams of each other.
      * Uses a frequency-difference array for a single-pass O(n) solution.
      *
-     * @param s the source string (lowercase English letters)
+     * @param s the source string (lowercase English letters)bvhgbj
      * @param t the target string to compare against s
      * @return {@code true} if t is an anagram of s, {@code false} otherwise
      */
