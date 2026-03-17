@@ -1,25 +1,19 @@
 
 import linkedlist.ArrayToLinkedList;
-import linkedlist.CheckIfTargetExistsInLL;
-import linkedlist.LinkedListLength;
 import linkedlist.ListNode;
 import linkedlist.PrintLinkedList;
+import linkedlist.singly.DeleteInSinglyLinkedList;
+import linkedlist.singly.InsertionInSinglyLinkedList;
 
 public class Main {
     public static void main(String[] args) {
 
-        int[] a = new int[] { 18 };
+        int[] a = new int[] {13};
 
         ListNode head = ArrayToLinkedList.convertArray2LinkedList(a);
 
-        int len = new LinkedListLength().getLengthOfSinglyLL(head);
-
-        System.out.println("Length: " + len);
-        PrintLinkedList.singlyLinkedList(head);
-
-        if (CheckIfTargetExistsInLL.isExists(head, 18)) {
-            System.out.println("Exists");
-        }
+        PrintLinkedList.singlyLinkedList(head = InsertionInSinglyLinkedList.insertAtHead(head, 15));
+        PrintLinkedList.singlyLinkedList(head = DeleteInSinglyLinkedList.deleteAtHead(head));
 
     }
 }
