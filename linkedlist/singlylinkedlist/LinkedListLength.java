@@ -1,4 +1,4 @@
-package linkedlist.singly;
+package linkedlist.singlylinkedlist;
 
 // Created at: 18 - March - 2026
 // Last revised at: 18 - March - 2026

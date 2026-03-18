@@ -1,4 +1,4 @@
-package linkedlist.singly;
+package linkedlist.singlylinkedlist;
 
 public class InsertionInSinglyLinkedList {
 
