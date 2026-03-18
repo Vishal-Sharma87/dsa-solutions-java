@@ -1,7 +1,5 @@
 package linkedlist.singly;
 
-import linkedlist.ListNode;
-
 public class InsertionInSinglyLinkedList {
 
     public static ListNode insertAtHead(ListNode head, int data) {

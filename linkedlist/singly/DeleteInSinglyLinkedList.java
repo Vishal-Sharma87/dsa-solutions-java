@@ -1,7 +1,5 @@
 package linkedlist.singly;
 
-import linkedlist.ListNode;
-
 public class DeleteInSinglyLinkedList {
 
     public static ListNode deleteAtHead(ListNode head) {

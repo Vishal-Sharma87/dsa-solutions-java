@@ -1,9 +1,9 @@
 
-import linkedlist.ArrayToLinkedList;
-import linkedlist.ListNode;
-import linkedlist.PrintLinkedList;
+import linkedlist.singly.ArrayToLinkedList;
 import linkedlist.singly.DeleteInSinglyLinkedList;
 import linkedlist.singly.InsertionInSinglyLinkedList;
+import linkedlist.singly.ListNode;
+import linkedlist.singly.PrintLinkedList;
 
 public class Main {
     public static void main(String[] args) {
