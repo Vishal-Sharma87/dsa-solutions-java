@@ -2,7 +2,7 @@ package linkedlist.mediumonsinglylinkedlist;
 
 import linkedlist.singlylinkedlist.ListNode;
 
-public class LC142CycleLengthOfSinglyLinkedList {
+public class LC142StartOfCycleLengthSinglyLinkedList {
     // Created at: 22 - March - 2026
     // Last revised at: 22 - March - 2026
     // LeetCode link: https://leetcode.com/problems/linked-list-cycle-ii/
