@@ -9,9 +9,9 @@ package linkedlist.doublylinkedlist;
  * Maintains references to both the next and previous nodes.
  */
 public class ListNode {
-    int data; // Data stored in the node
-    ListNode next; // Reference to the next node (forward direction)
-    ListNode prev; // Reference to the previous node (backward direction)
+    public int data; // Data stored in the node
+    public ListNode next; // Reference to the next node (forward direction)
+    public ListNode prev; // Reference to the previous node (backward direction)
 
     /**
      * Constructor to create a new node with the given value.
