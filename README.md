@@ -13,7 +13,8 @@ DSA-Revision-Java/
 ├── sorting/
 ├── binarysearch/
 ├── strings/
-├── linkedlist/      ← current focus
+├── linkedlist/      ✅ Done
+├── recursion/       ← current focus
 └── ...more topics added as I progress
 ```
 **File naming:** `[Platform + ProblemCountIfAny]_[ProblemName].java`
@@ -33,18 +34,20 @@ Each file includes:
 | Sorting | ✅ Done |
 | Binary Search | ✅ Done |
 | Strings | ✅ Done (Hard problems deferred — revisiting after LL, Stack, DP & Graphs) |
-| Linked Lists | 🔄 In Progress |
+| Linked Lists | ✅ Done |
+| Recursion | 🔄 In Progress |
 | Trees | ⏳ Pending |
 | Graphs | ⏳ Pending |
 | Dynamic Programming | ⏳ Pending |
 ---
-## Current Focus — Linked Lists
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, and Strings** (Easy + Medium), the focus now shifts to **Linked Lists**.
+## Current Focus — Recursion
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, and Linked Lists**, the focus now shifts to **Recursion**.
 Topics to be covered:
-- Traversal, reversal, and cycle detection
-- Fast & slow pointer techniques
-- Merge, sort, and intersection problems
-- Interview-level variations
+- Base case and recursive case design
+- Backtracking fundamentals
+- Subsets, permutations, and combinations
+- Recursion on strings, arrays, and linked structures
+- Interview-level recursive problem patterns
 ---
 ## Goal
 Build strong DSA fundamentals and problem-solving speed to target backend-focused and product-based company roles.
