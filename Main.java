@@ -1,42 +1,53 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
 import linkedlist.singlylinkedlist.ArrayToLinkedList;
 import linkedlist.singlylinkedlist.ListNode;
 
 public class Main {
-    public static ListNode reverseKGroup(ListNode head, int k) {
-        if(head == null) return null;
+    private static void generate(Set<String> ans, int len, int i, String curr, boolean taken) {
 
-        ListNode lastNode = head;
-        int cnt = 0;
-
-        while(lastNode != null && cnt < k - 1) lastNode = lastNode.next;
-
-        if(lastNode == null) return head;
-
-        ListNode nextHead = lastNode.next;
-        lastNode.next = null;
-
-        ListNode left = null; 
-        ListNode curr = head; 
-        ListNode right; 
-        while (curr != null) {
-            right = curr.next;
-            curr.next = left;
-            left = curr;
-            curr = right;
+        if (i > len) {
+            ans.add(curr);
+            return;
         }
-        
 
-        head.next = reverseKGroup(nextHead, k);
+        if (!taken) {
+            generate(ans, len, i + 1, curr + "0", false);
+            generate(ans, len, i + 1, curr + "1", true);
+        } else {
+            generate(ans, len, i + 1, curr + "0", false);
+        }
+    }
 
-        return left;
+    public static List<String> generateString(int N) {
+        // Write your code here.
+
+        if (N <= 0)
+            return null; // empty list
+
+        Set<String> strs = new TreeSet<>();
+        String curr = "";
+
+        boolean taken = false;
+
+        int i = 1;
+
+        generate(strs, N, i, curr, taken);
+
+        return new ArrayList<>(strs);
     }
 
     public static void main(String[] args) {
 
-        int[] a = new int[] { 4,2,1,3 };
+        int[] a = new int[] { 4, 2, 1, 3 };
         ListNode head = ArrayToLinkedList.convertArray2LinkedList(a);
 
-        ListNode temp = reverseKGroup(head, 2);
+        List<String> ans = generateString(4);
+
+        ans.forEach((s) -> {System.out.println(s);});
 
     }
 }
