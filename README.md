@@ -33,7 +33,7 @@ Each file includes:
 | Arrays | ✅ Done |
 | Sorting | ✅ Done |
 | Binary Search | ✅ Done |
-| Strings | ✅ Done (Hard problems deferred — revisiting after LL, Stack, DP & Graphs) |
+| Strings | ✅ Done |
 | Linked Lists | ✅ Done |
 | Recursion | 🔄 In Progress |
 | Trees | ⏳ Pending |
