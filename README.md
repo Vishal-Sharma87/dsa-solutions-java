@@ -203,7 +203,7 @@ Every solution is written with production-style clarity — commented with appro
 | [LC51] N-Queens | Backtracking | Hard | `O(N!)` | `O(N²)` | [LC51NQueens.java](./recursion/hard/LC51NQueens.java) |
 | [LC131] Palindrome Partitioning | Backtracking / Strings | Medium | `O(N · 2^N)` | `O(N)` | [LC131PalindromePartitioning.java](./recursion/hard/LC131PalindromePartiotioning.java) |
 | [LC139] Word Break | Backtracking + DP | Medium | `O(N^2 * M)` | `O(N)` | [LC139WordBreak.java](./recursion/hard/LC139WordBreak.java) |
-| [GFG] Rat In A Maze | Backtracking / Strings | Medium | `O(3^(N ^ 2))` | `O(N^2)` | [GFG_RatInMaze.java](./recursion/hard/GFG_ratInMaze.java) |
+| [GFG] Rat In A Maze | Backtracking / Strings | Medium | `O(3^(N ^ 2))` | `O(N^2)` | [GFG_RatInMaze.java](./recursion/hard/GFG_RatInMaze.java) |
 | [LC37] Sudoku Solver | Backtracking | Hard | `O(9^(N^2))` | `O(N^2)` | [LC37SudokuSolver](./recursion/hard/LC37SudokuSolver.java) |
 
 ---
