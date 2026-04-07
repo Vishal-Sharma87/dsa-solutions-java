@@ -215,12 +215,13 @@ DSA-Revision-Java/
 ├── sorting/
 ├── binarysearch/
 ├── strings/
-├── linkedlist/      ✅ Done
-├── recursion/       ← current focus
+├── linkedlist/      
+├── recursion/       ✅ Done
+├── stack&queue/       ← current focus
 └── ...more topics added as I progress
 ```
 **File naming:** `[Platform + ProblemCountIfAny]_[ProblemName].java`
-Example: `LC1_TwoSum.java` (LC = LeetCode)
+Example: `LC1TwoSum.java` (LC = LeetCode), `GFG_CountOccurrencesInSortedArray.java` (GFG = GeeksForGeeks)
 Each file includes:
 - Link to the original problem
 - Pattern & key insight
@@ -237,19 +238,20 @@ Each file includes:
 | Binary Search | ✅ Done |
 | Strings | ✅ Done |
 | Linked Lists | ✅ Done |
-| Recursion | 🔄 In Progress |
+| Recursion | ✅ Done |
+| Stack & Queue | 🔄 In Progress |
 | Trees | ⏳ Pending |
 | Graphs | ⏳ Pending |
 | Dynamic Programming | ⏳ Pending |
 ---
 ## Current Focus — Recursion
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, and Linked Lists**, the focus now shifts to **Recursion**.
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists and Recursion**, the focus now shifts to **Stack & Queue**.
 Topics to be covered:
-- Base case and recursive case design
-- Backtracking fundamentals
-- Subsets, permutations, and combinations
-- Recursion on strings, arrays, and linked structures
-- Interview-level recursive problem patterns
+- Basics of stack and queue
+- Conversion problem
+- Monotonic stack
+- Queue problems
+- Implementation problems
 ---
 ## Goal
 Build strong DSA fundamentals and problem-solving speed to target backend-focused and product-based company roles.
