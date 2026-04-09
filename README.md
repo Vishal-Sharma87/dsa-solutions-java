@@ -244,7 +244,7 @@ Each file includes:
 | Graphs | ⏳ Pending |
 | Dynamic Programming | ⏳ Pending |
 ---
-## Current Focus — Recursion
+## Current Focus — Stack and Queue
 Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists and Recursion**, the focus now shifts to **Stack & Queue**.
 Topics to be covered:
 - Basics of stack and queue
