@@ -207,6 +207,23 @@ Every solution is written with production-style clarity — commented with appro
 | [LC37] Sudoku Solver | Backtracking | Hard | `O(9^(N^2))` | `O(N^2)` | [LC37SudokuSolver](./recursion/hard/LC37SudokuSolver.java) |
 
 ---
+### 7. Stack and Queue
+#### Implementation
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Stack Using Array| Stack/Array | Easy | `O(1)` | `O(N)` | [StackUsingArray.java](./stack/implementation/StackUsingArray.java) |
+| Stack Using Queue| Stack /Queue | Easy | `O(N)` | `O(N)` | [StackUsingQueue.java](./stack/implementation/StackUsingQueue.java) |
+| Queue Using Array| Queue /Array | Easy | `O(1)` | `O(N)` | [QueueUsingArray.java](./queue/implementation/QueueUsingArray.class) |
+
+<br>
+
+#### Basic
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [LC20] Valid Parentheses | Stack | Easy | `O(N)` | `O(N)` | [LC20ValidParentheses.java](./stack/LC20ValidParentheses.java) |
+| [LC155] MinStack | Stack | Medium | `O(1)` | `O(N)` | [LC155MinStack.java.java](./stack/LC155MinStack.java) |
+
+---
 
 ## Repository Structure
 ```
