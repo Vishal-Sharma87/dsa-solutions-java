@@ -223,6 +223,16 @@ Every solution is written with production-style clarity — commented with appro
 | [LC20] Valid Parentheses | Stack | Easy | `O(N)` | `O(N)` | [LC20ValidParentheses.java](./stack/LC20ValidParentheses.java) |
 | [LC155] MinStack | Stack | Medium | `O(1)` | `O(N)` | [LC155MinStack.java.java](./stack/LC155MinStack.java) |
 
+<br>
+
+#### Monotonic Stack
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [GFG] Next Smaller Element | Stack / Monotonic Stack | Easy | `O(N)` | `O(N)` | [GFG_NextSmallerElement.java](./stack/monotonicstack/GFG_NextSmallerElement.java) |
+| [LC42] Trapping Rain Water | Stack / Monotonic Stack | Hard | `O(N)` | `O(N)` | [LC42TrappingRainWater.java](./stack/monotonicstack/LC42TrappingRainWater.java) |
+| [LC496] Next Greater Element I | Stack / Monotonic Stack | Easy | `O(N + M)` | `O(M)` | [LC496NextGreterElement.java](./stack/monotonicstack/LC496NextGreterElement.java) |
+| [LC503] Next Greater Element II | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC503NextGreterElement2.java](./stack/monotonicstack/LC503NextGreterElement2.java) |
+
 ---
 
 ## Repository Structure
