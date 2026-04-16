@@ -233,6 +233,7 @@ Every solution is written with production-style clarity — commented with appro
 | [LC496] Next Greater Element I | Stack / Monotonic Stack | Easy | `O(N + M)` | `O(M)` | [LC496NextGreterElement.java](./stack/monotonicstack/LC496NextGreterElement.java) |
 | [LC503] Next Greater Element II | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC503NextGreterElement2.java](./stack/monotonicstack/LC503NextGreterElement2.java) |
 | [LC907] Sum of Subarray Minimums | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC907SumOfSubArrayMinimums.java](./stack/monotonicstack/LC907SumOfSubArrayMinimums.java) |
+| [LC735] Asteroid Collisions | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC735AsteroidCollisions.java](./stack/monotonicstack/LC735AsteroidCollisions.java) |
 
 ---
 
