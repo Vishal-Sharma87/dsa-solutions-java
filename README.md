@@ -145,7 +145,7 @@ Every solution is written with production-style clarity — commented with appro
 | [GFG] Length of Loop in LL | Linked List / Fast & Slow | Medium | `O(N)` | `O(1)` | [GFG_LengthOfLoopOfLinkedList.java](./linkedlist/mediumonsinglylinkedlist/GFG_LengthOfLoopOfLinkedList.java) |
 | [LC19] Remove Nth Node From End | Linked List / Two Pointers | Medium | `O(N)` | `O(1)` | [LC19RemoveNthNode.java](./linkedlist/mediumonsinglylinkedlist/LC19RemoveNthNode.java) |
 | [LC160] Intersection of Two LLs | Linked List / Two Pointers | Easy* | `O(N+M)` | `O(1)` | [LC160IntersectionInLinkedList.java](./linkedlist/mediumonsinglylinkedlist/LC160InterSectionInLinkedList.java) |
-| [LC234] Palindrome Linked List | Linked List / Two Pointers | Easy* | `O(N)` | `O(1)` | [LC234PalindromicLinkedList.java](./linkedlist/mediumonsinglylinkedlist/LC234PalindromicLinkedLIst.java) |
+| [LC234] Palindrome Linked List | Linked List / Two Pointers | Easy* | `O(N)` | `O(1)` | [LC234PalindromicLinkedList.java](./linkedlist/mediumonsinglylinkedlist/LC234PalindromicLinkedList.java) |
 | [LC328] Odd Even Linked List | Linked List / Traversal | Medium | `O(N)` | `O(1)` | [LC_328OddEvenLinkedList.java](./linkedlist/mediumonsinglylinkedlist/LC_328OddEvenLinkedList.java) |
 | [LC148] Sort List | Linked List / Merge Sort | Medium | `O(N log N)` | `O(1)` | [LC148SortSinglyLinkedList.java](./linkedlist/mediumonsinglylinkedlist/LC148SortSinglyLinkedList.java) |
 | [GFG] Add 1 to a Number as LL | Linked List / Math | Medium | `O(N)` | `O(1)` | [GFG_AddOneToSinglyLinkedList.java](./linkedlist/mediumonsinglylinkedlist/GFG_AddOneToSinglyLinkedList.java) |
@@ -234,6 +234,7 @@ Every solution is written with production-style clarity — commented with appro
 | [LC503] Next Greater Element II | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC503NextGreterElement2.java](./stack/monotonicstack/LC503NextGreterElement2.java) |
 | [LC907] Sum of Subarray Minimums | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC907SumOfSubArrayMinimums.java](./stack/monotonicstack/LC907SumOfSubArrayMinimums.java) |
 | [LC735] Asteroid Collisions | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC735AsteroidCollisions.java](./stack/monotonicstack/LC735AsteroidCollisions.java) |
+| [LC2104] Sum of Subarray Ranges | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC2104SumOFSubArrayRange.java](./stack/monotonicstack/LC2104SumOFSubArrayRange.java) |
 
 ---
 
