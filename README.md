@@ -236,6 +236,7 @@ Every solution is written with production-style clarity — commented with appro
 | [LC735] Asteroid Collisions | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC735AsteroidCollisions.java](./stack/monotonicstack/LC735AsteroidCollisions.java) |
 | [LC2104] Sum of Subarray Ranges | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC2104SumOFSubArrayRange.java](./stack/monotonicstack/LC2104SumOFSubArrayRange.java) |
 | [LC402] Remove K degits | Stack / Monotonic Stack / String| Medium | `O(N)` | `O(N)` | [LC402RemoveKDigits.java](./stack/monotonicstack/LC402RemoveKDigits.java) |
+| [LC84] Largest Area Histogram | Stack / Monotonic Stack | Hard | `O(N)` | `O(N)` | [LC84LargestReactangeAreaHistogram.java](./stack/monotonicstack/LC84LargestReactangleAreaHistogram.java) |
 
 ---
 
