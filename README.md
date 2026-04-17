@@ -235,6 +235,7 @@ Every solution is written with production-style clarity — commented with appro
 | [LC907] Sum of Subarray Minimums | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC907SumOfSubArrayMinimums.java](./stack/monotonicstack/LC907SumOfSubArrayMinimums.java) |
 | [LC735] Asteroid Collisions | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC735AsteroidCollisions.java](./stack/monotonicstack/LC735AsteroidCollisions.java) |
 | [LC2104] Sum of Subarray Ranges | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC2104SumOFSubArrayRange.java](./stack/monotonicstack/LC2104SumOFSubArrayRange.java) |
+| [LC402] Remove K degits | Stack / Monotonic Stack / String| Medium | `O(N)` | `O(N)` | [LC402RemoveKDigits.java](./stack/monotonicstack/LC402RemoveKDigits.java) |
 
 ---
 
