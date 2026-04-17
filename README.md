@@ -237,6 +237,7 @@ Every solution is written with production-style clarity — commented with appro
 | [LC2104] Sum of Subarray Ranges | Stack / Monotonic Stack | Medium | `O(N)` | `O(N)` | [LC2104SumOFSubArrayRange.java](./stack/monotonicstack/LC2104SumOFSubArrayRange.java) |
 | [LC402] Remove K degits | Stack / Monotonic Stack / String| Medium | `O(N)` | `O(N)` | [LC402RemoveKDigits.java](./stack/monotonicstack/LC402RemoveKDigits.java) |
 | [LC84] Largest Area Histogram | Stack / Monotonic Stack | Hard | `O(N)` | `O(N)` | [LC84LargestReactangeAreaHistogram.java](./stack/monotonicstack/LC84LargestReactangleAreaHistogram.java) |
+| [LC85] Maximal Rectangle Area | Stack / Monotonic Stack / Matrix | Hard | `O(N * M)` | `O(M)` | [LC85MaximalAreaRectangle.java](./stack/monotonicstack/LC85MaximalAreaRectangle.java) |
 
 ---
 
