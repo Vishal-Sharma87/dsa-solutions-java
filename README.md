@@ -239,6 +239,10 @@ Every solution is written with production-style clarity — commented with appro
 | [LC84] Largest Area Histogram | Stack / Monotonic Stack | Hard | `O(N)` | `O(N)` | [LC84LargestReactangeAreaHistogram.java](./stack/monotonicstack/LC84LargestReactangleAreaHistogram.java) |
 | [LC85] Maximal Rectangle Area | Stack / Monotonic Stack / Matrix | Hard | `O(N * M)` | `O(M)` | [LC85MaximalAreaRectangle.java](./stack/monotonicstack/LC85MaximalAreaRectangle.java) |
 
+
+#### Queue hard problems
+| [LC239] Sliding Window Maximum | Monotonic Deque | Hard   | `O(N)`        | `O(K)` | [LC239SlidingWindowMaximum.java](./queue/hard/LC239SlidingWindowMaximum.java) |
+
 ---
 
 ## Repository Structure
