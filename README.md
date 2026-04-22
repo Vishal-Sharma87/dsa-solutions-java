@@ -268,8 +268,9 @@ DSA-Revision-Java/
 ├── binarysearch/
 ├── strings/
 ├── linkedlist/      
-├── recursion/       ✅ Done
-├── stack&queue/       ← current focus
+├── recursion/       
+├── stack&queue/       ✅ Done
+├── slindingwindow&twopointer/       ← current focus
 └── ...more topics added as I progress
 ```
 **File naming:** `[Platform + ProblemCountIfAny]_[ProblemName].java`
@@ -291,19 +292,20 @@ Each file includes:
 | Strings | ✅ Done |
 | Linked Lists | ✅ Done |
 | Recursion | ✅ Done |
-| Stack & Queue | 🔄 In Progress |
+| Stack & Queue | ✅ Done |
+| Sliding window and Two pointer | 🔄 In Progress |
 | Trees | ⏳ Pending |
 | Graphs | ⏳ Pending |
 | Dynamic Programming | ⏳ Pending |
 ---
-## Current Focus — Stack and Queue
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists and Recursion**, the focus now shifts to **Stack & Queue**.
+## Current Focus — Sliding window and Two pointer 
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack and queue**, the focus now shifts to **Sliding Window and Two Pointer**.
+
 Topics to be covered:
-- Basics of stack and queue
-- Conversion problem
-- Monotonic stack
-- Queue problems
-- Implementation problems
+- Basics of sliding window and two pointer
+- subarray based minimum and maximum
+- count of subarray that satisfy a given condition
+
 ---
 ## Goal
 Build strong DSA fundamentals and problem-solving speed to target backend-focused and product-based company roles.
