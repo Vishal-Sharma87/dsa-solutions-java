@@ -240,11 +240,16 @@ Every solution is written with production-style clarity — commented with appro
 | [LC85] Maximal Rectangle Area | Stack / Monotonic Stack / Matrix | Hard | `O(N * M)` | `O(M)` | [LC85MaximalAreaRectangle.java](./stack/monotonicstack/LC85MaximalAreaRectangle.java) |
 
 #### Queue hard problems
-| [LC239] Sliding Window Maximum | Monotonic Deque | Hard   | `O(N)`        | `O(K)` | [LC239SlidingWindowMaximum.java](./queue/hard/LC239SlidingWindowMaximum.java) |
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [LC239] Sliding Window Maximum | Monotonic Deque | Hard   | `O(N)`| `O(K)` | [LC239SlidingWindowMaximum.java](./queue/hard/LC239SlidingWindowMaximum.java) |
 
 
 #### Stack hard problems
-| [LC901] Online Stock Span | Monotonic Stack | Medium | `O(1)` amort. | `O(N)` | [LC901StockSpanner.java](./stack/hard/LC901StockSpanner.java)                       |
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [LC901] Online Stock Span | Monotonic Stack | Medium | `O(1)` amort. | `O(N)` | [LC901StockSpanner.java](./stack/hard/LC901StockSpanner.java) |
+| [GFG] The Celebrity Problem | Monotonic Stack | Medium | `O(N*N)` amort. | `O(N)` | [GFG_TheCelebrityProblem.java](./stack/hard/GFG_TheCelebrityProblem.java)|
 
 ---
 
