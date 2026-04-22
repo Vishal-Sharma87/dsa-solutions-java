@@ -250,6 +250,13 @@ Every solution is written with production-style clarity — commented with appro
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC901] Online Stock Span | Monotonic Stack | Medium | `O(1)` amort. | `O(N)` | [LC901StockSpanner.java](./stack/hard/LC901StockSpanner.java) |
 | [GFG] The Celebrity Problem | Monotonic Stack | Medium | `O(N*N)` amort. | `O(N)` | [GFG_TheCelebrityProblem.java](./stack/hard/GFG_TheCelebrityProblem.java)|
+---
+
+
+### Design Problems
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [LC146] LRU cache | DLL / HashMap | Medium | `O(1)` amort. | `O(N)` | [LC146LRUCache.java](./design/LC146LRUCache.java) |
 
 ---
 
