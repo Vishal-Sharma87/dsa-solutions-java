@@ -253,11 +253,17 @@ Every solution is written with production-style clarity — commented with appro
 ---
 
 
-### Design Problems
+### 8. Design Problems
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC146] LRU cache | DLL / HashMap | Medium | `O(1)` amort. | `O(N)` | [LC146LRUCache.java](./design/LC146LRUCache.java) |
 
+---
+
+### 9. Sliding Window and Two Pointer
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [LC3] Longest Substring Without Repeating Characters | Sliding Window | Medium | `O(N)` | `O(1)` | [LC3LongestSubstringWithoutRepeatingCharacters.java](./slidingwindow/medium/LC3LongestSubstringWithoutRepeatingCharacters.java) |
 ---
 
 ## Repository Structure
