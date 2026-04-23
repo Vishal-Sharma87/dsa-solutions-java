@@ -264,6 +264,7 @@ Every solution is written with production-style clarity — commented with appro
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC3] Longest Substring Without Repeating Characters | Sliding Window | Medium | `O(N)` | `O(1)` | [LC3LongestSubstringWithoutRepeatingCharacters.java](./slidingwindow/medium/LC3LongestSubstringWithoutRepeatingCharacters.java) |
+| [LC1004] Max Consecutive Ones III | Sliding Window | Medium | `O(N)` | `O(1)` | [LC1004MaxConsecutiveOnesIII.java](./slidingwindow/medium/LC1004MaxConsecutiveOnesIII.java) |
 ---
 
 ## Repository Structure
