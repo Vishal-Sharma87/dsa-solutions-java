@@ -266,6 +266,7 @@ Every solution is written with production-style clarity — commented with appro
 | [LC3] Longest Substring Without Repeating Characters | Sliding Window | Medium | `O(N)` | `O(1)` | [LC3LongestSubstringWithoutRepeatingCharacters.java](./slidingwindow/medium/LC3LongestSubstringWithoutRepeatingCharacters.java) |
 | [LC1004] Max Consecutive Ones III | Sliding Window | Medium | `O(N)` | `O(1)` | [LC1004MaxConsecutiveOnesIII.java](./slidingwindow/medium/LC1004MaxConsecutiveOnesIII.java) |
 | [LC904] Fruit Into Baskets | Sliding Window | Medium | `O(N)` | `O(1)` | [LC904FruitIntoBaskets.java](./slidingwindow/medium/LC904FruitIntoBaskets.java) |
+| [LC424] Longest Repeating Character Replacement | Sliding Window | Medium | `O(N)` | `O(1)` | [LC424LongestRepeatingCharacterReplacement.java](./slidingwindow/medium/LC424LongestRepeatingCharacterReplacement.java) |
 ---
 
 ## Repository Structure
