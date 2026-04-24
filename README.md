@@ -269,6 +269,7 @@ Every solution is written with production-style clarity — commented with appro
 | [LC424] Longest Repeating Character Replacement | Sliding Window | Medium | `O(N)` | `O(1)` | [LC424LongestRepeatingCharacterReplacement.java](./slidingwindow/medium/LC424LongestRepeatingCharacterReplacement.java) |
 | [LC930] Binary Subarrays With Sum | Sliding Window | Medium | `O(N)` | `O(1)` | [LC930BinarySubarraysWithSum.java](./slidingwindow/medium/LC930BinarySubarraysWithSum.java) |
 | [LC1248] Count Number of Nice Subarrays | Sliding Window | Medium | `O(N)` | `O(1)` | [LC1248CountNumberOfNiceSubarrays.java](./slidingwindow/medium/LC1248CountNumberOfNiceSubarrays.java) |
+| [LC1358] Number of Substrings Containing All Three Characters | Sliding Window | Medium | `O(N)` | `O(1)` | [LC1358NumberOfSubstringsContainingAllThreeCharacters.java](./slidingwindow/medium/LC1358NumberOfSubstringsContainingAllThreeCharacters.java) |
 ---
 
 ## Repository Structure
