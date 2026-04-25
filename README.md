@@ -272,6 +272,12 @@ Every solution is written with production-style clarity — commented with appro
 | [LC1358] Number of Substrings Containing All Three Characters | Sliding Window | Medium | `O(N)` | `O(1)` | [LC1358NumberOfSubstringsContainingAllThreeCharacters.java](./slidingwindow/medium/LC1358NumberOfSubstringsContainingAllThreeCharacters.java) |
 | [LC1423] Maximum Points You Can Obtain From Cards| Sliding Window | Medium | `O(N)` | `O(1)` | [LC1423MaxPointsFromCards.java](./slidingwindow/medium/LC1423MaxPointsFromCards.java) |
 
+
+#### Hard Problems
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [GFG] Longest Substring with K Uniques | Sliding Window | Medium | `O(N)` | `O(1)` | [GFG_LongestSubstringWithKUniques.java](./slidingwindow/hard/GFG_LongestSubstringWithKUniques.java) |
+
 ---
 
 ## Repository Structure
