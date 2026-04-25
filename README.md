@@ -277,6 +277,7 @@ Every solution is written with production-style clarity — commented with appro
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [GFG] Longest Substring with K Uniques | Sliding Window | Medium | `O(N)` | `O(1)` | [GFG_LongestSubstringWithKUniques.java](./slidingwindow/hard/GFG_LongestSubstringWithKUniques.java) |
+| [LC992] Subarrays with K Different Integers | Sliding Window | Hard | `O(N)` | `O(N)` | [LC992SubarraysWithKDistinctIntegers.java](./slidingwindow/hard/LC992SubarraysWithKDistinctIntegers.java) |
 
 ---
 
