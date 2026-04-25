@@ -270,6 +270,8 @@ Every solution is written with production-style clarity — commented with appro
 | [LC930] Binary Subarrays With Sum | Sliding Window | Medium | `O(N)` | `O(1)` | [LC930BinarySubarraysWithSum.java](./slidingwindow/medium/LC930BinarySubarraysWithSum.java) |
 | [LC1248] Count Number of Nice Subarrays | Sliding Window | Medium | `O(N)` | `O(1)` | [LC1248CountNumberOfNiceSubarrays.java](./slidingwindow/medium/LC1248CountNumberOfNiceSubarrays.java) |
 | [LC1358] Number of Substrings Containing All Three Characters | Sliding Window | Medium | `O(N)` | `O(1)` | [LC1358NumberOfSubstringsContainingAllThreeCharacters.java](./slidingwindow/medium/LC1358NumberOfSubstringsContainingAllThreeCharacters.java) |
+| [LC1423] Maximum Points You Can Obtain From Cards| Sliding Window | Medium | `O(N)` | `O(1)` | [LC1423MaxPointsFromCards.java](./slidingwindow/medium/LC1423MaxPointsFromCards.java) |
+
 ---
 
 ## Repository Structure
