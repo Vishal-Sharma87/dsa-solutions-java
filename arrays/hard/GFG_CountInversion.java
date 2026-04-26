@@ -1,4 +1,4 @@
-package arrays;
+package arrays.hard;
 
 public class GFG_CountInversion {
     // link:https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1

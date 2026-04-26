@@ -1,4 +1,4 @@
-package arrays;
+package arrays.hard;
 
 public class LC493ReversePairs {
 

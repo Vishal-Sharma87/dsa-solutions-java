@@ -1,4 +1,4 @@
-package arrays;
+package arrays.medium;
 
 public class LC73SetMatrixZeroes {
     public void setZeroes(int[][] m) {

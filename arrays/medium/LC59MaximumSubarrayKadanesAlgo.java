@@ -1,5 +1,5 @@
 
-package arrays;
+package arrays.medium;
 
 public class LC59MaximumSubarrayKadanesAlgo {
     public int maxSubArray(int[] nums) {

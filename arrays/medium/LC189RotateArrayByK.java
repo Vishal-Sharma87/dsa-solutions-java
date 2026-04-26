@@ -1,4 +1,4 @@
-package arrays;
+package arrays.medium;
 
 public class LC189RotateArrayByK {
     public void solve(int[] nums, int k) {

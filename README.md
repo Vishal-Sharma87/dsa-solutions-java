@@ -56,44 +56,44 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [LC1] Two Sum | Arrays / Hashing | Easy | `O(N)` | `O(N)` | [LC1TwoSum.java](./arrays/LC1TwoSum.java) |
-| [LC26] Remove Duplicates | Arrays / Two Pointers | Easy | `O(N)` | `O(1)` | [LC26RemoveDuplicates.java](./arrays/LC26RemoveDuplicates.java) |
-| [LC88] Merge Sorted Array | Arrays / Two Pointers | Easy | `O(M+N)` | `O(1)` | [LC88MergeSortedArraysInOne.java](./arrays/LC88MergeSortedArraysInOne.java) |
-| [LC118] Pascal's Triangle | Arrays / Math | Easy | `O(N^2)` | `O(N^2)` | [LC118PascalsTriangle.java](./arrays/LC118PascalsTriangle.java) |
-| [LC136] Single Number | Arrays / Bit Manipulation | Easy | `O(N)` | `O(1)` | [LC136SingleNumber.java](./arrays/LC136SIngleNumber.java) |
-| [LC169] Majority Element | Arrays / Boyer-Moore | Easy | `O(N)` | `O(1)` | [LC169MajorityElement.java](./arrays/LC169MajorityElement.java) |
-| [LC268] Missing Number | Arrays / Math | Easy | `O(N)` | `O(1)` | [LC268MissingNumber.java](./arrays/LC268MissingNumber.java) |
-| [LC283] Move Zeroes | Arrays / Two Pointers | Easy | `O(N)` | `O(1)` | [LC283MoveZeroes.java](./arrays/LC283MoveZeroes.java) |
-| [LC485] Max Consecutive Ones | Arrays / Traversal | Easy | `O(N)` | `O(1)` | [LC485MaxConsecutiveOnes.java](./arrays/LC485MaxConsecutiveOnes.java) |
-| [GFG] Leaders in an Array | Arrays / Traversal | Easy | `O(N)` | `O(N)` | [LeadersInArray.java](./arrays/LeadersInArray.java) |
-| [GFG] Union of Two Sorted Arrays | Arrays / Two Pointers | Easy | `O(N+M)` | `O(N+M)` | [UnionOfTwoSortedArraysWithDuplicates.java](./arrays/UnionOfTwoSortedArraysWithDuplicates.java) |
+| [LC1] Two Sum | Arrays / Hashing | Easy | `O(N)` | `O(N)` | [LC1TwoSum.java](./arrays/easy/LC1TwoSum.java) |
+| [LC26] Remove Duplicates | Arrays / Two Pointers | Easy | `O(N)` | `O(1)` | [LC26RemoveDuplicates.java](./arrays/easy/LC26RemoveDuplicates.java) |
+| [LC88] Merge Sorted Array | Arrays / Two Pointers | Easy | `O(M+N)` | `O(1)` | [LC88MergeSortedArraysInOne.java](./arrays/easy/LC88MergeSortedArraysInOne.java) |
+| [LC118] Pascal's Triangle | Arrays / Math | Easy | `O(N^2)` | `O(N^2)` | [LC118PascalsTriangle.java](./arrays/easy/LC118PascalsTriangle.java) |
+| [LC136] Single Number | Arrays / Bit Manipulation | Easy | `O(N)` | `O(1)` | [LC136SingleNumber.java](./arrays/easy/LC136SIngleNumber.java) |
+| [LC169] Majority Element | Arrays / Boyer-Moore | Easy | `O(N)` | `O(1)` | [LC169MajorityElement.java](./arrays/easy/LC169MajorityElement.java) |
+| [LC268] Missing Number | Arrays / Math | Easy | `O(N)` | `O(1)` | [LC268MissingNumber.java](./arrays/easy/LC268MissingNumber.java) |
+| [LC283] Move Zeroes | Arrays / Two Pointers | Easy | `O(N)` | `O(1)` | [LC283MoveZeroes.java](./arrays/easy/LC283MoveZeroes.java) |
+| [LC485] Max Consecutive Ones | Arrays / Traversal | Easy | `O(N)` | `O(1)` | [LC485MaxConsecutiveOnes.java](./arrays/easy/LC485MaxConsecutiveOnes.java) |
+| [GFG] Leaders in an Array | Arrays / Traversal | Easy | `O(N)` | `O(N)` | [LeadersInArray.java](./arrays/easy/LeadersInArray.java) |
+| [GFG] Union of Two Sorted Arrays | Arrays / Two Pointers | Easy | `O(N+M)` | `O(N+M)` | [UnionOfTwoSortedArraysWithDuplicates.java](./arrays/easy/UnionOfTwoSortedArraysWithDuplicates.java) |
 
 <br>
 
 #### Medium
 
-| [LC15] 3Sum | Arrays / Two Pointers | Medium | `O(N^2)` | `O(1)` | [LC15ThreeSum.java](./arrays/LC15ThreeSum.java) |
-| [LC18] 4Sum | Arrays / Two Pointers | Medium | `O(N^3)` | `O(1)` | [LC18FourSum.java](./arrays/LC18FourSum.java) |
-| [LC48] Rotate Image | Arrays / Matrix | Medium | `O(N^2)` | `O(1)` | [LC48RotateMatrix.java](./arrays/LC48RotateMatrix.java) |
-| [LC53] Maximum Subarray (Kadane) | Arrays / DP | Medium | `O(N)` | `O(1)` | [LC59MaximumSubarrayKadanesAlgo.java](./arrays/LC59MaximumSubarrayKadanesAlgo.java) |
-| [LC54] Spiral Matrix | Arrays / Matrix | Medium | `O(M*N)` | `O(1)` | [LC54SpriralMatrix.java](./arrays/LC54SpriralMatrix.java) |
-| [LC56] Merge Intervals | Arrays / Sorting | Medium | `O(N log N)` | `O(N)` | [LC56MergeIntervals.java](./arrays/LC56MergeIntervals.java) |
-| [LC73] Set Matrix Zeroes | Arrays / Matrix | Medium | `O(M*N)` | `O(1)` | [LC73SetMatrixZeroes.java](./arrays/LC73SetMatrixZeroes.java) |
-| [LC75] Sort Colors | Arrays / Dutch National Flag | Medium | `O(N)` | `O(1)` | [LC75SortColors.java](./arrays/LC75SortColors.java) |
-| [LC128] Longest Consecutive Sequence | Arrays / Hashing | Medium | `O(N)` | `O(N)` | [LC128LongestConsecutiveSequence.java](./arrays/LC128LongestConsecutiveSequence.java) |
-| [LC189] Rotate Array | Arrays / Math | Medium | `O(N)` | `O(1)` | [LC189RotateArrayByK.java](./arrays/LC189RotateArrayByK.java) |
-| [LC2149] Rearrange Array by Sign | Arrays / Two Pointers | Medium | `O(N)` | `O(N)` | [LC2149RearrangeArrayBySign.java](./arrays/LC2149RearrangeArrayBySign.java) |
+| [LC15] 3Sum | Arrays / Two Pointers | Medium | `O(N^2)` | `O(1)` | [LC15ThreeSum.java](./arrays/medium/LC15ThreeSum.java) |
+| [LC18] 4Sum | Arrays / Two Pointers | Medium | `O(N^3)` | `O(1)` | [LC18FourSum.java](./arrays/medium/LC18FourSum.java) |
+| [LC48] Rotate Image | Arrays / Matrix | Medium | `O(N^2)` | `O(1)` | [LC48RotateMatrix.java](./arrays/medium/LC48RotateMatrix.java) |
+| [LC53] Maximum Subarray (Kadane) | Arrays / DP | Medium | `O(N)` | `O(1)` | [LC59MaximumSubarrayKadanesAlgo.java](./arrays/medium/LC59MaximumSubarrayKadanesAlgo.java) |
+| [LC54] Spiral Matrix | Arrays / Matrix | Medium | `O(M*N)` | `O(1)` | [LC54SpriralMatrix.java](./arrays/medium/LC54SpriralMatrix.java) |
+| [LC56] Merge Intervals | Arrays / Sorting | Medium | `O(N log N)` | `O(N)` | [LC56MergeIntervals.java](./arrays/medium/LC56MergeIntervals.java) |
+| [LC73] Set Matrix Zeroes | Arrays / Matrix | Medium | `O(M*N)` | `O(1)` | [LC73SetMatrixZeroes.java](./arrays/medium/LC73SetMatrixZeroes.java) |
+| [LC75] Sort Colors | Arrays / Dutch National Flag | Medium | `O(N)` | `O(1)` | [LC75SortColors.java](./arrays/medium/LC75SortColors.java) |
+| [LC128] Longest Consecutive Sequence | Arrays / Hashing | Medium | `O(N)` | `O(N)` | [LC128LongestConsecutiveSequence.java](./arrays/medium/LC128LongestConsecutiveSequence.java) |
+| [LC189] Rotate Array | Arrays / Math | Medium | `O(N)` | `O(1)` | [LC189RotateArrayByK.java](./arrays/medium/LC189RotateArrayByK.java) |
+| [LC2149] Rearrange Array by Sign | Arrays / Two Pointers | Medium | `O(N)` | `O(N)` | [LC2149RearrangeArrayBySign.java](./arrays/medium/LC2149RearrangeArrayBySign.java) |
 
 <br>
 
 #### Hard Problems
 
-| [LC229] Majority Element II | Arrays / Boyer-Moore | Medium | `O(N)` | `O(1)` | [LC229MajorityElements2.java](./arrays/LC229MajorityElements2.java) |
-| [IB/LC] Count Subarrays with XOR K | Arrays / Prefix XOR | Medium | `O(N)` | `O(N)` | [CountSubarrayXOREqualsK.java](./arrays/CountSubarrayXOREqualsK.java) |
-| [GFG] Find Missing & Repeating | Arrays / Math | Medium | `O(N)` | `O(1)` | [GFG_FindMissingAndRepeatingNumber.java](./arrays/GFG_FindMissingAndRepeatingNumber.java) |
-| [GFG] Longest Subarray with Sum K | Arrays / Prefix Sum | Medium | `O(N)` | `O(N)` | [GFG_LongestSubarrayWithSumK.java](./arrays/GFG_LongestSubarrayWithSumK.java) |
-| [LC493] Reverse Pairs | Arrays / Divide & Conquer | Hard | `O(N log N)` | `O(N)` | [LC493ReversePairs.java](./arrays/LC493ReversePairs.java) |
-| [GFG] Count Inversions | Arrays / Divide & Conquer | Hard | `O(N log N)` | `O(N)` | [GFG_CountInversion.java](./arrays/GFG_CountInversion.java) |
+| [LC229] Majority Element II | Arrays / Boyer-Moore | Medium | `O(N)` | `O(1)` | [LC229MajorityElements2.java](./arrays/medium/LC229MajorityElements2.java) |
+| [IB/LC] Count Subarrays with XOR K | Arrays / Prefix XOR | Medium | `O(N)` | `O(N)` | [CountSubarrayXOREqualsK.java](./arrays/medium/CountSubarrayXOREqualsK.java) |
+| [GFG] Find Missing & Repeating | Arrays / Math | Medium | `O(N)` | `O(1)` | [GFG_FindMissingAndRepeatingNumber.java](./arrays/medium/GFG_FindMissingAndRepeatingNumber.java) |
+| [GFG] Longest Subarray with Sum K | Arrays / Prefix Sum | Medium | `O(N)` | `O(N)` | [GFG_LongestSubarrayWithSumK.java](./arrays/medium/GFG_LongestSubarrayWithSumK.java) |
+| [LC493] Reverse Pairs | Arrays / Divide & Conquer | Hard | `O(N log N)` | `O(N)` | [LC493ReversePairs.java](./arrays/hard/LC493ReversePairs.java) |
+| [GFG] Count Inversions | Arrays / Divide & Conquer | Hard | `O(N log N)` | `O(N)` | [GFG_CountInversion.java](./arrays/hard/GFG_CountInversion.java) |
 
 ---
 

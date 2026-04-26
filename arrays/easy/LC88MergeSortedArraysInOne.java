@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 public class LC88MergeSortedArraysInOne {
     // link:https://leetcode.com/problems/merge-sorted-array/description/

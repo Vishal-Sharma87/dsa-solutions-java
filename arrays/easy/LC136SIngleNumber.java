@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 public class LC136SIngleNumber {
     public int singleNumber(int[] nums) {

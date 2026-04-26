@@ -1,4 +1,4 @@
-package arrays;
+package arrays.medium;
 
 public class LC48RotateMatrix {
     public void reverseArray(int[] nums, int i, int j) {

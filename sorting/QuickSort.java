@@ -1,6 +1,6 @@
 package sorting;
 
-import arrays.ArraysOfVishal;
+import arrays.medium.ArraysOfVishal;
 
 public class QuickSort {
     public void quickSort(int[] array, int i, int j) {

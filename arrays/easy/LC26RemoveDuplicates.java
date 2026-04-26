@@ -1,4 +1,6 @@
-package arrays;
+package arrays.easy;
+
+import arrays.medium.ArraysOfVishal;
 
 public class LC26RemoveDuplicates {
     public int solve(int[] nums) {

@@ -1,4 +1,4 @@
-package arrays;
+package arrays.medium;
 
 public class LC2149RearrangeArrayBySign {
     public int[] rearrangeArray(int[] nums) {

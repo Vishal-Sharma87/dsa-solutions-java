@@ -1,4 +1,4 @@
-package arrays;
+package arrays.medium;
 
 public class ArraysOfVishal {
 

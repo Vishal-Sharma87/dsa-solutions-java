@@ -1,4 +1,6 @@
-package arrays;
+package arrays.easy;
+
+import arrays.medium.ArraysOfVishal;
 
 public class LC283MoveZeroes {
     public void solve(int[] nums) {

@@ -10,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# refactor 
+refactor.sh
+
 # Package Files #
 *.jar
 *.war

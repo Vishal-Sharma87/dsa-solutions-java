@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 public class LC268MissingNumber {
     public int find(int[] nums) {

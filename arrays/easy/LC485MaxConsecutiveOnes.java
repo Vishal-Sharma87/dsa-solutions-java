@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 public class LC485MaxConsecutiveOnes {
     public int findMaxConsecutiveOnes(int[] nums) {

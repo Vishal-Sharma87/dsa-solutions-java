@@ -1,6 +1,6 @@
 package sorting;
 
-import arrays.ArraysOfVishal;
+import arrays.medium.ArraysOfVishal;
 
 public class SelectionSort {
     public void selectionSort(int[] a) {
