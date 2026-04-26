@@ -1,13 +1,38 @@
-# DSA Revision — Java
-> A structured DSA revision repository in Java, covering core data structures and algorithms.
-> Built for backend interview prep as a Java Developer (Spring Boot, Kafka).
+# DSA in Java — Clean Solutions & Deep Docs
+
+> Production-style DSA solutions in Java. Every problem comes with approach breakdown,
+> intuition, complexity analysis, and inline comments written like a developer — not a textbook.
 
 ---
 
-## Why This Exists
-I'm systematically revising Data Structures & Algorithms in Java to align my problem-solving with my backend development stack and prepare for product-based company interviews.
+## What This Repo Is
 
-Every solution is written with production-style clarity — commented with approach, intuition, edge cases, and complexity analysis.
+A reference-grade DSA solution set in Java — built for engineers who want more than
+just "accepted" code.
+
+Each solution documents:
+- **Multiple approaches** with honest tradeoff analysis
+- **Chosen approach** marked clearly (★)
+- **Inline comments** that explain *why*, not just *what*
+- **Time & Space complexity** per approach
+
+Topics covered: Linked Lists · Strings · Sliding Window · Recursion · Backtracking
+_(Stacks, DP, Graphs coming up)_
+
+---
+
+## Who This Is For
+
+- Engineers preparing for SDE interviews at product companies
+- Anyone who wants readable, well-documented Java solutions to reference
+- Developers who think good code deserves good documentation
+
+---
+
+## Contributing
+
+Found a better approach? Spotted a bug? PRs are welcome.
+Open an issue or drop a suggestion — this repo gets better with more perspectives.
 
 ---
 
@@ -27,6 +52,8 @@ Every solution is written with production-style clarity — commented with appro
 
 ### 2. Array Challenges
 
+#### Easy
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC1] Two Sum | Arrays / Hashing | Easy | `O(N)` | `O(N)` | [LC1TwoSum.java](./arrays/LC1TwoSum.java) |
@@ -40,6 +67,11 @@ Every solution is written with production-style clarity — commented with appro
 | [LC485] Max Consecutive Ones | Arrays / Traversal | Easy | `O(N)` | `O(1)` | [LC485MaxConsecutiveOnes.java](./arrays/LC485MaxConsecutiveOnes.java) |
 | [GFG] Leaders in an Array | Arrays / Traversal | Easy | `O(N)` | `O(N)` | [LeadersInArray.java](./arrays/LeadersInArray.java) |
 | [GFG] Union of Two Sorted Arrays | Arrays / Two Pointers | Easy | `O(N+M)` | `O(N+M)` | [UnionOfTwoSortedArraysWithDuplicates.java](./arrays/UnionOfTwoSortedArraysWithDuplicates.java) |
+
+<br>
+
+#### Medium
+
 | [LC15] 3Sum | Arrays / Two Pointers | Medium | `O(N^2)` | `O(1)` | [LC15ThreeSum.java](./arrays/LC15ThreeSum.java) |
 | [LC18] 4Sum | Arrays / Two Pointers | Medium | `O(N^3)` | `O(1)` | [LC18FourSum.java](./arrays/LC18FourSum.java) |
 | [LC48] Rotate Image | Arrays / Matrix | Medium | `O(N^2)` | `O(1)` | [LC48RotateMatrix.java](./arrays/LC48RotateMatrix.java) |
@@ -51,6 +83,11 @@ Every solution is written with production-style clarity — commented with appro
 | [LC128] Longest Consecutive Sequence | Arrays / Hashing | Medium | `O(N)` | `O(N)` | [LC128LongestConsecutiveSequence.java](./arrays/LC128LongestConsecutiveSequence.java) |
 | [LC189] Rotate Array | Arrays / Math | Medium | `O(N)` | `O(1)` | [LC189RotateArrayByK.java](./arrays/LC189RotateArrayByK.java) |
 | [LC2149] Rearrange Array by Sign | Arrays / Two Pointers | Medium | `O(N)` | `O(N)` | [LC2149RearrangeArrayBySign.java](./arrays/LC2149RearrangeArrayBySign.java) |
+
+<br>
+
+#### Hard Problems
+
 | [LC229] Majority Element II | Arrays / Boyer-Moore | Medium | `O(N)` | `O(1)` | [LC229MajorityElements2.java](./arrays/LC229MajorityElements2.java) |
 | [IB/LC] Count Subarrays with XOR K | Arrays / Prefix XOR | Medium | `O(N)` | `O(N)` | [CountSubarrayXOREqualsK.java](./arrays/CountSubarrayXOREqualsK.java) |
 | [GFG] Find Missing & Repeating | Arrays / Math | Medium | `O(N)` | `O(1)` | [GFG_FindMissingAndRepeatingNumber.java](./arrays/GFG_FindMissingAndRepeatingNumber.java) |
@@ -62,7 +99,8 @@ Every solution is written with production-style clarity — commented with appro
 
 ### 3. Binary Search
 
-#### On 1D Arrays
+#### Binary Search On 1D Arrays
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [Basic] Find Index of Target | BS on 1D | Easy | `O(log N)` | `O(1)` | [FindIndexOfTarget.java](./binarysearch/on1DArrays/FindIndexOfTarget.java) |
@@ -78,7 +116,8 @@ Every solution is written with production-style clarity — commented with appro
 
 <br>
 
-#### On Answers
+#### Binary Search On Answers
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC69] Sqrt(x) | BS on Answers | Easy | `O(log N)` | `O(1)` | [LC69SquareRoot.java](./binarysearch/onAnswers/LC69SquareRoot.java) |
@@ -90,7 +129,8 @@ Every solution is written with production-style clarity — commented with appro
 
 <br>
 
-#### On 2D Matrix
+#### Binary Search On 2D Matrix
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC74] Search a 2D Matrix | BS on 2D | Medium | `O(log(M*N))` | `O(1)` | [LC74SortedMatrixSearch.java](./binarysearch/on2DMatrix/LC74SortedMatrixSearch.java) |
@@ -103,7 +143,8 @@ Every solution is written with production-style clarity — commented with appro
 
 ### 4. Strings
 
-#### Basics & Easy
+#### Easy
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC151] Reverse Words in a String | Strings / Two Pointers | Medium* | `O(N)` | `O(N)` | [LC151ReverseWords.java](./strings/easy/LC151ReverseWords.java) |
@@ -115,6 +156,7 @@ Every solution is written with production-style clarity — commented with appro
 <br>
 
 #### Medium
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC5] Longest Palindromic Substring | Strings / Expand Center | Medium | `O(N^2)` | `O(1)` | [LC5LongestPalindromicSubstring.java](./strings/medium/LC5LongestPalindromicSubstring.java) |
@@ -125,6 +167,7 @@ Every solution is written with production-style clarity — commented with appro
 ### 5. Linked List
 
 #### Singly Linked List (Basics)
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Convert Array to Linked List | Linked List / Basics | Easy | `O(N)` | `O(N)` | [ArrayToLinkedList.java](./linkedlist/singlylinkedlist/ArrayToLinkedList.java) |
@@ -137,6 +180,7 @@ Every solution is written with production-style clarity — commented with appro
 <br>
 
 #### Singly Linked List (Medium)
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC876] Middle of the Linked List | Linked List / Fast & Slow | Easy* | `O(N)` | `O(1)` | [LC876MidOfLL.java](./linkedlist/mediumonsinglylinkedlist/LC876MidOfLL.java) |
@@ -153,6 +197,7 @@ Every solution is written with production-style clarity — commented with appro
 <br>
 
 #### Doubly Linked List (Medium)
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [GFG] Find Pairs with Given Sum | Doubly LL / Two Pointers | Medium | `O(N)` | `O(1)` | [GFG_PairSumDoublyLinkedList.java](./linkedlist/mediumondoublylinkedlist/GFG_PairSumDoublyLinkedList.java) |
@@ -161,7 +206,8 @@ Every solution is written with production-style clarity — commented with appro
 
 <br>
 
-#### Hard & Advanced
+#### Hard Problems
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC25] Reverse Nodes in k-Group | Linked List / Reversal | Hard | `O(N)` | `O(1)` | [LC25ReverseLinkedListInKGroups.java](./linkedlist/hard/LC25ReverseLinkedListInKGroups.java) |
@@ -174,6 +220,7 @@ Every solution is written with production-style clarity — commented with appro
 ### 6. Recursion
 
 #### Basics
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC8] String to Integer (atoi) | Recursion / Strings | Medium | `O(N)` | `O(N)` | [LC8_AtoiRecursion.java](./recursion/basics/LC8_AtoiRecursion.java) |
@@ -182,6 +229,7 @@ Every solution is written with production-style clarity — commented with appro
 <br>
 
 #### Subsequence Patterns
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [Code360] Binary Strings w/o Consecutive 1s | Recursion / Backtracking | Medium | `O(2^N)` | `O(N)` | [Code360_GenerateBinaryStringWithoutConsecutive1.java](./recursion/subsequencepatterns/Code360_GenerateBinaryStringWithoutConsecutive1.java) |
@@ -198,6 +246,7 @@ Every solution is written with production-style clarity — commented with appro
 <br>
 
 #### Hard Backtracking Problems
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC51] N-Queens | Backtracking | Hard | `O(N!)` | `O(N²)` | [LC51NQueens.java](./recursion/hard/LC51NQueens.java) |
@@ -207,8 +256,11 @@ Every solution is written with production-style clarity — commented with appro
 | [LC37] Sudoku Solver | Backtracking | Hard | `O(9^(N^2))` | `O(N^2)` | [LC37SudokuSolver](./recursion/hard/LC37SudokuSolver.java) |
 
 ---
+
 ### 7. Stack and Queue
+
 #### Implementation
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Stack Using Array| Stack/Array | Easy | `O(1)` | `O(N)` | [StackUsingArray.java](./stack/implementation/StackUsingArray.java) |
@@ -217,7 +269,8 @@ Every solution is written with production-style clarity — commented with appro
 
 <br>
 
-#### Basic
+#### Easy
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC20] Valid Parentheses | Stack | Easy | `O(N)` | `O(N)` | [LC20ValidParentheses.java](./stack/LC20ValidParentheses.java) |
@@ -226,6 +279,7 @@ Every solution is written with production-style clarity — commented with appro
 <br>
 
 #### Monotonic Stack
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [GFG] Next Smaller Element | Stack / Monotonic Stack | Easy | `O(N)` | `O(N)` | [GFG_NextSmallerElement.java](./stack/monotonicstack/GFG_NextSmallerElement.java) |
@@ -239,21 +293,26 @@ Every solution is written with production-style clarity — commented with appro
 | [LC84] Largest Area Histogram | Stack / Monotonic Stack | Hard | `O(N)` | `O(N)` | [LC84LargestReactangeAreaHistogram.java](./stack/monotonicstack/LC84LargestReactangleAreaHistogram.java) |
 | [LC85] Maximal Rectangle Area | Stack / Monotonic Stack / Matrix | Hard | `O(N * M)` | `O(M)` | [LC85MaximalAreaRectangle.java](./stack/monotonicstack/LC85MaximalAreaRectangle.java) |
 
-#### Queue hard problems
+#### Queue hard problem
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC239] Sliding Window Maximum | Monotonic Deque | Hard   | `O(N)`| `O(K)` | [LC239SlidingWindowMaximum.java](./queue/hard/LC239SlidingWindowMaximum.java) |
 
 
 #### Stack hard problems
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC901] Online Stock Span | Monotonic Stack | Medium | `O(1)` amort. | `O(N)` | [LC901StockSpanner.java](./stack/hard/LC901StockSpanner.java) |
 | [GFG] The Celebrity Problem | Monotonic Stack | Medium | `O(N*N)` amort. | `O(N)` | [GFG_TheCelebrityProblem.java](./stack/hard/GFG_TheCelebrityProblem.java)|
+
 ---
 
-
 ### 8. Design Problems
+
+#### LRU cache
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC146] LRU cache | DLL / HashMap | Medium | `O(1)` amort. | `O(N)` | [LC146LRUCache.java](./design/LC146LRUCache.java) |
@@ -261,6 +320,9 @@ Every solution is written with production-style clarity — commented with appro
 ---
 
 ### 9. Sliding Window and Two Pointer
+
+#### Medium Problems
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC3] Longest Substring Without Repeating Characters | Sliding Window | Medium | `O(N)` | `O(1)` | [LC3LongestSubstringWithoutRepeatingCharacters.java](./slidingwindow/medium/LC3LongestSubstringWithoutRepeatingCharacters.java) |
@@ -272,8 +334,10 @@ Every solution is written with production-style clarity — commented with appro
 | [LC1358] Number of Substrings Containing All Three Characters | Sliding Window | Medium | `O(N)` | `O(1)` | [LC1358NumberOfSubstringsContainingAllThreeCharacters.java](./slidingwindow/medium/LC1358NumberOfSubstringsContainingAllThreeCharacters.java) |
 | [LC1423] Maximum Points You Can Obtain From Cards| Sliding Window | Medium | `O(N)` | `O(1)` | [LC1423MaxPointsFromCards.java](./slidingwindow/medium/LC1423MaxPointsFromCards.java) |
 
+<br>
 
 #### Hard Problems
+
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [GFG] Longest Substring with K Uniques | Sliding Window | Medium | `O(N)` | `O(1)` | [GFG_LongestSubstringWithKUniques.java](./slidingwindow/hard/GFG_LongestSubstringWithKUniques.java) |
@@ -291,10 +355,13 @@ DSA-Revision-Java/
 ├── strings/
 ├── linkedlist/      
 ├── recursion/       
-├── stack&queue/       ✅ Done
-├── slindingwindow&twopointer/       ← current focus
+├── stack/       
+├── queue/       
+├── slindingwindow/       ✅ Done
+├── heaps/       ← current focus
 └── ...more topics added as I progress
 ```
+
 **File naming:** `[Platform + ProblemCountIfAny]_[ProblemName].java`
 Example: `LC1TwoSum.java` (LC = LeetCode), `GFG_CountOccurrencesInSortedArray.java` (GFG = GeeksForGeeks)
 Each file includes:
@@ -304,6 +371,7 @@ Each file includes:
 - Clean, optimized Java implementation
 - Time & space complexity
 ---
+
 ## Progress
 | Topic | Status |
 | :--- | :--- |
@@ -315,18 +383,19 @@ Each file includes:
 | Linked Lists | ✅ Done |
 | Recursion | ✅ Done |
 | Stack & Queue | ✅ Done |
-| Sliding window and Two pointer | 🔄 In Progress |
+| Sliding window |  ✅ Done |
+| Heap|  🔄 In Progress |
 | Trees | ⏳ Pending |
 | Graphs | ⏳ Pending |
 | Dynamic Programming | ⏳ Pending |
 ---
-## Current Focus — Sliding window and Two pointer 
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack and queue**, the focus now shifts to **Sliding Window and Two Pointer**.
+## Current Focus — Heaps
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window**, the focus now shifts to **Heaps**.
 
 Topics to be covered:
-- Basics of sliding window and two pointer
-- subarray based minimum and maximum
-- count of subarray that satisfy a given condition
+- Basics of heaps
+- Conversion from min heap to max heap and vice-versa
+- kth related operation problems 
 
 ---
 ## Goal
