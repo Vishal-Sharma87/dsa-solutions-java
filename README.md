@@ -72,6 +72,8 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Medium
 
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC15] 3Sum | Arrays / Two Pointers | Medium | `O(N^2)` | `O(1)` | [LC15ThreeSum.java](./arrays/medium/LC15ThreeSum.java) |
 | [LC18] 4Sum | Arrays / Two Pointers | Medium | `O(N^3)` | `O(1)` | [LC18FourSum.java](./arrays/medium/LC18FourSum.java) |
 | [LC48] Rotate Image | Arrays / Matrix | Medium | `O(N^2)` | `O(1)` | [LC48RotateMatrix.java](./arrays/medium/LC48RotateMatrix.java) |
@@ -88,6 +90,8 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Hard Problems
 
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | [LC229] Majority Element II | Arrays / Boyer-Moore | Medium | `O(N)` | `O(1)` | [LC229MajorityElements2.java](./arrays/medium/LC229MajorityElements2.java) |
 | [IB/LC] Count Subarrays with XOR K | Arrays / Prefix XOR | Medium | `O(N)` | `O(N)` | [CountSubarrayXOREqualsK.java](./arrays/medium/CountSubarrayXOREqualsK.java) |
 | [GFG] Find Missing & Repeating | Arrays / Math | Medium | `O(N)` | `O(1)` | [GFG_FindMissingAndRepeatingNumber.java](./arrays/medium/GFG_FindMissingAndRepeatingNumber.java) |
