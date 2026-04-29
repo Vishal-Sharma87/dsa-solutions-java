@@ -348,6 +348,15 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC992] Subarrays with K Different Integers | Sliding Window | Hard | `O(N)` | `O(N)` | [LC992SubarraysWithKDistinctIntegers.java](./slidingwindow/hard/LC992SubarraysWithKDistinctIntegers.java) |
 | [LC76 ] Minimum Window Substring | Sliding Window | Hard | `O(N + M)` | `O(1)` | [LC76MinimumWindowSubstring.java](./slidingwindow/hard/LC76MinimumWindowSubstring.java) |
 
+
+### Heaps
+
+#### Medium
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+|---|---|---|---|---|---|
+| [LC215 Kth Smallest Element in an Array] | Heap | Medium | O(n log k) | O(k) | [BASIC] [FindKthSmallest.java](./heap/medium/Basic_KthSmallestElement.java) |
+| [LC215 Kth Largest Element in an Array](/) | Heap | Medium | O(n log k) | O(k) | [LC215FindKthLargest.java](./heap/medium/LC215FindKthLargest.java) |
+
 ---
 
 ## Repository Structure
