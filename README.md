@@ -352,7 +352,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 ## Repository Structure
 ```
-DSA-Revision-Java/
+dsa-solutions-java/
 ├── arrays/
 ├── sorting/
 ├── binarysearch/
