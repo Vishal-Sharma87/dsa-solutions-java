@@ -358,6 +358,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC215] Kth Largest Element in an Array | Heap | Medium | O(n log k) | O(k) | [LC215FindKthLargest.java](./heap/medium/LC215FindKthLargest.java) |
 | [LC215]  Merge K Sorted Lists| Heap | Medium | O(n log k) | O(k) | [LC215FindKthLargest.java](./heap/medium/LC23MergeKSortedLists.java) |
 | [LC1331] Array Rank Transform | Heap | Medium | O(N log N) | O(N) | [LC1331ArrayRankTransform.java](./heap/medium/LC1331RankTransformArray.java) | 
+| [LC846] Hand of Straights | Heap | Medium | O(N² / k) | O(N) | [LC846IsNStraightHand.java](./heap/medium/LC846HandOfStraights.java) |
 ---
 
 ## Repository Structure
