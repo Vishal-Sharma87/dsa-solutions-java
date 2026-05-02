@@ -355,7 +355,8 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 |---|---|---|---|---|---|
 | [LC215 Kth Smallest Element in an Array] | Heap | Medium | O(n log k) | O(k) | [BASIC] [FindKthSmallest.java](./heap/medium/Basic_KthSmallestElement.java) |
-| [LC215 Kth Largest Element in an Array](/) | Heap | Medium | O(n log k) | O(k) | [LC215FindKthLargest.java](./heap/medium/LC215FindKthLargest.java) |
+| [LC215] Kth Largest Element in an Array | Heap | Medium | O(n log k) | O(k) | [LC215FindKthLargest.java](./heap/medium/LC215FindKthLargest.java) |
+| [LC215]  Merge K Sorted Lists| Heap | Medium | O(n log k) | O(k) | [LC215FindKthLargest.java](./heap/medium/LC23MergeKSortedLists.java) |
 
 ---
 
