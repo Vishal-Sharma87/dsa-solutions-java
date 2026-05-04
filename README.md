@@ -368,6 +368,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 |---|---|---|---|---|---|
 | [GFG] Minimum Cost to Connect Ropes | Greedy / Heap | Hard | `O(n log n)` | `O(n)` | [GFG_MinCostToConnectRopes.java](./heap/hard/GFG_MinCostToConnectRopes.java) |
+| [LC703] Kth Largest Element in a Stream | Heap / Priority Queue | Easy | `O(n log k) / O(log k)` | `O(k)` | [LC703KthLargest.java](./heap/hard/LC703KthLargest.java) |
 
 ---
 
