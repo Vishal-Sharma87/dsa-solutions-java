@@ -385,8 +385,9 @@ dsa-solutions-java/
 ├── recursion/       
 ├── stack/       
 ├── queue/       
-├── slindingwindow/       ✅ Done
-├── heaps/       ← current focus
+├── slindingwindow/       
+├── heaps/      ✅ Done 
+├── tbd/       ← current focus
 └── ...more topics added as I progress
 ```
 
@@ -412,18 +413,16 @@ Each file includes:
 | Recursion | ✅ Done |
 | Stack & Queue | ✅ Done |
 | Sliding window |  ✅ Done |
-| Heap|  🔄 In Progress |
+| Heap|  ✅ Done |
+| TBD |  🔄 In Progress |
 | Trees | ⏳ Pending |
 | Graphs | ⏳ Pending |
 | Dynamic Programming | ⏳ Pending |
 ---
 ## Current Focus — Heaps
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window**, the focus now shifts to **Heaps**.
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window, Heaps**, the focus now shifts to **TBD**.
 
-Topics to be covered:
-- Basics of heaps
-- Conversion from min heap to max heap and vice-versa
-- kth related operation problems 
+Topics to be covered:**TBD**
 
 ---
 ## Goal
