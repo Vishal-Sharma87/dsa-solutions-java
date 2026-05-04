@@ -371,6 +371,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC703] Kth Largest Element in a Stream | Heap / Priority Queue | Easy | `O(n log k) / O(log k)` | `O(k)` | [LC703KthLargest.java](./heap/hard/LC703KthLargest.java) |
 | [GFG] Maximum Sum Combination | Heap / Priority Queue | Medium | `O(n² log k)` | `O(k)` | [GFG_MaximumSumCombination.java](./heap/hard/GFG_MaximumSumCombination.java) |
 | [LC658] Find K Closest Elements | Heap / Priority Queue | Medium | `O(log n + k log k)` | `O(k)` | [LC658FindKClosestElements.java](./heap/hard/LC658FindKClosestElements.java) |
+| [LC347] Top K Frequent Elements | Heap / Priority Queue | Medium | `O(n log k)` | `O(n)` | [LC347TopKFrequentElements.java](./heap/hard/LC347TopKFrequentElements.java) |
 ---
 
 ## Repository Structure
