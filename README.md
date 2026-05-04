@@ -348,17 +348,27 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC992] Subarrays with K Different Integers | Sliding Window | Hard | `O(N)` | `O(N)` | [LC992SubarraysWithKDistinctIntegers.java](./slidingwindow/hard/LC992SubarraysWithKDistinctIntegers.java) |
 | [LC76 ] Minimum Window Substring | Sliding Window | Hard | `O(N + M)` | `O(1)` | [LC76MinimumWindowSubstring.java](./slidingwindow/hard/LC76MinimumWindowSubstring.java) |
 
+---
 
-### Heaps
+### 10. Heaps
 
-#### Medium
+#### Medium Problems Heaps
 | Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
 |---|---|---|---|---|---|
-| [LC215 Kth Smallest Element in an Array] | Heap | Medium | O(n log k) | O(k) | [BASIC] [FindKthSmallest.java](./heap/medium/Basic_KthSmallestElement.java) |
-| [LC215] Kth Largest Element in an Array | Heap | Medium | O(n log k) | O(k) | [LC215FindKthLargest.java](./heap/medium/LC215FindKthLargest.java) |
-| [LC215]  Merge K Sorted Lists| Heap | Medium | O(n log k) | O(k) | [LC215FindKthLargest.java](./heap/medium/LC23MergeKSortedLists.java) |
-| [LC1331] Array Rank Transform | Heap | Medium | O(N log N) | O(N) | [LC1331ArrayRankTransform.java](./heap/medium/LC1331RankTransformArray.java) | 
-| [LC846] Hand of Straights | Heap | Medium | O(N² / k) | O(N) | [LC846IsNStraightHand.java](./heap/medium/LC846HandOfStraights.java) |
+| [LC215] Kth Smallest Element in an Array | Heap | Medium | `O(n log k)` | ``O(k)` | [BASIC] [FindKthSmallest.java](./heap/medium/Basic_KthSmallestElement.java) |
+| [LC215] Kth Largest Element in an Array | Heap | Medium | `O(n log k)` | `O(k)` | [LC215FindKthLargest.java](./heap/medium/LC215FindKthLargest.java) |
+| [LC215]  Merge K Sorted Lists| Heap | Medium | `O(n log k)` | `O(k)` | [LC215FindKthLargest.java](./heap/medium/LC23MergeKSortedLists.java) |
+| [LC1331] Array Rank Transform | Heap | Medium | `O(N log N)` | `O(N)` | [LC1331ArrayRankTransform.java](./heap/medium/LC1331RankTransformArray.java) | 
+| [LC846] Hand of Straights | Heap | Medium | `O(N² / k)` | `O(N)` | [LC846IsNStraightHand.java](./heap/medium/LC846HandOfStraights.java) |
+
+<br>
+
+#### Hard Problems Heap
+
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+|---|---|---|---|---|---|
+| [GFG] Minimum Cost to Connect Ropes | Greedy / Heap | Hard | `O(n log n)` | `O(n)` | [GFG_MinCostToConnectRopes.java](./heap/hard/GFG_MinCostToConnectRopes.java) |
+
 ---
 
 ## Repository Structure
