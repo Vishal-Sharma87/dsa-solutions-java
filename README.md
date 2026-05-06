@@ -400,7 +400,7 @@ dsa-solutions-java/
 ├── queue/       
 ├── slindingwindow/       
 ├── heaps/      ✅ Done 
-├── tbd/       ← current focus
+├── tree/       ← current focus
 └── ...more topics added as I progress
 ```
 
@@ -427,15 +427,19 @@ Each file includes:
 | Stack & Queue | ✅ Done |
 | Sliding window |  ✅ Done |
 | Heap|  ✅ Done |
-| TBD |  🔄 In Progress |
-| Trees | ⏳ Pending |
+| Trees |  🔄 In Progress |
 | Graphs | ⏳ Pending |
 | Dynamic Programming | ⏳ Pending |
 ---
 ## Current Focus — Heaps
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window, Heaps**, the focus now shifts to **TBD**.
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window, Heaps**, the focus now shifts to **Trees**.
 
-Topics to be covered:**TBD**
+Topics to be covered:**Tree**
+- Basics of tree
+- Traversal both resursive and Iterative
+- Height and Width based problem patterns on Tree
+- View Based pattern problems
+- Tree hard problems
 
 ---
 ## Goal
