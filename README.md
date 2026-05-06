@@ -382,6 +382,9 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Level Order Traversal | Tree/BFS | Easy | `O(N)` | `O(N)` | [LevelOrderTraversal.java](./tree/traversal/LevelOrderTraversal.java) |
 | Inorder Traversal | Tree/DFS | Easy | `O(N)` | `O(H)` | [InorderTraversal.java](./tree/traversal/InorderTraversal.java) |
+| Inorder Traversal | Tree/DFS | Easy | `O(N)` | `O(H)` | [InorderTraversal.java](./tree/traversal/InorderTraversal.java) |
+
+
 ---
 
 ## Repository Structure
