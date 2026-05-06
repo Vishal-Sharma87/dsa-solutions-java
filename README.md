@@ -372,6 +372,15 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [GFG] Maximum Sum Combination | Heap / Priority Queue | Medium | `O(n² log k)` | `O(k)` | [GFG_MaximumSumCombination.java](./heap/hard/GFG_MaximumSumCombination.java) |
 | [LC658] Find K Closest Elements | Heap / Priority Queue | Medium | `O(log n + k log k)` | `O(k)` | [LC658FindKClosestElements.java](./heap/hard/LC658FindKClosestElements.java) |
 | [LC347] Top K Frequent Elements | Heap / Priority Queue | Medium | `O(n log k)` | `O(n)` | [LC347TopKFrequentElements.java](./heap/hard/LC347TopKFrequentElements.java) |
+
+---
+
+### 11. Tree
+
+#### Traversal
+| Problem Name | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Level Order Traversal | Tree/BFS | Easy | `O(N)` | `O(N)` | [LevelOrderTraversal.java](./tree/traversal/LevelOrderTraversal.java) |
 ---
 
 ## Repository Structure
