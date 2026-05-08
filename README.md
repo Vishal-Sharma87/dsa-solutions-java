@@ -394,7 +394,8 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | Problem Name                     | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                     |
 | :------------------------------- | :---- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------- |
 | [LC104] MaximumDepthOfBinaryTree | Tree  | Easy       | `O(n)`          | `O(h)`           | [LC104MaximumDepthOfBinaryTree](./tree/medium/LC104MaximumDepthOfBinaryTree.java) |
-| [LC110] Balanced Binary Tree     | Tree  | Easy       | `O(n)`          | `O(h)`           | [LC110BalancedBinaryTree.java](./tree/medium/LC110BalancedBinaryTree.java)          |
+| [LC110] Balanced Binary Tree     | Tree  | Easy       | `O(n)`          | `O(h)`           | [LC110BalancedBinaryTree.java](./tree/medium/LC110BalancedBinaryTree.java)        |
+| [LC543] Diameter of Binary Tree  | Tree  | Easy       | `O(n)`          | `O(h)`           | [LC543DiameterOfBinaryTree.java](./tree/medium/LC543DiameterOfBinaryTree.java)    |
 
 ---
 
