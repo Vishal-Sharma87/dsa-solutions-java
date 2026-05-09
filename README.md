@@ -400,7 +400,15 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC100] Same Tree                                 | Trees | Easy       | `O(n)`          | `O(h)`           | [LC100SameTree.java](./tree/medium/LC100SameTree.java)                                 |
 | [LC103] Binary Tree Zigzag Level Order Traversal  | Trees | Medium     | `O(n)`          | `O(n)`           | [LC103ZigzagLevelOrder.java](./tree/medium/LC103ZigzagLevelOrder.java)                 |
 | [GFG] Boundary Traversal of Binary Tree           | Trees | Medium     | `O(n)`          | `O(n)`           | [GFG_BoundaryTraversal.java](./tree/medium/GFG_BoundaryTraversal.java)                 |
-| [LC987] Vertical Order Traversal of a Binary Tree | Trees | Hard       | `O(n log n)`    | `O(n)`           | [LC987VerticalOrderTraversal.java](./tree/medium/LC987VerticalOrderTraversal.java)      |
+| [LC987] Vertical Order Traversal of a Binary Tree | Trees | Hard       | `O(n log n)`    | `O(n)`           | [LC987VerticalOrderTraversal.java](./tree/medium/LC987VerticalOrderTraversal.java)     |
+
+<br>
+
+#### Binary Tree Views
+
+| Problem Name                  | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                               |
+| :---------------------------- | :---- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------- |
+| [GFG] Top View of Binary Tree | Trees | Medium     | `O(N log N)`    | `O(N)`           | [GFG_TopViewOfBinaryTree.java](./tree/view/GFG_TopViewOfBinaryTree.java) |
 
 ---
 
