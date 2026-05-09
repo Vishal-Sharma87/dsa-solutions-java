@@ -406,10 +406,11 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Binary Tree Views
 
-| Problem Name                     | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                     |
-| :------------------------------- | :---- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------- |
-| [GFG] Top View of Binary Tree    | Trees | Medium     | `O(N log N)`    | `O(N)`           | [GFG_TopViewOfBinaryTree.java](./tree/view/GFG_TopViewOfBinaryTree.java)          |
-| [GFG] Bottom View of Binary Tree | Trees | Medium     | `O(N log N)`    | `O(N)`           | [GFG_BottomViewOfBinaryTree.java](./tree/view/GFG_BottomViewOfBinaryTree.java) |
+| Problem Name                        | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                         |
+| :---------------------------------- | :---- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------ |
+| [GFG] Top View of Binary Tree       | Trees | Medium     | `O(N log N)`    | `O(N)`           | [GFG_TopViewOfBinaryTree.java](./tree/view/GFG_TopViewOfBinaryTree.java)              |
+| [GFG] Bottom View of Binary Tree    | Trees | Medium     | `O(N log N)`    | `O(N)`           | [GFG_BottomViewOfBinaryTree.java](./tree/view/GFG_BottomViewOfBinaryTree.java)        |
+| [LC199] Binary Tree Right Side View | Trees | Medium     | `O(N)`          | `O(H)`           | [LC199BinaryTreeRightSideView.java](./tree/view/LC199BinaryTreeRightSideView.java) |
 
 ---
 
