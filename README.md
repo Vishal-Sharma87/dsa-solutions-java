@@ -417,10 +417,11 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Binary Tree hard problems
 
-| Problem Name                                    | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                |
-| :---------------------------------------------- | :---- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------- |
-| [LC257] Binary Tree Paths                       | Trees | Easy       | `O(N * H)`      | `O(H)`           | [LC257BinaryTreePaths.java](./tree/hard/LC257BinaryTreePaths.java)           |
-| [LC236] Lowest Common Ancestor of a Binary Tree | Trees | Medium     | `O(N)`          | `O(H)`           | [LC236LowestCommonAncestor.java](./tree/hard/LC236LowestCommonAncestor.java) |
+| Problem Name                                    | Topic       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                           |
+| :---------------------------------------------- | :---------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------- |
+| [LC257] Binary Tree Paths                       | Trees       | Easy       | `O(N * H)`      | `O(H)`           | [LC257BinaryTreePaths.java](./tree/hard/LC257BinaryTreePaths.java)                      |
+| [LC236] Lowest Common Ancestor of a Binary Tree | Trees       | Medium     | `O(N)`          | `O(H)`           | [LC236LowestCommonAncestor.java](./tree/hard/LC236LowestCommonAncestor.java)            |
+| [LC662] Maximum Width of Binary Tree            | Trees + BFS | Medium     | `O(N)`          | `O(W)`           | [LC662MaximumWidthOfBinaryTree.java](./tree/hard/LC662MaximumWidthOfBinaryTree.java) |
 
 ---
 
