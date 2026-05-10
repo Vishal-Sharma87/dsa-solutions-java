@@ -401,7 +401,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC103] Binary Tree Zigzag Level Order Traversal  | Trees | Medium     | `O(n)`          | `O(n)`           | [LC103ZigzagLevelOrder.java](./tree/medium/LC103ZigzagLevelOrder.java)                 |
 | [GFG] Boundary Traversal of Binary Tree           | Trees | Medium     | `O(n)`          | `O(n)`           | [GFG_BoundaryTraversal.java](./tree/medium/GFG_BoundaryTraversal.java)                 |
 | [LC987] Vertical Order Traversal of a Binary Tree | Trees | Hard       | `O(n log n)`    | `O(n)`           | [LC987VerticalOrderTraversal.java](./tree/medium/LC987VerticalOrderTraversal.java)     |
-| [LC101] Symmetric Tree                            | Trees | Easy       | `O(N)`          | `O(H)`           | [LC101SymmetricTree.java](./tree/medium/LC101SymmetricTree.java)                        |
+| [LC101] Symmetric Tree                            | Trees | Easy       | `O(N)`          | `O(H)`           | [LC101SymmetricTree.java](./tree/medium/LC101SymmetricTree.java)                       |
 
 <br>
 
@@ -412,6 +412,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [GFG] Top View of Binary Tree       | Trees | Medium     | `O(N log N)`    | `O(N)`           | [GFG_TopViewOfBinaryTree.java](./tree/view/GFG_TopViewOfBinaryTree.java)           |
 | [GFG] Bottom View of Binary Tree    | Trees | Medium     | `O(N log N)`    | `O(N)`           | [GFG_BottomViewOfBinaryTree.java](./tree/view/GFG_BottomViewOfBinaryTree.java)     |
 | [LC199] Binary Tree Right Side View | Trees | Medium     | `O(N)`          | `O(H)`           | [LC199BinaryTreeRightSideView.java](./tree/view/LC199BinaryTreeRightSideView.java) |
+
+<br>
+
+#### Binary Tree hard problems
+
+| Problem Name              | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                       |
+| :------------------------ | :---- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------ |
+| [LC257] Binary Tree Paths | Trees | Easy       | `O(N * H)`      | `O(H)`           | [LC257BinaryTreePaths.java](./tree/hard/LC257BinaryTreePaths.java) |
 
 ---
 
