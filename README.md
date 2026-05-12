@@ -417,16 +417,17 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Binary Tree hard problems
 
-| Problem Name                                    | Topic       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                               |
-| :---------------------------------------------- | :---------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------ |
-| [LC257] Binary Tree Paths                       | Trees       | Easy       | `O(N * H)`      | `O(H)`           | [LC257BinaryTreePaths.java](./tree/hard/LC257BinaryTreePaths.java)                          |
-| [LC236] Lowest Common Ancestor of a Binary Tree | Trees       | Medium     | `O(N)`          | `O(H)`           | [LC236LowestCommonAncestor.java](./tree/hard/LC236LowestCommonAncestor.java)                |
-| [LC662] Maximum Width of Binary Tree            | Trees + BFS | Medium     | `O(N)`          | `O(W)`           | [LC662MaximumWidthOfBinaryTree.java](./tree/hard/LC662MaximumWidthOfBinaryTree.java)        |
-| [GFG] Children Sum Property                     | Tree        | Hard       | `O(n)`          | `O(h)`           | [GFG_ChildrenSumProperty.java](./tree/hard/GFG_ChildrenSumProperty.java)                    |
-| [LC863] All Nodes Distance K in Binary Tree     | Tree        | Hard       | `O(n)`          | `O(n)`           | [LC863AllNodesDistanceK.java](./tree/hard/LC863AllNodesDistanceK.java)                      |
-| [GFG] Burning Tree                              | Tree        | Hard       | `O(n)`          | `O(n)`           | [GFG_BurningTree.java](./tree/hard/GFG_BurningTree.java)                                    |
-| [LC222] Count Complete Tree Nodes               | Binary Tree | Medium     | `O(log²n)`      | `O(log n)`       | [LC222CountCompleteTreeNodes.java](./tree/hard/LC222CountCompleteTreeNodes.java)            |
-| [GFG] Unique Binary Tree Requirements           | Binary Tree | Easy       | `O(1)`          | `O(1)`           | [GFG_UniqueBinaryTreeRequirements.java](./tree/hard/GFG_UniqueBinaryTreeRequirements.java) |
+| Problem Name                                                      | Topic       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                           |
+| :---------------------------------------------------------------- | :---------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------ |
+| [LC257] Binary Tree Paths                                         | Trees       | Easy       | `O(N * H)`      | `O(H)`           | [LC257BinaryTreePaths.java](./tree/hard/LC257BinaryTreePaths.java)                                      |
+| [LC236] Lowest Common Ancestor of a Binary Tree                   | Trees       | Medium     | `O(N)`          | `O(H)`           | [LC236LowestCommonAncestor.java](./tree/hard/LC236LowestCommonAncestor.java)                            |
+| [LC662] Maximum Width of Binary Tree                              | Trees + BFS | Medium     | `O(N)`          | `O(W)`           | [LC662MaximumWidthOfBinaryTree.java](./tree/hard/LC662MaximumWidthOfBinaryTree.java)                    |
+| [GFG] Children Sum Property                                       | Tree        | Hard       | `O(n)`          | `O(h)`           | [GFG_ChildrenSumProperty.java](./tree/hard/GFG_ChildrenSumProperty.java)                                |
+| [LC863] All Nodes Distance K in Binary Tree                       | Tree        | Hard       | `O(n)`          | `O(n)`           | [LC863AllNodesDistanceK.java](./tree/hard/LC863AllNodesDistanceK.java)                                  |
+| [GFG] Burning Tree                                                | Tree        | Hard       | `O(n)`          | `O(n)`           | [GFG_BurningTree.java](./tree/hard/GFG_BurningTree.java)                                                |
+| [LC222] Count Complete Tree Nodes                                 | Binary Tree | Medium     | `O(log²n)`      | `O(log n)`       | [LC222CountCompleteTreeNodes.java](./tree/hard/LC222CountCompleteTreeNodes.java)                        |
+| [GFG] Unique Binary Tree Requirements                             | Binary Tree | Easy       | `O(1)`          | `O(1)`           | [GFG_UniqueBinaryTreeRequirements.java](./tree/hard/GFG_UniqueBinaryTreeRequirements.java)              |
+| [LC105] Construct Binary Tree from Preorder and Inorder Traversal | Binary Tree | Medium     | `O(n)`          | `O(n)`           | [LC105ConstructTreeFromPreorderInorder.java](./tree/hard/LC105ConstructBinaryTreeFromPreorderInorder.java) |
 
 ---
 
