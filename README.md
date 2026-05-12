@@ -425,6 +425,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [GFG] Children Sum Property                     | Tree        | Hard       | `O(n)`          | `O(h)`           | [GFG_ChildrenSumProperty.java](./tree/hard/GFG_ChildrenSumProperty.java)             |
 | [LC863] All Nodes Distance K in Binary Tree     | Tree        | Hard       | `O(n)`          | `O(n)`           | [LC863AllNodesDistanceK.java](./tree/hard/LC863AllNodesDistanceK.java)               |
 | [GFG] Burning Tree                              | Tree        | Hard       | `O(n)`          | `O(n)`           | [GFG_BurningTree.java](./tree/hard/GFG_BurningTree.java)                             |
+| [LC222] Count Complete Tree Nodes               | Binary Tree | Medium     | `O(log²n)`      | `O(log n)`       | [LC222CountCompleteTreeNodes.java](./tree/hard/LC222CountCompleteTreeNodes.java)  |
 
 ---
 
