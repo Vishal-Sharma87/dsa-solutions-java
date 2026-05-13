@@ -431,6 +431,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC106] Construct Binary Tree from Postorder and Inorder Traversal | Binary Tree | Medium     | `O(n)`          | `O(n)`           | [LC106ConstructTreeFromPostorderInorder.java](./tree/hard/LC106ConstructBinaryTreeFromInorderPostorder.java) |
 | [LC114] Flatten Binary Tree to Linked List                         | Trees       | Medium     | `O(n)`          | `O(h)`           | [LC114FlattenBinaryTreeToLinkedList.java](./tree/hard/LC114FlattenBinaryTreeToLinkedList.java)               |
 | [LC94] Morris Inorder Traversal                                    | Trees       | Easy       | `O(n)`          | `O(1)`           | [LC94BinaryTreeInorderMorrisTraversal.java](./tree/hard/LC94BinaryTreeInorderMorrisTraversal.java)           |
+| [LC144] Morris Preorder Traversal                                  | Trees       | Easy       | `O(n)`          | `O(1)`           | [LC144BinaryTreeMorrisPreorderTraversal.java](./tree/hard/LC144BinaryTreeMorrisPreorderTraversal.java)       |
 
 ---
 
