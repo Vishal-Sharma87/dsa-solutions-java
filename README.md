@@ -448,8 +448,9 @@ dsa-solutions-java/
 ├── stack/
 ├── queue/
 ├── slindingwindow/
-├── heaps/      ✅ Done
-├── tree/       ← current focus
+├── heaps/
+├── binarytree/       ✅ Done
+├── binarysearchtree/       ← current focus
 └── ...more topics added as I progress
 ```
 
@@ -479,7 +480,8 @@ Each file includes:
 | Stack & Queue       | ✅ Done        |
 | Sliding window      | ✅ Done        |
 | Heap                | ✅ Done        |
-| Trees               | 🔄 In Progress |
+| Binary Trees        | ✅ Done        |
+| Binary Search Tree  | 🔄 In Progress |
 | Graphs              | ⏳ Pending     |
 | Dynamic Programming | ⏳ Pending     |
 
@@ -487,15 +489,14 @@ Each file includes:
 
 ## Current Focus — Heaps
 
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window, Heaps**, the focus now shifts to **Trees**.
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window, Heaps**, the focus now shifts to **Binary Search Trees**.
 
-Topics to be covered:**Tree**
+Topics to be covered:**Binary Search Tree**
 
-- Basics of tree
-- Traversal both resursive and Iterative
-- Height and Width based problem patterns on Tree
-- View Based pattern problems
-- Tree hard problems
+- Basics of binary search tree
+- Insertion and deletion in binary tree
+- efficient search on binary tree
+- largest BST in binary tree
 
 ---
 
