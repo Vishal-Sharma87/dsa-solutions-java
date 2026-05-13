@@ -429,7 +429,8 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [GFG] Unique Binary Tree Requirements                              | Binary Tree | Easy       | `O(1)`          | `O(1)`           | [GFG_UniqueBinaryTreeRequirements.java](./tree/hard/GFG_UniqueBinaryTreeRequirements.java)                   |
 | [LC105] Construct Binary Tree from Preorder and Inorder Traversal  | Binary Tree | Medium     | `O(n)`          | `O(n)`           | [LC105ConstructTreeFromPreorderInorder.java](./tree/hard/LC105ConstructBinaryTreeFromPreorderInorder.java)   |
 | [LC106] Construct Binary Tree from Postorder and Inorder Traversal | Binary Tree | Medium     | `O(n)`          | `O(n)`           | [LC106ConstructTreeFromPostorderInorder.java](./tree/hard/LC106ConstructBinaryTreeFromInorderPostorder.java) |
-| [LC114] Flatten Binary Tree to Linked List                         | Trees       | Medium     | `O(n)`          | `O(h)`           | [LC114FlattenBinaryTreeToLinkedList.java](./tree/hard/LC114FlattenBinaryTreeToLinkedList.java)            |
+| [LC114] Flatten Binary Tree to Linked List                         | Trees       | Medium     | `O(n)`          | `O(h)`           | [LC114FlattenBinaryTreeToLinkedList.java](./tree/hard/LC114FlattenBinaryTreeToLinkedList.java)               |
+| [LC94] Morris Inorder Traversal                                    | Trees       | Easy       | `O(n)`          | `O(1)`           | [LC94BinaryTreeInorderMorrisTraversal.java](./tree/hard/LC94BinaryTreeInorderMorrisTraversal.java)           |
 
 ---
 
