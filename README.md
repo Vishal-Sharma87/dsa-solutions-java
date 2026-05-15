@@ -435,6 +435,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 ---
 
+### 12. Binary Search Tree
+
+#### Easy
+
+| Problem Name            | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                               |
+| :---------------------- | :---- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------- |
+| [LC700] Search in a BST | BST   | Easy       | `O(h)`          | `O(1)`           | [LC700SearchInABST.java](./bst/easy/LC700SearchInABST.java) |
+
 ## Repository Structure
 
 ```
