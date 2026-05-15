@@ -448,9 +448,10 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Binary serach Tree Medium problems
 
-| Problem Name              | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                   |
-| :------------------------ | :---- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------- |
-| [LC701] Insert into a BST | BST   | Medium     | `O(h)`          | `O(1)`           | [LC701InsertIntoBST.java](./bst/medium/LC701InsertIntoBST.java) |
+| Problem Name                 | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                       |
+| :--------------------------- | :---- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------ |
+| [LC701] Insert into a BST    | BST   | Medium     | `O(h)`          | `O(1)`           | [LC701InsertIntoBST.java](./bst/medium/LC701InsertIntoBST.java)     |
+| [LC450] Delete Node in a BST | BST   | Medium     | `O(h)`          | `O(h)`           | [LC450DeleteNodeInBST.java](./bst/medium/LC450DeleteNodeInBST.java) |
 
 ## Repository Structure
 
