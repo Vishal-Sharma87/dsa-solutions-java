@@ -439,10 +439,18 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Easy
 
-| Problem Name                | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                         |
-| :-------------------------- | :---- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------- |
-| [LC700] Search in a BST     | BST   | Easy       | `O(h)`          | `O(1)`           | [LC700SearchInABST.java](./bst/easy/LC700SearchInABST.java)           |
+| Problem Name                | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                       |
+| :-------------------------- | :---- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------ |
+| [LC700] Search in a BST     | BST   | Easy       | `O(h)`          | `O(1)`           | [LC700SearchInABST.java](./bst/easy/LC700SearchInABST.java)         |
 | [GFG] Floor and Ceil in BST | BST   | Medium     | `O(h)`          | `O(1)`           | [GFG_FloorAndCeilInBST.java](./bst/easy/GFG_FloorAndCeilInBST.java) |
+
+<br>
+
+#### Binary serach Tree Medium problems
+
+| Problem Name              | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                   |
+| :------------------------ | :---- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------- |
+| [LC701] Insert into a BST | BST   | Medium     | `O(h)`          | `O(1)`           | [LC701InsertIntoBST.java](./bst/medium/LC701InsertIntoBST.java) |
 
 ## Repository Structure
 
