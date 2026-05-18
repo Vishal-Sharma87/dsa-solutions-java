@@ -464,9 +464,10 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 ## Utility Classes
 
-| Class                     | Purpose                                           | Location                                                             |
-| :------------------------ | :------------------------------------------------ | :------------------------------------------------------------------- |
-| `EdgeListToAdjacencyList` | Converts edge list to adjacency list (undirected) | [EdgeListToAdjacencyList.java](./graph/EdgeListToAdjacencyList.java) |
+| Class                     | Purpose                                                       | Location                                                             |
+| :------------------------ | :------------------------------------------------------------ | :------------------------------------------------------------------- |
+| `EdgeListToAdjacencyList` | Converts edge list to adjacency list (undirected)             | [EdgeListToAdjacencyList.java](./graph/EdgeListToAdjacencyList.java) |
+| `BFS`                     | Level-order BFS traversal — connected and disconnected graphs | [BFS.java](./graph/traversal/BFS.java)                               |
 
 ## Repository Structure
 
