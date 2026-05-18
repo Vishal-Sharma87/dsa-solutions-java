@@ -484,8 +484,9 @@ dsa-solutions-java/
 ├── queue/
 ├── slindingwindow/
 ├── heaps/
-├── binarytree/       ✅ Done
-├── binarysearchtree/       ← current focus
+├── binarytree/
+├── binarysearchtree/       ✅ Done
+├── graphs/       ← current focus
 └── ...more topics added as I progress
 ```
 
@@ -516,22 +517,27 @@ Each file includes:
 | Sliding window      | ✅ Done        |
 | Heap                | ✅ Done        |
 | Binary Trees        | ✅ Done        |
-| Binary Search Tree  | 🔄 In Progress |
-| Graphs              | ⏳ Pending     |
+| Binary Search Tree  | ✅ Done        |
+| Graphs              | 🔄 In Progress |
 | Dynamic Programming | ⏳ Pending     |
 
 ---
 
 ## Current Focus — Heaps
 
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window, Heaps**, the focus now shifts to **Binary Search Trees**.
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window, Heaps, binary trees, BSTs**, the focus now shifts to **Graphs**.
 
-Topics to be covered:**Binary Search Tree**
+Topics to be covered:**Graphs**
 
-- Basics of binary search tree
-- Insertion and deletion in binary tree
-- efficient search on binary tree
-- largest BST in binary tree
+- Basics of Graphs
+- Traversal on graphs
+- cycle detection on graphs
+- grid based problems
+- topological sorting
+- shortest path
+- minimum spanning tree
+- Disjoint set and union
+- strngly connected components
 
 ---
 
