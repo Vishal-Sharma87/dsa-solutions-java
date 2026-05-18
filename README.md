@@ -460,6 +460,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC1373] Maximum Sum BST in Binary Tree        | Trees + DFS                 | Hard       | `O(n)`          | `O(h)`           | [LC1373MaxSumBSTInBinaryTree.java](./bst/hard/LC1373MaxSumBSTInBinaryTree.java)                           |
 | [GFG] Merge Two BSTs                           | Trees + Two-Stack Traversal | Medium     | `O(m + n)`      | `O(h1 + h2)`     | [GFG_MergeTwoBSTs.java](./bst/hard/GFG_MergeTwoBSTs.java)                                                 |
 
+---
+
+## Utility Classes
+
+| Class                     | Purpose                                           | Location                                                             |
+| :------------------------ | :------------------------------------------------ | :------------------------------------------------------------------- |
+| `EdgeListToAdjacencyList` | Converts edge list to adjacency list (undirected) | [EdgeListToAdjacencyList.java](./graph/EdgeListToAdjacencyList.java) |
+
 ## Repository Structure
 
 ```
