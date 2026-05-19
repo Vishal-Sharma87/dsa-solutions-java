@@ -462,6 +462,16 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 ---
 
+### 13. Graphs
+
+#### Dfs Based Graphs problems
+
+| Problem Name                | Topic  | Difficulty | Time Complexity | Space Complexity | Solution Link                                                              |
+| :-------------------------- | :----- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------- |
+| [LC547] Number of Provinces | Graphs | Medium     | `O(n²)`         | `O(n)`           | [LC547NumberOfProvinces.java](./graph/dfs/LC547NumberOfProvinces.java) |
+
+---
+
 ## Utility Classes
 
 | Class                     | Purpose                                                       | Location                                                             |
