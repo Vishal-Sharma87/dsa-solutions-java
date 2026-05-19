@@ -466,9 +466,17 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Dfs Based Graphs problems
 
-| Problem Name                | Topic  | Difficulty | Time Complexity | Space Complexity | Solution Link                                                              |
-| :-------------------------- | :----- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------- |
+| Problem Name                | Topic  | Difficulty | Time Complexity | Space Complexity | Solution Link                                                          |
+| :-------------------------- | :----- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------- |
 | [LC547] Number of Provinces | Graphs | Medium     | `O(n²)`         | `O(n)`           | [LC547NumberOfProvinces.java](./graph/dfs/LC547NumberOfProvinces.java) |
+
+<br>
+
+#### Bfs Based Graphs problems
+
+| Problem Name            | Topic  | Difficulty | Time Complexity | Space Complexity | Solution Link                                                        |
+| :---------------------- | :----- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------- |
+| [LC994] Rotting Oranges | Graphs | Medium     | `O(m × n)`      | `O(m × n)`       | [LC994RottingOranges.java](./graph/bfs/LC994RottingOranges.java) |
 
 ---
 
