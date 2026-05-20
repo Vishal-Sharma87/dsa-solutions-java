@@ -486,6 +486,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | Problem Name                                    | Topic       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                               |
 | :---------------------------------------------- | :---------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------- |
 | [GFG] Cycle Detection in Undirected Graph (BFS) | Graph / BFS | Medium     | `O(V + E)`      | `O(V + E)`       | [GFG_CycleDetectionBFS.java](./graph/undirected/GFG_CycleDetectionBFS.java) |
+| [GFG] Cycle Detection in Undirected Graph (DFS) | Graph / DFS | Medium     | `O(V + E)`      | `O(V + E)`       | [GFG_CycleDetectionDFS.java](./graph/undirected/GFG_CycleDetectionDFS.java) |
 
 ---
 
