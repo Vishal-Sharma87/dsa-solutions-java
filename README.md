@@ -479,6 +479,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC994] Rotting Oranges | Graphs | Medium     | `O(m × n)`      | `O(m × n)`       | [LC994RottingOranges.java](./graph/bfs/LC994RottingOranges.java) |
 | [LC733] Flood Fill      | Graphs | Easy       | `O(m × n)`      | `O(m × n)`       | [LC733FloodFill.java](./graph/bfs/LC733FloodFill.java)           |
 
+<br>
+
+#### Undirected Graphs problems
+
+| Problem Name                                    | Topic       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                               |
+| :---------------------------------------------- | :---------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------- |
+| [GFG] Cycle Detection in Undirected Graph (BFS) | Graph / BFS | Medium     | `O(V + E)`      | `O(V + E)`       | [GFG_CycleDetectionBFS.java](./graph/undirected/GFG_CycleDetectionBFS.java) |
+
 ---
 
 ## Utility Classes
