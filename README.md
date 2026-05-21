@@ -466,9 +466,10 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Dfs Based Graphs problems
 
-| Problem Name                | Topic  | Difficulty | Time Complexity | Space Complexity | Solution Link                                                          |
-| :-------------------------- | :----- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------- |
-| [LC547] Number of Provinces | Graphs | Medium     | `O(n²)`         | `O(n)`           | [LC547NumberOfProvinces.java](./graph/dfs/LC547NumberOfProvinces.java) |
+| Problem Name                | Topic        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                          |
+| :-------------------------- | :----------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------- |
+| [LC547] Number of Provinces | Graphs       | Medium     | `O(n²)`         | `O(n)`           | [LC547NumberOfProvinces.java](./graph/dfs/LC547NumberOfProvinces.java) |
+| [LC200] Number of Islands   | Graphs + DFS | Medium     | `O(m * n)`      | `O(m * n)`       | [LC200NumberOfIslands.java](./graph/dfs/LC200NumberOfIslands.java) |
 
 <br>
 
@@ -481,7 +482,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC130] Surrounded Regions  | Graph / BFS              | Medium     | `O(m * n)`      | `O(m * n)`       | [LC130SurroundedRegions.java](./graph/bfs/LC130SurroundedRegions.java) |
 | [LC542] 01 Matrix           | Graph / Multi-source BFS | Medium     | `O(m * n)`      | `O(m * n)`       | [LC542ZeroOneMatrix.java](./graph/bfs/LC542ZeroOneMatrix.java)         |
 | [LC1020] Number of Enclaves | Graphs + BFS             | Medium     | `O(m * n)`      | `O(m * n)`       | [LC1020NumberOfEnclaves.java](./graph/bfs/LC1020NumberOfEnclaves.java) |
-| [LC127] Word Ladder         | Graphs + BFS             | Hard       | `O(m * n)`      | `O(n)`           | [LC127WordLadder.java](./graph/bfs/LC127WordLadder.java)             |
+| [LC127] Word Ladder         | Graphs + BFS             | Hard       | `O(m * n)`      | `O(n)`           | [LC127WordLadder.java](./graph/bfs/LC127WordLadder.java)               |
 
 <br>
 
