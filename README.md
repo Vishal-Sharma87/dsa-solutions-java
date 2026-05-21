@@ -474,12 +474,13 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Bfs Based Graphs problems
 
-| Problem Name               | Topic                    | Difficulty | Time Complexity | Space Complexity | Solution Link                                                          |
-| :------------------------- | :----------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------- |
-| [LC994] Rotting Oranges    | Graphs                   | Medium     | `O(m × n)`      | `O(m × n)`       | [LC994RottingOranges.java](./graph/bfs/LC994RottingOranges.java)       |
-| [LC733] Flood Fill         | Graphs                   | Easy       | `O(m × n)`      | `O(m × n)`       | [LC733FloodFill.java](./graph/bfs/LC733FloodFill.java)                 |
-| [LC130] Surrounded Regions | Graph / BFS              | Medium     | `O(m * n)`      | `O(m * n)`       | [LC130SurroundedRegions.java](./graph/bfs/LC130SurroundedRegions.java) |
-| [LC542] 01 Matrix          | Graph / Multi-source BFS | Medium     | `O(m * n)`      | `O(m * n)`       | [LC542ZeroOneMatrix.java](./graph/bfs/LC542ZeroOneMatrix.java)      |
+| Problem Name                | Topic                    | Difficulty | Time Complexity | Space Complexity | Solution Link                                                              |
+| :-------------------------- | :----------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------- |
+| [LC994] Rotting Oranges     | Graphs                   | Medium     | `O(m × n)`      | `O(m × n)`       | [LC994RottingOranges.java](./graph/bfs/LC994RottingOranges.java)           |
+| [LC733] Flood Fill          | Graphs                   | Easy       | `O(m × n)`      | `O(m × n)`       | [LC733FloodFill.java](./graph/bfs/LC733FloodFill.java)                     |
+| [LC130] Surrounded Regions  | Graph / BFS              | Medium     | `O(m * n)`      | `O(m * n)`       | [LC130SurroundedRegions.java](./graph/bfs/LC130SurroundedRegions.java)     |
+| [LC542] 01 Matrix           | Graph / Multi-source BFS | Medium     | `O(m * n)`      | `O(m * n)`       | [LC542ZeroOneMatrix.java](./graph/bfs/LC542ZeroOneMatrix.java)             |
+| [LC1020] Number of Enclaves | Graphs + BFS             | Medium     | `O(m * n)`      | `O(m * n)`       | [LC1020NumberOfEnclaves.java](./graph/bfs/LC1020NumberOfEnclaves.java) |
 
 <br>
 
