@@ -466,10 +466,11 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Dfs Based Graphs problems
 
-| Problem Name                | Topic        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                          |
-| :-------------------------- | :----------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------- |
-| [LC547] Number of Provinces | Graphs       | Medium     | `O(n²)`         | `O(n)`           | [LC547NumberOfProvinces.java](./graph/dfs/LC547NumberOfProvinces.java) |
-| [LC200] Number of Islands   | Graphs + DFS | Medium     | `O(m * n)`      | `O(m * n)`       | [LC200NumberOfIslands.java](./graph/dfs/LC200NumberOfIslands.java) |
+| Problem Name                         | Topic        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                |
+| :----------------------------------- | :----------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------- |
+| [LC547] Number of Provinces          | Graphs       | Medium     | `O(n²)`         | `O(n)`           | [LC547NumberOfProvinces.java](./graph/dfs/LC547NumberOfProvinces.java)                       |
+| [LC200] Number of Islands            | Graphs + DFS | Medium     | `O(m * n)`      | `O(m * n)`       | [LC200NumberOfIslands.java](./graph/dfs/LC200NumberOfIslands.java)                           |
+| [GFG] Directed Graph Cycle Detection | Graphs + DFS | Medium     | `O(V + E)`      | `O(V)`           | [GFG_DirectedGraphCycleDetection.java](./graph/dfs/GFG_DirectedGraphCycleDetection.java) |
 
 <br>
 
