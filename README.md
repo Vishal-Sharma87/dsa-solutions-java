@@ -498,9 +498,10 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Topological Sort Based Graph problems
 
-| Problem Name            | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                |
-| :---------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------- |
-| [LC207] Course Schedule | Graphs + Topological Sort | Medium     | `O(V + E)`      | `O(V + E)`       | [LC207CourseSchedule.java](./graph/topologicalsort/LC207CourseSchedule.java) |
+| Problem Name               | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                |
+| :------------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------- |
+| [LC207] Course Schedule    | Graphs + Topological Sort | Medium     | `O(V + E)`      | `O(V + E)`       | [LC207CourseSchedule.java](./graph/topologicalsort/LC207CourseSchedule.java) |
+| [LC210] Course Schedule II | Graphs + Topological Sort | Medium     | `O(V + E)`      | `O(V + E)`       | [LC210CourseScheduleII.java](./graphs/medium/LC210CourseScheduleII.java)     |
 
 ---
 
