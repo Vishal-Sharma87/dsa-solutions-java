@@ -503,6 +503,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC207] Course Schedule           | Graphs + Topological Sort      | Medium     | `O(V + E)`      | `O(V + E)`       | [LC207CourseSchedule.java](./graph/topologicalsort/LC207CourseSchedule.java)                 |
 | [LC210] Course Schedule II        | Graphs + Topological Sort      | Medium     | `O(V + E)`      | `O(V + E)`       | [LC210CourseScheduleII.java](./graph/topologicalsort/LC210CourseScheduleII.java)             |
 | [LC802] Find Eventual Safe States | Graphs + DFS + Cycle Detection | Medium     | `O(V + E)`      | `O(V + E)`       | [LC802FindEventualSafeStates.java](./graph/topologicalsort/LC802FindEventualSafeStates.java) |
+| [LC269] Foreign Dictionary        | Graphs + Topological Sort      | Hard       | `O(N * L)`      | `O(E)`           | [LC269ForeignDictionary.java](./graph/topologicalsort/LC269ForeignDictionary.java)           |
 
 ---
 
