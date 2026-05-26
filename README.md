@@ -509,9 +509,10 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Shortest path
 
-| Problem Name                            | Topic        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                     |
-| :-------------------------------------- | :----------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------ |
-| [GFG] Shortest Path in Undirected Graph | Graphs / BFS | Easy       | `O(V + E)`      | `O(V + E)`       | [GFG_ShortestPathUndirectedGraph.java](./graph/shortestpath/GFG_ShortestPathUndirectedGraph.java) |
+| Problem Name                            | Topic             | Difficulty | Time Complexity    | Space Complexity | Solution Link                                                                                     |
+| :-------------------------------------- | :---------------- | :--------- | :----------------- | :--------------- | :------------------------------------------------------------------------------------------------ |
+| [GFG] Shortest Path in Undirected Graph | Graphs / BFS      | Easy       | `O(V + E)`         | `O(V + E)`       | [GFG_ShortestPathUndirectedGraph.java](./graph/shortestpath/GFG_ShortestPathUndirectedGraph.java) |
+| [GFG] Shortest Path in DAG              | Graphs / Dijkstra | Medium     | `O((V + E) log V)` | `O(V + E)`       | [GFG_ShortestPathDAG.java](./graph/shortestpath/GFG_ShortestPathDAG.java)                         |
 
 ---
 
