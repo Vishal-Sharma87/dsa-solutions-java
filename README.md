@@ -509,14 +509,15 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Shortest path
 
-| Problem Name                            | Topic             | Difficulty | Time Complexity    | Space Complexity | Solution Link                                                                                       |
-| :-------------------------------------- | :---------------- | :--------- | :----------------- | :--------------- | :-------------------------------------------------------------------------------------------------- |
-| [GFG] Shortest Path in Undirected Graph | Graphs / BFS      | Easy       | `O(V + E)`         | `O(V + E)`       | [GFG_ShortestPathUndirectedGraph.java](./graph/shortestpath/GFG_ShortestPathUndirectedGraph.java)   |
-| [GFG] Shortest Path in DAG              | Graphs / Dijkstra | Medium     | `O((V + E) log V)` | `O(V + E)`       | [GFG_ShortestPathDAG.java](./graph/shortestpath/GFG_ShortestPathDAG.java)                           |
-| [LC1091] Shortest Path in Binary Matrix | Graphs / BFS      | Medium     | `O(n²)`            | `O(n²)`          | [LC1091ShortestPathBinaryMatrix.java](./graph/shortestpath/LC1091ShortestPathBinaryMatrix.java)     |
-| [LC1631] Path With Minimum Effort       | Graphs / Dijkstra | Medium     | `O(n² log n²)`     | `O(n²)`          | [LC1631PathWithMinimumEffort.java](./graph/shortestpath/LC1631PathWithMinimumEffort.java)           |
-| [LC787] Cheapest Flights Within K Stops | Graphs + BFS      | Medium     | `O(E + V + E * K)` | `O(E + V)`       | [LC787CheapestFlightsWithinKStops.java](./graph/shortestpath/LC787CheapestFlightsWithinKStops.java) |
-| [LC743] Network Delay Time              | Graphs + Dijkstra | Medium     | `O((V + E) log V)` | `O(V + E)`       | [LC743NetworkDelayTime.java](./graph/shortestpath/LC743NetworkDelayTime.java)                       |
+| Problem Name                                     | Topic             | Difficulty | Time Complexity    | Space Complexity | Solution Link                                                                                                     |
+| :----------------------------------------------- | :---------------- | :--------- | :----------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------- |
+| [GFG] Shortest Path in Undirected Graph          | Graphs / BFS      | Easy       | `O(V + E)`         | `O(V + E)`       | [GFG_ShortestPathUndirectedGraph.java](./graph/shortestpath/GFG_ShortestPathUndirectedGraph.java)                 |
+| [GFG] Shortest Path in DAG                       | Graphs / Dijkstra | Medium     | `O((V + E) log V)` | `O(V + E)`       | [GFG_ShortestPathDAG.java](./graph/shortestpath/GFG_ShortestPathDAG.java)                                         |
+| [LC1091] Shortest Path in Binary Matrix          | Graphs / BFS      | Medium     | `O(n²)`            | `O(n²)`          | [LC1091ShortestPathBinaryMatrix.java](./graph/shortestpath/LC1091ShortestPathBinaryMatrix.java)                   |
+| [LC1631] Path With Minimum Effort                | Graphs / Dijkstra | Medium     | `O(n² log n²)`     | `O(n²)`          | [LC1631PathWithMinimumEffort.java](./graph/shortestpath/LC1631PathWithMinimumEffort.java)                         |
+| [LC787] Cheapest Flights Within K Stops          | Graphs + BFS      | Medium     | `O(E + V + E * K)` | `O(E + V)`       | [LC787CheapestFlightsWithinKStops.java](./graph/shortestpath/LC787CheapestFlightsWithinKStops.java)               |
+| [LC743] Network Delay Time                       | Graphs + Dijkstra | Medium     | `O((V + E) log V)` | `O(V + E)`       | [LC743NetworkDelayTime.java](./graph/shortestpath/LC743NetworkDelayTime.java)                                     |
+| [LC1976] Number of Ways to Arrive at Destination | Graphs + Dijkstra | Medium     | `O((V + E) log V)` | `O(V + E)`       | [LC1976NumberOfWaysToArriveAtDestination.java](./graph/shortestpath/LC1976NumberOfWaysToArriveAtDestination.java) |
 
 ---
 
