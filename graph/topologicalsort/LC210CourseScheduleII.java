@@ -32,17 +32,24 @@ Constraints:
 */
 
 /*
-Approach 1: DFS-based Topological Sort
+Approach 1: DFS-based Topological Sort + Cycle Detection
 Idea:
-Run DFS and push each node to a stack after all its descendants
-are visited. Reverse the stack to get topological order.
+Use DFS with 3 states:
+0 -> unvisited
+1 -> visiting
+2 -> visited
+
+If a DFS reaches a node already in the visiting state,
+a cycle exists and no valid ordering is possible.
+
+Push nodes into a stack after all descendants are processed.
+The stack order forms the topological ordering.
 
 Time Complexity: O(V + E)
 Space Complexity: O(V + E)
 
 Drawbacks:
-Cycle detection requires a separate "visiting" state per node.
-Recursive DFS risks stack overflow on large graphs.
+Uses recursion, which may cause stack overflow for very deep graphs.
 
 Approach 2: Kahn's Algorithm — BFS Topological Sort (Optimal)
 Idea:
@@ -63,11 +70,23 @@ Space Complexity: O(V + E)
 /*
 Method to Solve:
 ----------------
-1. Build adjacency list (prerequisite → course) and in-degree array.
+
+DFS Topological Sort:
+1. Build adjacency list.
+2. Run DFS from every unvisited node.
+3. Detect cycles using 3-state visitation.
+4. Push nodes into stack after processing descendants.
+5. Pop stack to obtain topological order.
+6. Return empty array if a cycle exists.
+
+Kahn's Algorithm:
+1. Build adjacency list and in-degree array.
 2. Enqueue all nodes with in-degree 0.
-3. BFS: dequeue a node, append it to topoOrder, decrement neighbors'
-   in-degrees, enqueue any neighbor whose in-degree hits 0.
-4. If processed == numCourses, return topoOrder; else return int[0].
+3. BFS through the graph.
+4. Append processed nodes to topoOrder.
+5. Reduce neighbors' in-degrees.
+6. If all nodes are processed, return topoOrder.
+7. Otherwise return int[0].
 */
 
 // Time Complexity: O(V + E)
@@ -119,5 +138,79 @@ class LC210CourseScheduleII {
 
         // cycle means some nodes never unblocked
         return processed == numCourses ? topoOrder : new int[0];
+    }
+
+    /**
+     * Returns a valid course ordering using DFS topological sort.
+     *
+     * @param numCourses    total number of courses
+     * @param prerequisites prerequisite relationships
+     * @return valid topological ordering or empty array if cycle exists
+     */
+    public int[] findOrderDFS(int numCourses, int[][] prerequisites) {
+
+        Map<Integer, List<Integer>> adjList = new HashMap<>();
+
+        for (int[] edge : prerequisites) {
+            adjList.computeIfAbsent(edge[1], k -> new ArrayList<>())
+                    .add(edge[0]);
+        }
+
+        int[] state = new int[numCourses];
+        Deque<Integer> stack = new LinkedList<>();
+
+        for (int course = 0; course < numCourses; course++) {
+
+            if (state[course] == 0) {
+
+                if (dfs(course, adjList, state, stack)) {
+                    return new int[0];
+                }
+            }
+        }
+
+        int[] topoOrder = new int[numCourses];
+
+        for (int i = 0; i < numCourses; i++) {
+            topoOrder[i] = stack.pop();
+        }
+
+        return topoOrder;
+    }
+
+    /**
+     * DFS traversal for topological sort with cycle detection.
+     *
+     * @param node    current node
+     * @param adjList graph adjacency list
+     * @param state   visitation state array
+     * @param stack   stores topological ordering
+     * @return true if cycle detected, otherwise false
+     */
+    private boolean dfs(
+            int node,
+            Map<Integer, List<Integer>> adjList,
+            int[] state,
+            Deque<Integer> stack) {
+
+        state[node] = 1;
+
+        for (int nbr : adjList.getOrDefault(node, Collections.emptyList())) {
+
+            // back edge found
+            if (state[nbr] == 1) {
+                return true;
+            }
+
+            // visit unprocessed node
+            if (state[nbr] == 0 && dfs(nbr, adjList, state, stack)) {
+                return true;
+            }
+        }
+
+        state[node] = 2;
+        stack.push(node);
+
+        return false;
     }
 }
