@@ -528,6 +528,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | :-------------------------- | :------------------------------ | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------- |
 | [GFG] Minimum Spanning Tree | Graphs + MST + Prim's Algorithm | Medium     | `O(E log E)`    | `O(E)`           | [GFG_MinimumSpanningTree.java](./graph/mst/PrimsAlgorithm.java) |
 
+<br>
+
+#### Disjoint Set Union
+
+| Problem Name                    | Topic        | Difficulty | Time Complexity | Space Complexity | Solution Link                                            |
+| :------------------------------ | :----------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------- |
+| Disjoint Set Union (Union Find) | Graphs + DSU | Utility    | `O(α(N))`       | `O(N)`           | [DisjointSet.java](./graph/disjointset/DisjointSet.java) |
+
 ---
 
 ## Utility Classes
