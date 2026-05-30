@@ -520,6 +520,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC743] Network Delay Time                       | Graphs + Dijkstra | Medium     | `O((V + E) log V)` | `O(V + E)`       | [LC743NetworkDelayTime.java](./graph/shortestpath/LC743NetworkDelayTime.java)                                     |
 | [LC1976] Number of Ways to Arrive at Destination | Graphs + Dijkstra | Medium     | `O((V + E) log V)` | `O(V + E)`       | [LC1976NumberOfWaysToArriveAtDestination.java](./graph/shortestpath/LC1976NumberOfWaysToArriveAtDestination.java) |
 
+<br>
+
+#### Minimum Spanning Tree
+
+| Problem Name                | Topic                           | Difficulty | Time Complexity | Space Complexity | Solution Link                                                   |
+| :-------------------------- | :------------------------------ | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------- |
+| [GFG] Minimum Spanning Tree | Graphs + MST + Prim's Algorithm | Medium     | `O(E log E)`    | `O(E)`           | [GFG_MinimumSpanningTree.java](./graph/mst/PrimsAlgorithm.java) |
+
 ---
 
 ## Utility Classes
