@@ -532,10 +532,11 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Disjoint Set Union
 
-| Problem Name                    | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                       |
-| :------------------------------ | :------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------- |
-| Disjoint Set Union (Union Find) | Graphs + DSU         | Utility    | `O(α(N))`       | `O(N)`           | [DisjointSet.java](./graph/disjointset/DisjointSet.java)                            |
-| [LC947] Remove Most Stones      | Graph + Disjoint Set | Medium     | `O(n)`          | `O(n)`           | [LC947RemoveMostStones.java](./graph/disjointset/LC947RemoveMostStones.java) |
+| Problem Name                                            | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                  |
+| :------------------------------------------------------ | :------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| Disjoint Set Union (Union Find)                         | Graphs + DSU         | Utility    | `O(α(N))`       | `O(N)`           | [DisjointSet.java](./graph/disjointset/DisjointSet.java)                                                                       |
+| [LC947] Remove Most Stones                              | Graph + Disjoint Set | Medium     | `O(n)`          | `O(n)`           | [LC947RemoveMostStones.java](./graph/disjointset/LC947RemoveMostStones.java)                                                   |
+| [LC1319] Number of Operations to Make Network Connected | Graph + Disjoint Set | Medium     | `O(e)`          | `O(n)`           | [LC1319NumberOfOperationsToMakeNetworkConnected.java](./graph/disjointset/LC1319NumberOfOperationsToMakeNetworkConnected.java) |
 
 ---
 
