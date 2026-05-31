@@ -532,9 +532,10 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### Disjoint Set Union
 
-| Problem Name                    | Topic        | Difficulty | Time Complexity | Space Complexity | Solution Link                                            |
-| :------------------------------ | :----------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------- |
-| Disjoint Set Union (Union Find) | Graphs + DSU | Utility    | `O(α(N))`       | `O(N)`           | [DisjointSet.java](./graph/disjointset/DisjointSet.java) |
+| Problem Name                    | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                       |
+| :------------------------------ | :------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------- |
+| Disjoint Set Union (Union Find) | Graphs + DSU         | Utility    | `O(α(N))`       | `O(N)`           | [DisjointSet.java](./graph/disjointset/DisjointSet.java)                            |
+| [LC947] Remove Most Stones      | Graph + Disjoint Set | Medium     | `O(n)`          | `O(n)`           | [LC947RemoveMostStones.java](./graph/disjointset/LC947RemoveMostStones.java) |
 
 ---
 
