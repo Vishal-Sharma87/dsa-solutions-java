@@ -537,7 +537,8 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | Disjoint Set Union (Union Find)                         | Graphs + DSU         | Utility    | `O(α(N))`       | `O(N)`           | [DisjointSet.java](./graph/disjointset/DisjointSet.java)                                                                       |
 | [LC947] Remove Most Stones                              | Graph + Disjoint Set | Medium     | `O(n)`          | `O(n)`           | [LC947RemoveMostStones.java](./graph/disjointset/LC947RemoveMostStones.java)                                                   |
 | [LC1319] Number of Operations to Make Network Connected | Graph + Disjoint Set | Medium     | `O(e)`          | `O(n)`           | [LC1319NumberOfOperationsToMakeNetworkConnected.java](./graph/disjointset/LC1319NumberOfOperationsToMakeNetworkConnected.java) |
-| [LC721] Accounts Merge                                  | Graphs + DSU         | Medium     | `O(n·k·α(n))`   | `O(n·k)`         | [LC721AccountsMerge.java](./graph/disjointset/LC721AccountsMerge.java)                                                             |
+| [LC721] Accounts Merge                                  | Graphs + DSU         | Medium     | `O(n·k·α(n))`   | `O(n·k)`         | [LC721AccountsMerge.java](./graph/disjointset/LC721AccountsMerge.java)                                                         |
+| [LC778] Swim in Rising Water                            | Graphs + DSU         | Hard       | `O(n²·α(n²))`   | `O(n²)`          | [LC778SwimInRisingWater.java](./graph/disjointset/LC778SwimInRisingWater.java)                                                 |
 
 ---
 
