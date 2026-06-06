@@ -565,8 +565,9 @@ dsa-solutions-java/
 ├── slindingwindow/
 ├── heaps/
 ├── binarytree/
-├── binarysearchtree/       ✅ Done
-├── graphs/       ← current focus
+├── binarysearchtree/
+├── graphs/       ✅ Done
+├── dp/       ← current focus
 └── ...more topics added as I progress
 ```
 
@@ -598,26 +599,28 @@ Each file includes:
 | Heap                | ✅ Done        |
 | Binary Trees        | ✅ Done        |
 | Binary Search Tree  | ✅ Done        |
-| Graphs              | 🔄 In Progress |
-| Dynamic Programming | ⏳ Pending     |
+| Graphs              | ✅ Done        |
+| Dynamic Programming | 🔄 In Progress |
 
 ---
 
-## Current Focus — Heaps
+## Current Focus — Dynamic Programming
 
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, stack, queue, Sliding Window, Heaps, binary trees, BSTs**, the focus now shifts to **Graphs**.
+Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, Stack, Queue, Sliding Window, Heaps, Binary Trees, BSTs, Graphs**, the focus now shifts to **Dynamic Programming**.
 
-Topics to be covered:**Graphs**
+### Topics to be covered: Dynamic Programming
 
-- Basics of Graphs
-- Traversal on graphs
-- cycle detection on graphs
-- grid based problems
-- topological sorting
-- shortest path
-- minimum spanning tree
-- Disjoint set and union
-- strngly connected components
+| Topic                    | Status         |
+| :----------------------- | :------------- |
+| Introduction to DP       | ✅ Done        |
+| 1D DP                    | 🔄 In Progress |
+| 2D/3D DP and DP on Grids | ⬜ Pending     |
+| DP on Subsequences       | ⬜ Pending     |
+| DP on Strings            | ⬜ Pending     |
+| DP on Stocks             | ⬜ Pending     |
+| DP on LIS                | ⬜ Pending     |
+| MCM DP / Partition DP    | ⬜ Pending     |
+| DP on Squares            | ⬜ Pending     |
 
 ---
 
