@@ -549,6 +549,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | Problem Name           | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                  |
 | :--------------------- | :---- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------- |
 | [LC70] Climbing Stairs | 1D DP | Easy       | `O(n)`          | `O(1)`           | [LC70ClimbingStairs.java](./dp/basics/LC70ClimbingStairs.java) |
+| [LC198] House Robber   | 1D DP | Medium     | `O(n)`          | `O(1)`           | [LC198HouseRobber.java](./dp/basics/LC198HouseRobber.java)     |
 
 ---
 
