@@ -556,10 +556,11 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### DP on Grids
 
-| Problem Name           | Topic      | Difficulty | Time Complexity | Space Complexity | Solution Link                                               |
-| :--------------------- | :--------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------- |
-| [LC62] Unique Paths    | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC62UniquePaths.java](./dp/grids/LC62UniquePaths.java)     |
-| [LC63] Unique Paths II | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC63UniquePathsII.java](./dp/grids/LC63UniquePathsII.java) |
+| Problem Name            | Topic      | Difficulty | Time Complexity | Space Complexity | Solution Link                                                 |
+| :---------------------- | :--------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------ |
+| [LC62] Unique Paths     | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC62UniquePaths.java](./dp/grids/LC62UniquePaths.java)       |
+| [LC63] Unique Paths II  | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC63UniquePathsII.java](./dp/grids/LC63UniquePathsII.java)   |
+| [LC64] Minimum Path Sum | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC64MinimumPathSum.java](./dp/grids/LC64MinimumPathSum.java) |
 
 ---
 
