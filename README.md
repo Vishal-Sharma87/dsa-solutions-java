@@ -552,6 +552,15 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC198] House Robber    | 1D DP | Medium     | `O(n)`          | `O(1)`           | [LC198HouseRobber.java](./dp/basics/LC198HouseRobber.java)     |
 | [LC213] House Robber II | 1D DP | Medium     | `O(n)`          | `O(1)`           | [LC213HouseRobberII.java](./dp/basics/LC213HouseRobberII.java) |
 
+<br>
+
+#### DP on Grids
+
+| Problem Name        | Topic      | Difficulty | Time Complexity | Space Complexity | Solution Link                                           |
+| :------------------ | :--------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------ |
+| [LC62] Unique Paths | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC62UniquePaths.java](./dp/grids/LC62UniquePaths.java) |
+
+
 ---
 
 ## Utility Classes
