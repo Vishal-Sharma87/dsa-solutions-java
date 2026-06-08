@@ -563,6 +563,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC64] Minimum Path Sum | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC64MinimumPathSum.java](./dp/grids/LC64MinimumPathSum.java) |
 | [LC120] Triangle        | DP + Grids | Medium     | `O(n^2)`        | `O(n)`           | [LC120Triangle.java](./dp/grids/LC120Triangle.java)           |
 
+<br>
+
+#### DP on Subsequences
+
+| Problem Name                  | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                   |
+| :---------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------ |
+| [GFG] Subset Sum Equal Target | DP + Subsequence | Medium     | `O(n * sum)`    | `O(sum)`         | [GFG_SubsetSumEqualTarget.java](./dp/subsequence/GFG_SubsetSumEqualTarget.java) |
+
 ---
 
 ## Utility Classes
