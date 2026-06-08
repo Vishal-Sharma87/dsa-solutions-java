@@ -567,9 +567,10 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### DP on Subsequences
 
-| Problem Name                  | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                   |
-| :---------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------ |
-| [GFG] Subset Sum Equal Target | DP + Subsequence | Medium     | `O(n * sum)`    | `O(sum)`         | [GFG_SubsetSumEqualTarget.java](./dp/subsequence/GFG_SubsetSumEqualTarget.java) |
+| Problem Name                       | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                           |
+| :--------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------- |
+| [GFG] Subset Sum Equal Target      | DP + Subsequence | Medium     | `O(n * sum)`    | `O(sum)`         | [GFG_SubsetSumEqualTarget.java](./dp/subsequence/GFG_SubsetSumEqualTarget.java)         |
+| [LC416] Partition Equal Subset Sum | DP + Subsequence | Medium     | `O(n * sum)`    | `O(sum)`         | [LC416PartitionEqualSubsetSum.java](./dp/subsequence/LC416PartitionEqualSubsetSum.java) |
 
 ---
 
