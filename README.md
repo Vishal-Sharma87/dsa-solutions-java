@@ -567,11 +567,12 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### DP on Subsequences
 
-| Problem Name                       | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                           |
-| :--------------------------------- | :---------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------- |
-| [GFG] Subset Sum Equal Target      | DP + Subsequence  | Medium     | `O(n * sum)`    | `O(sum)`         | [GFG_SubsetSumEqualTarget.java](./dp/subsequence/GFG_SubsetSumEqualTarget.java)         |
-| [LC416] Partition Equal Subset Sum | DP + Subsequence  | Medium     | `O(n * sum)`    | `O(sum)`         | [LC416PartitionEqualSubsetSum.java](./dp/subsequence/LC416PartitionEqualSubsetSum.java) |
-| [GFG] Count Subsets with Given Sum | DP / Subsequences | Medium     | `O(n * target)` | `O(target)`      | [GFG_CountSubsetsWithGivenSum.java](./dp/subsequence/GFG_CountSubsetsWithGivenSum.java) |
+| Problem Name                                 | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                               |
+| :------------------------------------------- | :---------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------- |
+| [GFG] Subset Sum Equal Target                | DP + Subsequence  | Medium     | `O(n * sum)`    | `O(sum)`         | [GFG_SubsetSumEqualTarget.java](./dp/subsequence/GFG_SubsetSumEqualTarget.java)                             |
+| [LC416] Partition Equal Subset Sum           | DP + Subsequence  | Medium     | `O(n * sum)`    | `O(sum)`         | [LC416PartitionEqualSubsetSum.java](./dp/subsequence/LC416PartitionEqualSubsetSum.java)                     |
+| [GFG] Count Subsets with Given Sum           | DP / Subsequences | Medium     | `O(n * target)` | `O(target)`      | [GFG_CountSubsetsWithGivenSum.java](./dp/subsequence/GFG_CountSubsetsWithGivenSum.java)                     |
+| [GFG] Count Partitions with Given Difference | DP / Subsequences | Medium     | `O(n * target)` | `O(target)`      | [GFG_CountPartitionsWithGivenDifference.java](./dp/subsequence/GFG_CountPartitionsWithGivenDifference.java) |
 
 ---
 
