@@ -575,6 +575,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [GFG] Count Partitions with Given Difference | DP / Subsequences | Medium     | `O(n * target)` | `O(target)`      | [GFG_CountPartitionsWithGivenDifference.java](./dp/subsequence/GFG_CountPartitionsWithGivenDifference.java) |
 | [LC494] Target Sum                           | DP / Subsequences | Medium     | `O(n * target)` | `O(target)`      | [LC494TargetSum.java](./dp/subsequence/LC494TargetSum.java)                                                 |
 
+<br>
+
+#### DP on Unbounded Knapsack
+
+| Problem Name        | Topic                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                        |
+| :------------------ | :---------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------- |
+| [LC322] Coin Change | DP / Unbounded Knapsack | Medium     | `O(n * amount)` | `O(amount)`      | [LC322CoinChange.java](./dp/unbounded_knapsack/LC322CoinChange.java) |
+
 ---
 
 ## Utility Classes
