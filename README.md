@@ -583,7 +583,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | :--------------------- | :---------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------- |
 | [LC322] Coin Change    | DP / Unbounded Knapsack | Medium     | `O(n * amount)` | `O(amount)`      | [LC322CoinChange.java](./dp/unbounded_knapsack/LC322CoinChange.java)     |
 | [LC518] Coin Change II | DP / Unbounded Knapsack | Medium     | `O(n * amount)` | `O(amount)`      | [LC518CoinChangeII.java](./dp/unbounded_knapsack/LC518CoinChangeII.java) |
-
+| [GFG] Unbounded Knapsack | Dynamic Programming | Medium | `O(N * W)` | `O(W)` | [GFG_UnboundedKnapsack.java](./dynamic-programming/medium/GFG_UnboundedKnapsack.java) |
 ---
 
 ## Utility Classes
