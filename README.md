@@ -669,8 +669,8 @@ Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, 
 | Introduction to DP       | ✅ Done        |
 | 1D DP                    | ✅ Done        |
 | 2D/3D DP and DP on Grids | ✅ Done        |
-| DP on Subsequences       | 🔄 In Progress |
-| DP on Strings            | ⬜ Pending     |
+| DP on Subsequences       | ✅ Done        |
+| DP on Strings            | 🔄 In Progress |
 | DP on Stocks             | ⬜ Pending     |
 | DP on LIS                | ⬜ Pending     |
 | MCM DP / Partition DP    | ⬜ Pending     |
