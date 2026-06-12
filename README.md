@@ -579,11 +579,20 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### DP on Unbounded Knapsack
 
-| Problem Name           | Topic                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                            |
-| :--------------------- | :---------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------- |
-| [LC322] Coin Change    | DP / Unbounded Knapsack | Medium     | `O(n * amount)` | `O(amount)`      | [LC322CoinChange.java](./dp/unbounded_knapsack/LC322CoinChange.java)     |
-| [LC518] Coin Change II | DP / Unbounded Knapsack | Medium     | `O(n * amount)` | `O(amount)`      | [LC518CoinChangeII.java](./dp/unbounded_knapsack/LC518CoinChangeII.java) |
-| [GFG] Unbounded Knapsack | Dynamic Programming | Medium | `O(N * W)` | `O(W)` | [GFG_UnboundedKnapsack.java](./dynamic-programming/medium/GFG_UnboundedKnapsack.java) |
+| Problem Name             | Topic                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                         |
+| :----------------------- | :---------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------ |
+| [LC322] Coin Change      | DP / Unbounded Knapsack | Medium     | `O(n * amount)` | `O(amount)`      | [LC322CoinChange.java](./dp/unbounded_knapsack/LC322CoinChange.java)                  |
+| [LC518] Coin Change II   | DP / Unbounded Knapsack | Medium     | `O(n * amount)` | `O(amount)`      | [LC518CoinChangeII.java](./dp/unbounded_knapsack/LC518CoinChangeII.java)              |
+| [GFG] Unbounded Knapsack | Dynamic Programming     | Medium     | `O(N * W)`      | `O(W)`           | [GFG_UnboundedKnapsack.java](./dynamic-programming/medium/GFG_UnboundedKnapsack.java) |
+
+<br>
+
+#### DP On Longest Common Subsequences
+
+| Problem Name                        | Topic    | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                       |
+| :---------------------------------- | :------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------- |
+| [LC1143] Longest Common Subsequence | DP + LCS | Medium     | `O(n*m)`        | `O(m)`           | [LC1143LongestCommonSubsequence.java](./dp/lcs/LC1143LongestCommonSubsequence.java) |
+
 ---
 
 ## Utility Classes
