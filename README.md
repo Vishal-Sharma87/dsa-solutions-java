@@ -596,6 +596,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [GFG] Longest Common Substring                               | Dynamic Programming | Medium     | `O(n * m)`      | `O(m)`           | [GFG_LongestCommonSubstring.java](./dp/lcs/GFG_LongestCommonSubstring.java)                                                 |
 | [LC516] Longest Palindromic Subsequence                      | Dynamic Programming | Medium     | `O(n²)`         | `O(n)`           | [LC516LongestPalindromicSubsequence.java](./dp/lcs/LC516LongestPalindromicSubsequence.java)                                 |
 | [LC1312] Minimum Insertion Steps to Make a String Palindrome | Dynamic Programming | Hard       | `O(n²)`         | `O(n²)`          | [LC1312MinimumInsertionStepstoMakeAStringPalindrome.java](./dp/lcs/LC1312MinimumInsertionStepstoMakeAStringPalindrome.java) |
+| [LC583] Delete Operation for Two Strings                     | Dynamic Programming | Medium     | `O(n * m)`      | `O(m)`           | [LC583DeleteOperationForTwoStrings.java](./dp/lcs/LC583DeleteOperationForTwoStrings.java)                                   |
 
 ---
 
