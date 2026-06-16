@@ -589,14 +589,15 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### DP On Longest Common Subsequences
 
-| Problem Name                                                 | Topic               | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                               |
-| :----------------------------------------------------------- | :------------------ | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [LC1143] Longest Common Subsequence                          | DP + LCS            | Medium     | `O(n*m)`        | `O(m)`           | [LC1143LongestCommonSubsequence.java](./dp/lcs/LC1143LongestCommonSubsequence.java)                                         |
-| Print Longest Common Subsequence                             | DP + LCS            | Medium     | `O(n*m)`        | `O(n*m)`         | [PrintLongestCommonSubsequence.java](./dp/lcs/PrintLongestCommonSubsequence.java)                                           |
-| [GFG] Longest Common Substring                               | Dynamic Programming | Medium     | `O(n * m)`      | `O(m)`           | [GFG_LongestCommonSubstring.java](./dp/lcs/GFG_LongestCommonSubstring.java)                                                 |
-| [LC516] Longest Palindromic Subsequence                      | Dynamic Programming | Medium     | `O(n²)`         | `O(n)`           | [LC516LongestPalindromicSubsequence.java](./dp/lcs/LC516LongestPalindromicSubsequence.java)                                 |
-| [LC1312] Minimum Insertion Steps to Make a String Palindrome | Dynamic Programming | Hard       | `O(n²)`         | `O(n²)`          | [LC1312MinimumInsertionStepstoMakeAStringPalindrome.java](./dp/lcs/LC1312MinimumInsertionStepstoMakeAStringPalindrome.java) |
-| [LC583] Delete Operation for Two Strings                     | Dynamic Programming | Medium     | `O(n * m)`      | `O(m)`           | [LC583DeleteOperationForTwoStrings.java](./dp/lcs/LC583DeleteOperationForTwoStrings.java)                                   |
+| Problem Name                                                 | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                               |
+| :----------------------------------------------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| [LC1143] Longest Common Subsequence                          | DP + LCS                  | Medium     | `O(n*m)`        | `O(m)`           | [LC1143LongestCommonSubsequence.java](./dp/lcs/LC1143LongestCommonSubsequence.java)                                         |
+| Print Longest Common Subsequence                             | DP + LCS                  | Medium     | `O(n*m)`        | `O(n*m)`         | [PrintLongestCommonSubsequence.java](./dp/lcs/PrintLongestCommonSubsequence.java)                                           |
+| [GFG] Longest Common Substring                               | Dynamic Programming       | Medium     | `O(n * m)`      | `O(m)`           | [GFG_LongestCommonSubstring.java](./dp/lcs/GFG_LongestCommonSubstring.java)                                                 |
+| [LC516] Longest Palindromic Subsequence                      | Dynamic Programming       | Medium     | `O(n²)`         | `O(n)`           | [LC516LongestPalindromicSubsequence.java](./dp/lcs/LC516LongestPalindromicSubsequence.java)                                 |
+| [LC1312] Minimum Insertion Steps to Make a String Palindrome | Dynamic Programming       | Hard       | `O(n²)`         | `O(n²)`          | [LC1312MinimumInsertionStepstoMakeAStringPalindrome.java](./dp/lcs/LC1312MinimumInsertionStepstoMakeAStringPalindrome.java) |
+| [LC583] Delete Operation for Two Strings                     | Dynamic Programming       | Medium     | `O(n * m)`      | `O(m)`           | [LC583DeleteOperationForTwoStrings.java](./dp/lcs/LC583DeleteOperationForTwoStrings.java)                                   |
+| [LC1092] Shortest Common Supersequence                       | Dynamic Programming + LCS | Hard       | `O(m * n)`      | `O(m * n)`       | [LC1092ShortestCommonSupersequence.java](./dp/lcs/LC1092ShortestCommonSupersequence.java)                                  |
 
 ---
 
