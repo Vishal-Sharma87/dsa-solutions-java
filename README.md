@@ -606,6 +606,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | Problem Name                  | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                        |
 | :---------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------- |
 | [LC115] Distinct Subsequences | DP + String Matching | Hard       | `O(n × m)`      | `O(m)`           | [LC115DistinctSubsequences.java](./dp/stringmatching/LC115DistinctSubsequences.java) |
+| [LC72] Edit Distance          | DP + String Matching | Hard       | `O(n × m)`      | `O(m)`           | [LC72EditDistance.java](./dp/stringmatching/LC72EditDistance.java)                   |
 
 ---
 
