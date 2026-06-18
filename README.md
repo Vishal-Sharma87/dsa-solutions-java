@@ -609,6 +609,14 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC72] Edit Distance          | DP + String Matching | Hard       | `O(n × m)`      | `O(m)`           | [LC72EditDistance.java](./dp/stringmatching/LC72EditDistance.java)                   |
 | [LC44] Wildcard Matching      | DP + String Matching | Hard       | `O(n × m)`      | `O(m)`           | [LC44WildcardMatching.java](./dp/stringmatching/LC44WildcardMatching.java)           |
 
+<br>
+
+#### DP on Stocks
+
+| Problem Name                            | Topic       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                          |
+| :-------------------------------------- | :---------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------- |
+| [LC121] Best Time to Buy and Sell Stock | DP + Stocks | Easy       | `O(n)`          | `O(1)`           | [LC121BestTimeToBuyAndSellStock.java](./dp/stocks/LC121BestTimeToBuyAndSellStock.java) |
+
 ---
 
 ## Utility Classes
