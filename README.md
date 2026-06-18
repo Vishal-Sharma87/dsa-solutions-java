@@ -618,6 +618,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC121] Best Time to Buy and Sell Stock     | DP + Stocks | Easy       | `O(n)`          | `O(1)`           | [LC121BestTimeToBuyAndSellStock.java](./dp/stocks/LC121BestTimeToBuyAndSellStock.java)       |
 | [LC122] Best Time to Buy and Sell Stock II  | DP + Stocks | Medium     | `O(n)`          | `O(1)`           | [LC122BestTimeToBuyAndSellStockII.java](./dp/stocks/LC122BestTimeToBuyAndSellStockII.java)   |
 | [LC123] Best Time to Buy and Sell Stock III | DP + Stocks | Hard       | `O(n)`          | `O(1)`           | [LC123BestTimeToBuyAndSellStockIII.java](./dp/stocks/LC123BestTimeToBuyAndSellStockIII.java) |
+| [LC188] Best Time to Buy and Sell Stock IV  | DP + Stocks | Hard       | `O(n * k)`      | `O(k)`           | [LC188BestTimeToBuyAndSellStockIV.java](./dp/stocks/LC188BestTimeToBuyAndSellStockIV.java)   |
 
 ---
 
