@@ -613,9 +613,10 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### DP on Stocks
 
-| Problem Name                            | Topic       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                          |
-| :-------------------------------------- | :---------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------- |
-| [LC121] Best Time to Buy and Sell Stock | DP + Stocks | Easy       | `O(n)`          | `O(1)`           | [LC121BestTimeToBuyAndSellStock.java](./dp/stocks/LC121BestTimeToBuyAndSellStock.java) |
+| Problem Name                               | Topic       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                              |
+| :----------------------------------------- | :---------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------- |
+| [LC121] Best Time to Buy and Sell Stock    | DP + Stocks | Easy       | `O(n)`          | `O(1)`           | [LC121BestTimeToBuyAndSellStock.java](./dp/stocks/LC121BestTimeToBuyAndSellStock.java)     |
+| [LC122] Best Time to Buy and Sell Stock II | DP + Stocks | Medium     | `O(n)`          | `O(1)`           | [LC122BestTimeToBuyAndSellStockII.java](./dp/stocks/LC122BestTimeToBuyAndSellStockII.java) |
 
 ---
 
