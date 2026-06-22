@@ -692,17 +692,17 @@ Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, 
 
 ### Topics to be covered: Dynamic Programming
 
-| Topic                    | Status     |
-| :----------------------- | :--------- |
-| Introduction to DP       | ✅ Done    |
-| 1D DP                    | ✅ Done    |
-| 2D/3D DP and DP on Grids | ✅ Done    |
-| DP on Subsequences       | ✅ Done    |
-| DP on Strings            | ✅ Done    |
-| DP on Stocks             | ⬜ Pending |
-| DP on LIS                | ⬜ Pending |
-| MCM DP / Partition DP    | ⬜ Pending |
-| DP on Squares            | ⬜ Pending |
+| Topic                    | Status         |
+| :----------------------- | :------------- |
+| Introduction to DP       | ✅ Done        |
+| 1D DP                    | ✅ Done        |
+| 2D/3D DP and DP on Grids | ✅ Done        |
+| DP on Subsequences       | ✅ Done        |
+| DP on Strings            | ✅ Done        |
+| DP on Stocks             | 🔄 In Progress |
+| DP on LIS                | ⬜ Pending     |
+| MCM DP / Partition DP    | ⬜ Pending     |
+| DP on Squares            | ⬜ Pending     |
 
 ---
 
