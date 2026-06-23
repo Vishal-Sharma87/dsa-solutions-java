@@ -624,9 +624,12 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 <br>
 
-| Problem Name                           | Topic    | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                     |
-| :------------------------------------- | :------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------- |
-| [LC300] Longest Increasing Subsequence | DP / LIS | Medium     | `O(n^2)`        | `O(n)`           | [LC300LongestIncreasingSubsequence.java](./dp/longestincreasingsubsequence/LC300LongestIncreasingSubsequence.java) |
+#### DP on Longest increasing subsequence
+
+| Problem Name                             | Topic    | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                      |
+| :--------------------------------------- | :------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [LC300] Longest Increasing Subsequence   | DP / LIS | Medium     | `O(n^2)`        | `O(n)`           | [LC300LongestIncreasingSubsequence.java](./dp/longestincreasingsubsequence/LC300LongestIncreasingSubsequence.java) |
+| [GFG] Get LIS (Print Actual Subsequence) | DP / LIS | Medium     | `O(n^2)`        | `O(n)`           | [GFG_GetLIS.java](./dp/longestincreasingsubsequence/GFG_GetLIS.java)                                               |
 
 ---
 
