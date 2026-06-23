@@ -622,6 +622,12 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [LC309] Best Time to Buy and Sell Stock with Cooldown        | DP - Stocks | Medium     | `O(n)`          | `O(1)`           | [LC309BestTimeToBuyAndSellStockWithCooldown.java](./dp/stocks/LC309BestTimeToBuyAndSellStockWithCooldown.java)             |
 | [LC714] Best Time to Buy and Sell Stock with Transaction Fee | DP - Stocks | Medium     | `O(n)`          | `O(1)`           | [LC714BestTimeToBuyAndSellStockWithTransactionFee.java](./dp/stocks/LC714BestTimeToBuyAndSellStockWithTransactionFee.java) |
 
+<br>
+
+| Problem Name                           | Topic    | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                     |
+| :------------------------------------- | :------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------- |
+| [LC300] Longest Increasing Subsequence | DP / LIS | Medium     | `O(n^2)`        | `O(n)`           | [LC300LongestIncreasingSubsequence.java](./dp/longestincreasingsubsequence/LC300LongestIncreasingSubsequence.java) |
+
 ---
 
 ## Utility Classes
