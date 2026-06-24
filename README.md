@@ -626,11 +626,12 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 
 #### DP on Longest increasing subsequence
 
-| Problem Name                             | Topic               | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                      |
-| :--------------------------------------- | :------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------- |
-| [LC300] Longest Increasing Subsequence   | DP / LIS            | Medium     | `O(n^2)`        | `O(n)`           | [LC300LongestIncreasingSubsequence.java](./dp/longestincreasingsubsequence/LC300LongestIncreasingSubsequence.java) |
-| [GFG] Get LIS (Print Actual Subsequence) | DP / LIS            | Medium     | `O(n^2)`        | `O(n)`           | [GFG_GetLIS.java](./dp/longestincreasingsubsequence/GFG_GetLIS.java)                                               |
-| [LC368] Largest Divisible Subset         | Dynamic Programming | Medium     | `O(n²)`         | `O(n)`           | [LC368LargestDivisibleSubset.java](./dp/longestincreasingsubsequence/LC368LargestDivisibleSubset.java)             |
+| Problem Name                                     | Topic               | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                      |
+| :----------------------------------------------- | :------------------ | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| [LC300] Longest Increasing Subsequence           | DP / LIS            | Medium     | `O(n^2)`        | `O(n)`           | [LC300LongestIncreasingSubsequence.java](./dp/longestincreasingsubsequence/LC300LongestIncreasingSubsequence.java)                 |
+| [GFG] Get LIS (Print Actual Subsequence)         | DP / LIS            | Medium     | `O(n^2)`        | `O(n)`           | [GFG_GetLIS.java](./dp/longestincreasingsubsequence/GFG_GetLIS.java)                                                               |
+| [LC368] Largest Divisible Subset                 | Dynamic Programming | Medium     | `O(n²)`         | `O(n)`           | [LC368LargestDivisibleSubset.java](./dp/longestincreasingsubsequence/LC368LargestDivisibleSubset.java)                             |
+| [LC673] Number of Longest Increasing Subsequence | Dynamic Programming | Medium     | `O(n²)`         | `O(n)`           | [LC673NumberOfLongestIncreasingSubsequence.java](./dp/longestincreasingsubsequence/LC673NumberOfLongestIncreasingSubsequence.java) |
 
 ---
 
