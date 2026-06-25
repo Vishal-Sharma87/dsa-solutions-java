@@ -632,7 +632,8 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | [GFG] Get LIS (Print Actual Subsequence)         | DP / LIS                   | Medium     | `O(n^2)`        | `O(n)`           | [GFG_GetLIS.java](./dp/longestincreasingsubsequence/GFG_GetLIS.java)                                                               |
 | [LC368] Largest Divisible Subset                 | Dynamic Programming        | Medium     | `O(n²)`         | `O(n)`           | [LC368LargestDivisibleSubset.java](./dp/longestincreasingsubsequence/LC368LargestDivisibleSubset.java)                             |
 | [LC673] Number of Longest Increasing Subsequence | Dynamic Programming        | Medium     | `O(n²)`         | `O(n)`           | [LC673NumberOfLongestIncreasingSubsequence.java](./dp/longestincreasingsubsequence/LC673NumberOfLongestIncreasingSubsequence.java) |
-| [LC1048] Longest String Chain                    | DP + LIS Pattern + Strings | Medium     | `O(n² × L)`     | `O(n)`           | [LC1048LongestStringChain.java](./dp/longestincreasingsubsequence/LC1048LongestStringChain.java)                            |
+| [LC1048] Longest String Chain                    | DP + LIS Pattern + Strings | Medium     | `O(n² × L)`     | `O(n)`           | [LC1048LongestStringChain.java](./dp/longestincreasingsubsequence/LC1048LongestStringChain.java)                                   |
+| [GFG] Longest Bitonic Sequence                   | DP + LIS                   | Medium     | `O(n^2)`        | `O(n)`           | [GFG_LongestBitonicSequence.java](./dp/longestincreasingsubsequence/GFG_LongestBitonicSequence.java)                               |
 
 ---
 
