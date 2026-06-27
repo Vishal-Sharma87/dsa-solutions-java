@@ -166,6 +166,7 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | :--------------------------------------- | :---------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------ |
 | [LC5] Longest Palindromic Substring      | Strings / Expand Center | Medium     | `O(N^2)`        | `O(1)`           | [LC5LongestPalindromicSubstring.java](./strings/medium/LC5LongestPalindromicSubstring.java) |
 | [LC1781] Sum of Beauty of All Substrings | Strings / Hashing       | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/medium/LC1781BeautyOfString.java)                     |
+| [LC6] Zigzag Conversion                  | Strings + Simulation    | Medium     | `O(n)`          | `O(n)`           | [LC6ZigzagConversion.java](./strings/medium/LC6ZigzagConversion.java)                       |
 
 ---
 
