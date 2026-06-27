@@ -1,39 +1,18 @@
-# DSA in Java — Clean Solutions & Deep Docs
+# DSA in Java — Solutions Worth Reading
 
-> Production-style DSA solutions in Java. Every problem comes with approach breakdown,
-> intuition, complexity analysis, and inline comments written like a developer — not a textbook.
+Most DSA repos stop at "accepted." This one doesn't.
 
----
-
-## What This Repo Is
-
-A reference-grade DSA solution set in Java — built for engineers who want more than
-just "accepted" code.
-
-Each solution documents:
-
-- **Multiple approaches** with honest tradeoff analysis
-- **Chosen approach** marked clearly (★)
-- **Inline comments** that explain _why_, not just _what_
-- **Time & Space complexity** per approach
-
-Topics covered: Linked Lists · Strings · Sliding Window · Recursion · Backtracking
-_(Stacks, DP, Graphs coming up)_
+Every solution here is documented the way you'd document production code — with honest tradeoff analysis, approach comparisons, and comments that explain _why_ a decision was made, not just _what_ the code does.
 
 ---
 
-## Who This Is For
+## What makes this different
 
-- Engineers preparing for SDE interviews at product companies
-- Anyone who wants readable, well-documented Java solutions to reference
-- Developers who think good code deserves good documentation
-
----
-
-## Contributing
-
-Found a better approach? Spotted a bug? PRs are welcome.
-Open an issue or drop a suggestion — this repo gets better with more perspectives.
+- Every problem has multiple approaches documented — brute force through optimal
+- The chosen approach is marked (★) with a clear reason why
+- Inline comments are written in developer tone — short, direct, non-obvious things only
+- Time and space complexity per approach, not just the final one
+- No copy-paste from editorials — solutions are built from first principles
 
 ---
 
@@ -646,7 +625,9 @@ Open an issue or drop a suggestion — this repo gets better with more perspecti
 | `BFS`                     | Level-order BFS traversal — connected and disconnected graphs | [BFS.java](./graph/traversal/BFS.java)                               |
 | `DFS`                     | Recursive DFS traversal — connected and disconnected graphs   | [DFS.java](./graph/traversal/DFS.java)                               |
 
-## Repository Structure
+---
+
+## Structure
 
 ```
 dsa-solutions-java/
@@ -658,66 +639,71 @@ dsa-solutions-java/
 ├── recursion/
 ├── stack/
 ├── queue/
-├── slindingwindow/
+├── slidingwindow/
 ├── heaps/
 ├── binarytree/
 ├── binarysearchtree/
-├── graphs/       ✅ Done
-├── dp/       ← current focus
-└── ...more topics added as I progress
+├── graphs/
+└── dp/
 ```
 
-**File naming:** `[Platform + ProblemCountIfAny]_[ProblemName].java`
-Example: `LC1TwoSum.java` (LC = LeetCode), `GFG_CountOccurrencesInSortedArray.java` (GFG = GeeksForGeeks)
-Each file includes:
+**File naming convention**
 
-- Link to the original problem
-- Pattern & key insight
-- Step-by-step approach explanation
-- Clean, optimized Java implementation
-- Time & space complexity
+`LC{number}{ProblemName}.java` for LeetCode — e.g. `LC1TwoSum.java`  
+`GFG_{ProblemName}.java` for GeeksForGeeks — e.g. `GFG_CountOccurrencesInSortedArray.java`
 
 ---
 
 ## Progress
 
-| Topic               | Status  |
-| :------------------ | :------ |
-| Basics              | ✅ Done |
-| Arrays              | ✅ Done |
-| Sorting             | ✅ Done |
-| Binary Search       | ✅ Done |
-| Strings             | ✅ Done |
-| Linked Lists        | ✅ Done |
-| Recursion           | ✅ Done |
-| Stack & Queue       | ✅ Done |
-| Sliding window      | ✅ Done |
-| Heap                | ✅ Done |
-| Binary Trees        | ✅ Done |
-| Binary Search Tree  | ✅ Done |
-| Graphs              | ✅ Done |
-| Dynamic Programming | ✅ Done |
+| Topic               | Status |
+| :------------------ | :----- |
+| Basics              | Done   |
+| Arrays              | Done   |
+| Sorting             | Done   |
+| Binary Search       | Done   |
+| Strings             | Done   |
+| Linked Lists        | Done   |
+| Recursion           | Done   |
+| Stack & Queue       | Done   |
+| Sliding Window      | Done   |
+| Heaps               | Done   |
+| Binary Trees        | Done   |
+| Binary Search Tree  | Done   |
+| Graphs              | Done   |
+| Dynamic Programming | Done   |
 
 ---
 
-## Current Focus — Dynamic Programming
+## Dynamic Programming — Subtopics
 
-Having completed revision of **Basics, Arrays, Sorting, Binary Search, Strings, Linked Lists, Recursion, Stack, Queue, Sliding Window, Heaps, Binary Trees, BSTs, Graphs**, the focus now shifts to **Dynamic Programming**.
-
-### Topics to be covered: Dynamic Programming
-
-| Topic                    | Status  |
-| :----------------------- | :------ |
-| Introduction to DP       | ✅ Done |
-| 1D DP                    | ✅ Done |
-| 2D/3D DP and DP on Grids | ✅ Done |
-| DP on Subsequences       | ✅ Done |
-| DP on Strings            | ✅ Done |
-| DP on Stocks             | ✅ Done |
-| DP on LIS                | ✅ Done |
+| Subtopic           | Status |
+| :----------------- | :----- |
+| Introduction to DP | Done   |
+| 1D DP              | Done   |
+| 2D / 3D DP + Grids | Done   |
+| DP on Subsequences | Done   |
+| DP on Strings      | Done   |
+| DP on Stocks       | Done   |
+| DP on LIS          | Done   |
 
 ---
 
-## Goal
+## Master Index
 
-Build strong DSA fundamentals and problem-solving speed to target backend-focused and product-based company roles.
+Each topic folder has its own README with a problem index table — problem name, difficulty, time complexity, space complexity, and a direct link to the solution file.
+
+---
+
+## Who this is for
+
+Engineers who want to read solutions, not just run them.  
+If you're looking for a one-liner accepted solution, this repo isn't it.  
+If you want to understand the decision-making behind the code — it is.
+
+---
+
+## Contributing
+
+Found a cleaner approach or a bug? PRs are welcome.  
+Open an issue or suggest an alternative — the best solutions come from disagreement.
