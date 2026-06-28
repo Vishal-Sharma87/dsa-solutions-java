@@ -119,7 +119,7 @@ public class GFG_LongestSubarrayWithSumK {
      * Returns the length of the longest subarray whose sum equals k.
      *
      * @param nums input array
-     * @param k target sum
+     * @param k    target sum
      * @return maximum subarray length
      */
     public int getLength(int[] nums, int k) {
@@ -154,9 +154,9 @@ public class GFG_LongestSubarrayWithSumK {
      * Checks whether the given subarray sums to the target value.
      * Used by the brute force approach.
      *
-     * @param nums input array
-     * @param start starting index
-     * @param end ending index
+     * @param nums   input array
+     * @param start  starting index
+     * @param end    ending index
      * @param target target sum
      * @return true if subarray sum equals target
      */
@@ -167,9 +167,9 @@ public class GFG_LongestSubarrayWithSumK {
     /**
      * Returns the sum of a subarray.
      *
-     * @param nums input array
+     * @param nums  input array
      * @param start starting index
-     * @param end ending index
+     * @param end   ending index
      * @return subarray sum
      */
     public int getSumOfSubArray(int[] nums, int start, int end) {
