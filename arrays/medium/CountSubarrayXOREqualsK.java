@@ -132,7 +132,7 @@ public class CountSubarrayXOREqualsK {
      * Counts the number of subarrays having XOR equal to k.
      *
      * @param nums input array
-     * @param k target XOR
+     * @param k    target XOR
      * @return total number of valid subarrays
      */
     public long subarrayXor(int[] nums, int k) {
