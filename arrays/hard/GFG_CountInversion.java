@@ -113,9 +113,9 @@ public class GFG_CountInversion {
     /**
      * Counts inversions while performing merge sort.
      *
-     * @param nums input array
+     * @param nums  input array
      * @param start starting index
-     * @param end ending index
+     * @param end   ending index
      * @return total inversion count
      */
     private long mergeSort(int[] nums, int start, int end) {
