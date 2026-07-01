@@ -124,16 +124,16 @@ public class LC128LongestConsecutiveSequence {
     /**
      * Expands in one direction while counting consecutive values.
      *
-     * @param visited visited indices
+     * @param visited      visited indices
      * @param valueToIndex value to index map
-     * @param value starting value
-     * @param forward true for increasing direction
+     * @param value        starting value
+     * @param forward      true for increasing direction
      * @return consecutive count
      */
     private int getCount(boolean[] visited,
-                         HashMap<Integer, Integer> valueToIndex,
-                         int value,
-                         boolean forward) {
+            HashMap<Integer, Integer> valueToIndex,
+            int value,
+            boolean forward) {
 
         int count = 0;
 
@@ -180,11 +180,9 @@ public class LC128LongestConsecutiveSequence {
 
             visited[i] = true;
 
-            int positive =
-                    getCount(visited, valueToIndex, nums[i] + 1, true);
+            int positive = getCount(visited, valueToIndex, nums[i] + 1, true);
 
-            int negative =
-                    getCount(visited, valueToIndex, nums[i] - 1, false);
+            int negative = getCount(visited, valueToIndex, nums[i] - 1, false);
 
             longest = Math.max(longest, 1 + positive + negative);
         }
