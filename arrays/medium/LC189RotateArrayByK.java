@@ -122,7 +122,7 @@ public class LC189RotateArrayByK {
      * Rotates the array to the right by k positions.
      *
      * @param nums input array
-     * @param k number of rotations
+     * @param k    number of rotations
      * @return void
      */
     public void solve(int[] nums, int k) {
