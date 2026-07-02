@@ -620,13 +620,14 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 12. Bit Manipulation
+### 15. Bit Manipulation
 
 #### Conversion
 
 | Problem Name            | Topic                         | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                     |
 | :---------------------- | :---------------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------- |
 | [GFG] Decimal to Binary | Bit Manipulation + Conversion | Easy       | `O(log n)`      | `O(log n)`       | [GFG_DecimalToBinary.java](./bitmanipulation/conversion/GFG_DecimalToBinary.java) |
+| [GFG] Binary to Decimal | Bit Manipulation + Conversion | Easy       | `O(n)`          | `O(1)`           | [GFG_BinaryToDecimal.java](./bitmanipulation/conversion/GFG_BinaryToDecimal.java) |
 
 ---
 
