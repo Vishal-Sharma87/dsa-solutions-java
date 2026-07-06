@@ -636,9 +636,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Basics
 
-| Problem Name                               | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                         |
-| :----------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------- |
-| [GFG] Check Whether K-th Bit Is Set or Not | Bit Manipulation | Basic      | `O(1)`          | `O(1)`           | [GFG_CheckKthBit.java](./bitmanipulation/basics/GFG_CheckKthBit.java) |
+| Problem Name                               | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                               |
+| :----------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------- |
+| [GFG] Check Whether K-th Bit Is Set or Not | Bit Manipulation | Basic      | `O(1)`          | `O(1)`           | [GFG_CheckKthBit.java](./bitmanipulation/basics/GFG_CheckKthBit.java)       |
+| [GFG] Check If a Number Is Even or Odd     | Bit Manipulation | Basic      | `O(1)`          | `O(1)`           | [GFG_CheckEvenOrOdd.java](./bitmanipulation/basics/GFG_CheckEvenOrOdd.java) |
 
 ---
 
