@@ -632,6 +632,14 @@ Every solution here is documented the way you'd document production code — wit
 | [GFG] Decimal to Binary | Bit Manipulation + Conversion | Easy       | `O(log n)`      | `O(log n)`       | [GFG_DecimalToBinary.java](./bitmanipulation/conversion/GFG_DecimalToBinary.java) |
 | [GFG] Binary to Decimal | Bit Manipulation + Conversion | Easy       | `O(n)`          | `O(1)`           | [GFG_BinaryToDecimal.java](./bitmanipulation/conversion/GFG_BinaryToDecimal.java) |
 
+<br>
+
+#### Basics
+
+| Problem Name                               | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                         |
+| :----------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------- |
+| [GFG] Check Whether K-th Bit Is Set or Not | Bit Manipulation | Basic      | `O(1)`          | `O(1)`           | [GFG_CheckKthBit.java](./bitmanipulation/basics/GFG_CheckKthBit.java) |
+
 ---
 
 ## Utility Classes
