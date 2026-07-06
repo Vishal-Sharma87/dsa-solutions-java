@@ -480,13 +480,14 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Topological Sort Based Graph problems
 
-| Problem Name                                      | Topic                          | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                |
-| :------------------------------------------------ | :----------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------- |
-| [LC207] Course Schedule                           | Graphs + Topological Sort      | Medium     | `O(V + E)`      | `O(V + E)`       | [LC207CourseSchedule.java](./graph/topologicalsort/LC207CourseSchedule.java)                 |
-| [LC210] Course Schedule II (Kahn's Algorithm)     | Graph + BFS + Topological Sort | Medium     | `O(V + E)`      | `O(V + E)`       | [LC210CourseScheduleII.java](./graph/topologicalsort/LC210CourseScheduleII.java)             |
-| [LC210] Course Schedule II (DFS Topological Sort) | Graph + DFS + Topological Sort | Medium     | `O(V + E)`      | `O(V + E)`       | [LC210CourseScheduleII.java](./graph/topologicalsort/LC210CourseScheduleII.java)             |
-| [LC802] Find Eventual Safe States                 | Graphs + DFS + Cycle Detection | Medium     | `O(V + E)`      | `O(V + E)`       | [LC802FindEventualSafeStates.java](./graph/topologicalsort/LC802FindEventualSafeStates.java) |
-| [LC269] Foreign Dictionary                        | Graphs + Topological Sort      | Hard       | `O(N * L)`      | `O(E)`           | [LC269ForeignDictionary.java](./graph/topologicalsort/LC269ForeignDictionary.java)           |
+| Problem Name                                      | Topic                          | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                        |
+| :------------------------------------------------ | :----------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------- |
+| [LC207] Course Schedule                           | Graphs + Topological Sort      | Medium     | `O(V + E)`      | `O(V + E)`       | [LC207CourseSchedule.java](./graph/topologicalsort/LC207CourseSchedule.java)                         |
+| [LC210] Course Schedule II (Kahn's Algorithm)     | Graph + BFS + Topological Sort | Medium     | `O(V + E)`      | `O(V + E)`       | [LC210CourseScheduleII.java](./graph/topologicalsort/LC210CourseScheduleII.java)                     |
+| [LC210] Course Schedule II (DFS Topological Sort) | Graph + DFS + Topological Sort | Medium     | `O(V + E)`      | `O(V + E)`       | [LC210CourseScheduleII.java](./graph/topologicalsort/LC210CourseScheduleII.java)                     |
+| [LC802] Find Eventual Safe States                 | Graphs + DFS + Cycle Detection | Medium     | `O(V + E)`      | `O(V + E)`       | [LC802FindEventualSafeStates.java](./graph/topologicalsort/LC802FindEventualSafeStates.java)         |
+| [LC269] Foreign Dictionary                        | Graphs + Topological Sort      | Hard       | `O(N * L)`      | `O(E)`           | [LC269ForeignDictionary.java](./graph/topologicalsort/LC269ForeignDictionary.java)                   |
+| [LC1301] Number of Paths With Max Score           | Graphs + Topological Sort + DP | Hard       | `O(n²)`         | `O(n²)`          | [LC1301NumberOfPathsWithMaxScore.java](./graph/topologicalsort/LC1301NumberOfPathsWithMaxScore.java) |
 
 <br>
 
