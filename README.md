@@ -28,6 +28,14 @@ Every solution here is documented the way you'd document production code — wit
 | Merge Sort     | Sorting / Divide & Conquer | Medium     | `O(N log N)`    | `O(N)`           | [MergeSort.java](./sorting/MergeSort.java)         |
 | Quick Sort     | Sorting / Divide & Conquer | Medium     | `O(N log N)`    | `O(log N)`       | [QuickSort.java](./sorting/QuickSort.java)         |
 
+<br>
+
+#### Medium
+
+| Problem Name                      | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                           |
+| :-------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------- |
+| [LC1288] Remove Covered Intervals | Greedy + Sorting | Medium     | `O(n log n)`    | `O(1)`           | [LC1288RemoveCoveredIntervals.java](./sorting/medium/LC1288RemoveCoveredIntervals.java) |
+
 ---
 
 ### 2. Array Challenges
