@@ -18,6 +18,14 @@ Every solution here is documented the way you'd document production code — wit
 
 ## 🗂️ Master Index
 
+### 0. Math
+
+#### EASY
+
+| Problem Name              | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                      |
+| :------------------------ | :------------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------- |
+| [LC3754] Sum and Multiply | Math + Digit Manipulation | Easy       | `O(d)`          | `O(1)`           | [LC3754SumAndMultiply.java](./math/easy/LC3754SumAndMultiply.java) |
+
 ### 1. Sorting Algorithms
 
 | Problem Name   | Topic                      | Difficulty | Time Complexity | Space Complexity | Solution Link                                      |
