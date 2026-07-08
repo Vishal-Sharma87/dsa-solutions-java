@@ -61,7 +61,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC268] Missing Number           | Arrays / Math             | Easy       | `O(N)`          | `O(1)`           | [LC268MissingNumber.java](./arrays/easy/LC268MissingNumber.java)                                         |
 | [LC283] Move Zeroes              | Arrays / Two Pointers     | Easy       | `O(N)`          | `O(1)`           | [LC283MoveZeroes.java](./arrays/easy/LC283MoveZeroes.java)                                               |
 | [LC485] Max Consecutive Ones     | Arrays / Traversal        | Easy       | `O(N)`          | `O(1)`           | [LC485MaxConsecutiveOnes.java](./arrays/easy/LC485MaxConsecutiveOnes.java)                               |
-| [GFG] Leaders in an Array        | Arrays / Traversal        | Easy       | `O(N)`          | `O(N)`           | [LeadersInArray.java](./arrays/easy/LeadersInArray.java)                                                 |
+| [GFG] Leaders in an Array        | Arrays / Traversal        | Easy       | `O(N)`          | `O(N)`           | [LeadersInArray.java](./arrays/easy/GFG_LeadersInArray.java)                                             |
 | [GFG] Union of Two Sorted Arrays | Arrays / Two Pointers     | Easy       | `O(N+M)`        | `O(N+M)`         | [UnionOfTwoSortedArraysWithDuplicates.java](./arrays/easy/GFG_UnionOfTwoSortedArraysWithDuplicates.java) |
 
 <br>
