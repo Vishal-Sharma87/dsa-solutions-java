@@ -541,6 +541,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC1319] Number of Operations to Make Network Connected | Graph + Disjoint Set | Medium     | `O(e)`          | `O(n)`           | [LC1319NumberOfOperationsToMakeNetworkConnected.java](./graph/disjointset/LC1319NumberOfOperationsToMakeNetworkConnected.java) |
 | [LC721] Accounts Merge                                  | Graphs + DSU         | Medium     | `O(n·k·α(n))`   | `O(n·k)`         | [LC721AccountsMerge.java](./graph/disjointset/LC721AccountsMerge.java)                                                         |
 | [LC778] Swim in Rising Water                            | Graphs + DSU         | Hard       | `O(n²·α(n²))`   | `O(n²)`          | [LC778SwimInRisingWater.java](./graph/disjointset/LC778SwimInRisingWater.java)                                                 |
+| [LC3532] Path Existence Queries in a Graph I            | Graphs (DSU)         | Medium     | `O(n + q)`      | `O(n)`           | [LC3532PathExistenceQueriesInAGraphI.java](./graph/disjointset/LC3532PathExistenceQueriesInAGraphI.java)                      |
 
 ---
 
