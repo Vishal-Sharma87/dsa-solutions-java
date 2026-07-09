@@ -1,62 +1,115 @@
+// Created at: 12-January-2026
+// Last revised at: 12-January-2026
+// Link: https://leetcode.com/problems/missing-number/
+
+/*
+Problem Description:
+--------------------
+Statement:
+Given an array containing n distinct numbers in the range [0, n], return the
+only number in the range that is missing from the array.
+
+Example:
+Input:
+nums = [3, 0, 1]
+
+Output:
+2
+
+Constraints:
+- n == nums.length
+- 1 <= n <= 10^4
+- 0 <= nums[i] <= n
+- All numbers are unique.
+*/
+
+/*
+Approach 1: Sorting
+
+Idea:
+Sort the array and compare each index with its corresponding value.
+The first mismatch indicates the missing number.
+
+Time Complexity:
+O(n log n)
+
+Space Complexity:
+O(1) or O(log n) depending on the sorting algorithm.
+
+Drawbacks:
+Sorting modifies the array and is slower than necessary.
+*/
+
+/*
+Approach 2: Hashing
+
+Idea:
+Store all numbers in a boolean array or HashSet and scan from 0 to n
+to find the missing value.
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(n)
+
+Drawbacks:
+Requires additional memory.
+*/
+
+/*
+Approach 3: Mathematical Sum (Optimal)
+
+Idea:
+Compute the expected sum of numbers from 0 to n using the arithmetic
+series formula. Subtract every array element from this sum. The remaining
+value is the missing number.
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(1)
+
+Key Insight:
+Since exactly one number is missing, the difference between the expected
+sum and the actual sum directly gives the answer.
+*/
+
+/*
+Method to Solve:
+----------------
+1. Compute the expected sum from 0 to n.
+2. Traverse the array.
+3. Subtract every element from the expected sum.
+4. Return the remaining value.
+*/
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
 package arrays.easy;
 
 public class LC268MissingNumber {
+
+    /**
+     * Finds the missing number in the range [0, n].
+     *
+     * @param nums input array containing distinct numbers
+     * @return the missing number
+     */
     public int find(int[] nums) {
-
-        // link : https://leetcode.com/problems/missing-number/
-
-        /*
-         * 268. Missing Number
-         * Given an array nums containing n distinct numbers in the range [0, n], return
-         * the only number in the range that is missing from the array.
-         * 
-         * 
-         * 
-         * Example 1:
-         * 
-         * Input: nums = [3,0,1]
-         * 
-         * Output: 2
-         * 
-         * Explanation:
-         * 
-         * n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is
-         * the missing number in the range since it does not appear in nums.
-         * 
-         * Example 2:
-         * 
-         * Input: nums = [0,1]
-         * 
-         * Output: 2
-         * 
-         * Explanation:
-         * 
-         * n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is
-         * the missing number in the range since it does not appear in nums.
-         * 
-         * Example 3:
-         * 
-         * Input: nums = [9,6,4,2,3,5,7,0,1]
-         * 
-         * Output: 8
-         * 
-         * Explanation:
-         * 
-         * n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is
-         * the missing number in the range since it does not appear in nums.
-         */
 
         int n = nums.length;
 
-        // get the sum of first n natural numbers
-        int mandatorySum = (n * (1 + n) / 2);
+        // expected sum from 0 to n
+        int expectedSum = n * (n + 1) / 2;
 
-        // iterate over the array and decrese the sum bu arr[i];
-        for (int i = 0; i < n; i++) {
-            mandatorySum -= nums[i];
+        // subtract every existing number
+        for (int value : nums) {
+            expectedSum -= value;
         }
 
-        // return the sum
-        return mandatorySum;
+        return expectedSum;
     }
 }
