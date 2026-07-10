@@ -521,6 +521,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC2812] Find the Safest Path in a Grid          | Graphs + Multi-Source BFS + Dijkstra  | Medium     | `O(n² log n)`                         | `O(n²)`          | [LC2812FindTheSafestPathInAGrid.java](./graph/shortestpath/LC2812FindTheSafestPathInAGrid.java)                   |
 | [LC3286] Find a Safe Walk Through a Grid         | Graph + BFS + Dijkstra                | Medium     | `O(m * n * log(m * n))`               | `O(m * n)`       | [LC3286FindASafeWalkThroughAGrid.java](./graph/shortestpath/LC3286FindASafeWalkThroughAGrid.java)                 |
 | [LC3620] Network Recovery Pathways               | Graph + Shortest Path + Binary Search | Hard       | `O(E log E + log(E) × (V + E) log V)` | `O(V + E)`       | [LC3620NetworkRecoveryPathways.java](./graph/shortestpath/LC3620NetworkRecoveryPathways.java)                     |
+| [LC3534] Path Existence Queries in a Graph II    | Graphs + DisjointSet                  | Hard       | `O(n^2)`                              | `O(n^2)`         | [LC3534PathExistenceQueriesInAGraphII.java](./graph/shortestpath/LC3534PathExistenceQueriesInAGraphII.java)      |
 
 <br>
 
@@ -541,7 +542,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC1319] Number of Operations to Make Network Connected | Graph + Disjoint Set | Medium     | `O(e)`          | `O(n)`           | [LC1319NumberOfOperationsToMakeNetworkConnected.java](./graph/disjointset/LC1319NumberOfOperationsToMakeNetworkConnected.java) |
 | [LC721] Accounts Merge                                  | Graphs + DSU         | Medium     | `O(n·k·α(n))`   | `O(n·k)`         | [LC721AccountsMerge.java](./graph/disjointset/LC721AccountsMerge.java)                                                         |
 | [LC778] Swim in Rising Water                            | Graphs + DSU         | Hard       | `O(n²·α(n²))`   | `O(n²)`          | [LC778SwimInRisingWater.java](./graph/disjointset/LC778SwimInRisingWater.java)                                                 |
-| [LC3532] Path Existence Queries in a Graph I            | Graphs (DSU)         | Medium     | `O(n + q)`      | `O(n)`           | [LC3532PathExistenceQueriesInAGraphI.java](./graph/disjointset/LC3532PathExistenceQueriesInAGraphI.java)                      |
+| [LC3532] Path Existence Queries in a Graph I            | Graphs (DSU)         | Medium     | `O(n + q)`      | `O(n)`           | [LC3532PathExistenceQueriesInAGraphI.java](./graph/disjointset/LC3532PathExistenceQueriesInAGraphI.java)                       |
 
 ---
 
