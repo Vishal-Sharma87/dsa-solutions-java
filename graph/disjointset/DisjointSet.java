@@ -160,6 +160,19 @@ public class DisjointSet {
         parent[parentB] = parentA;
         size[parentA] += size[parentB];
     }
+
+    /**
+     * Checks whether a and b belong to the same connected component.
+     *
+     * @param a first node
+     * @param b second node
+     * @return true if a and b are connected
+     */
+    public boolean isConnected(int a, int b) {
+        int rootA = find(a);
+        int rootB = find(b);
+        return rootA == rootB && rootA != -1;
+    }
 }
 
 // Time Complexity: O(α(N))
