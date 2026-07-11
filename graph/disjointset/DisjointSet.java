@@ -173,6 +173,10 @@ public class DisjointSet {
         int rootB = find(b);
         return rootA == rootB && rootA != -1;
     }
+
+    public int getSize(int a) {
+        return this.size[a];
+    }
 }
 
 // Time Complexity: O(α(N))
