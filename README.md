@@ -663,6 +663,14 @@ Every solution here is documented the way you'd document production code — wit
 | [GFG] Set the Rightmost Unset Bit          | Bit Manipulation + Basics | Easy       | `O(number of trailing 1s)` | `O(1)`           | [GFG_SetTheRightmostUnsetBit.java](./bitmanipulation/basics/GFG_SetTheRightmostUnsetBit.java) |
 | [LC191] Number of 1 Bits                   | Bit Manipulation + Basics | Easy       | `O(number of set bits)`    | `O(1)`           | [LC191NumberOf1Bits.java](./bitmanipulation/basics/LC191NumberOf1Bits.java)                   |
 
+<br>
+
+#### Interview Favourites Bit-Manipulation Problems
+
+| Problem Name                                 | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                |
+| :------------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| [LC2220] Minimum Bit Flips to Convert Number | Bit Manipulation | Easy       | `O(k)`          | `O(1)`           | [LC2220MinimumBitFlipsToConvertNumber.java](./bitmanipulation/interviewfavourites/LC2220MinimumBitFlipsToConvertNumber.java) |
+
 ---
 
 ## Utility Classes
