@@ -677,9 +677,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Interview Favourites Bit-Manipulation Problems
 
-| Problem Name                                 | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                |
-| :------------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------- |
-| [LC2220] Minimum Bit Flips to Convert Number | Bit Manipulation | Easy       | `O(k)`          | `O(1)`           | [LC2220MinimumBitFlipsToConvertNumber.java](./bitmanipulation/interviewfavourites/LC2220MinimumBitFlipsToConvertNumber.java) |
+| Problem Name                                 | Topic                                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                |
+| :------------------------------------------- | :-------------------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| [LC2220] Minimum Bit Flips to Convert Number | Bit Manipulation                        | Easy       | `O(k)`          | `O(1)`           | [LC2220MinimumBitFlipsToConvertNumber.java](./bitmanipulation/interviewfavourites/LC2220MinimumBitFlipsToConvertNumber.java) |
+| [LC136] Single Number                        | Bit Manipulation + Interview Favourites | Easy       | `O(n)`          | `O(1)`           | [LC136SingleNumber.java](./bitmanipulation/interviewfavourites/LC136SingleNumber.java)                                       |
 
 ---
 
