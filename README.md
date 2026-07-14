@@ -582,13 +582,14 @@ Every solution here is documented the way you'd document production code — wit
 
 #### DP on Subsequences
 
-| Problem Name                                 | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                               |
-| :------------------------------------------- | :---------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------- |
-| [GFG] Subset Sum Equal Target                | DP + Subsequence  | Medium     | `O(n * sum)`    | `O(sum)`         | [GFG_SubsetSumEqualTarget.java](./dp/subsequence/GFG_SubsetSumEqualTarget.java)                             |
-| [LC416] Partition Equal Subset Sum           | DP + Subsequence  | Medium     | `O(n * sum)`    | `O(sum)`         | [LC416PartitionEqualSubsetSum.java](./dp/subsequence/LC416PartitionEqualSubsetSum.java)                     |
-| [GFG] Count Subsets with Given Sum           | DP / Subsequences | Medium     | `O(n * target)` | `O(target)`      | [GFG_CountSubsetsWithGivenSum.java](./dp/subsequence/GFG_CountSubsetsWithGivenSum.java)                     |
-| [GFG] Count Partitions with Given Difference | DP / Subsequences | Medium     | `O(n * target)` | `O(target)`      | [GFG_CountPartitionsWithGivenDifference.java](./dp/subsequence/GFG_CountPartitionsWithGivenDifference.java) |
-| [LC494] Target Sum                           | DP / Subsequences | Medium     | `O(n * target)` | `O(target)`      | [LC494TargetSum.java](./dp/subsequence/LC494TargetSum.java)                                                 |
+| Problem Name                                            | Topic                                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                             |
+| :------------------------------------------------------ | :------------------------------------ | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| [GFG] Subset Sum Equal Target                           | DP + Subsequence                      | Medium     | `O(n * sum)`    | `O(sum)`         | [GFG_SubsetSumEqualTarget.java](./dp/subsequence/GFG_SubsetSumEqualTarget.java)                                           |
+| [LC416] Partition Equal Subset Sum                      | DP + Subsequence                      | Medium     | `O(n * sum)`    | `O(sum)`         | [LC416PartitionEqualSubsetSum.java](./dp/subsequence/LC416PartitionEqualSubsetSum.java)                                   |
+| [GFG] Count Subsets with Given Sum                      | DP / Subsequences                     | Medium     | `O(n * target)` | `O(target)`      | [GFG_CountSubsetsWithGivenSum.java](./dp/subsequence/GFG_CountSubsetsWithGivenSum.java)                                   |
+| [GFG] Count Partitions with Given Difference            | DP / Subsequences                     | Medium     | `O(n * target)` | `O(target)`      | [GFG_CountPartitionsWithGivenDifference.java](./dp/subsequence/GFG_CountPartitionsWithGivenDifference.java)               |
+| [LC494] Target Sum                                      | DP / Subsequences                     | Medium     | `O(n * target)` | `O(target)`      | [LC494TargetSum.java](./dp/subsequence/LC494TargetSum.java)                                                               |
+| [LC3336] Find the Number of Subsequences With Equal GCD | DP + Subsequences + GCD + Memoization | Hard       | `O(N × M²)`     | `O(N × M²)`      | [LC3336FindTheNumberOfSubsequencesWithEqualGCD.java](./dp/subsequence/LC3336FindTheNumberOfSubsequencesWithEqualGCD.java) |
 
 <br>
 
