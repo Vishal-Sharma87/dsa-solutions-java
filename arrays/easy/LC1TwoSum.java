@@ -37,5 +37,6 @@ public class LC1TwoSum {
             valToIndex.put(nums[i], i);
         }
         return new int[] { -1, -1 };
+
     }
 }
