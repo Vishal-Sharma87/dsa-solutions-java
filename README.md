@@ -682,6 +682,7 @@ Every solution here is documented the way you'd document production code — wit
 | :------------------------------------------- | :-------------------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------- |
 | [LC2220] Minimum Bit Flips to Convert Number | Bit Manipulation                        | Easy       | `O(k)`          | `O(1)`           | [LC2220MinimumBitFlipsToConvertNumber.java](./bitmanipulation/interviewfavourites/LC2220MinimumBitFlipsToConvertNumber.java) |
 | [LC136] Single Number                        | Bit Manipulation + Interview Favourites | Easy       | `O(n)`          | `O(1)`           | [LC136SingleNumber.java](./bitmanipulation/interviewfavourites/LC136SingleNumber.java)                                       |
+| [GFG] Find XOR From L To R                   | Bit Manipulation + Mathematics          | Easy       | `O(1)`          | `O(1)`           | [GFG_FindXORFromLToR.java](./bit-manipulation/easy/GFG_FindXORFromLToR.java)                                                 |
 
 ---
 
