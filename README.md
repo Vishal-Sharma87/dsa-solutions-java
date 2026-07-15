@@ -22,9 +22,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### EASY
 
-| Problem Name              | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                      |
-| :------------------------ | :------------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------- |
-| [LC3754] Sum and Multiply | Math + Digit Manipulation | Easy       | `O(d)`          | `O(1)`           | [LC3754SumAndMultiply.java](./math/easy/LC3754SumAndMultiply.java) |
+| Problem Name                  | Topic                     | Difficulty | Time Complexity | Space Complexity | Solution Link                                                      |
+| :---------------------------- | :------------------------ | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------- |
+| [LC3754] Sum and Multiply     | Math + Digit Manipulation | Easy       | `O(d)`          | `O(1)`           | [LC3754SumAndMultiply.java](./math/easy/LC3754SumAndMultiply.java) |
+| [LC] GCD of Odd and Even Sums | Math + Number Theory      | Easy       | `O(log n)`      | `O(1)`           | [LC_GCDOfOddEvenSums.java](./math/easy/LC_GCDOfOddEvenSums.java)   |
 
 <br>
 
