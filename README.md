@@ -29,6 +29,14 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
+#### Greatest Common Divisor
+
+| Problem Name                  | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                   |
+| :---------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------- |
+| [LC] GCD of Odd and Even Sums | Math + Number Theory | Easy       | `O(log n)`      | `O(1)`           | [LC_GCDOfOddEvenSums.java](./math/gcd/LC_GCDOfOddEvenSums.java) |
+
+<br>
+
 #### candidate Generation (Enumeration)
 
 | Problem Name               | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                 |
