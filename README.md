@@ -44,6 +44,14 @@ Every solution here is documented the way you'd document production code — wit
 | :------------------------- | :----------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------- |
 | [LC1291] Sequential Digits | Math + Enumeration | Easy       | `O(1)`          | `O(1)`           | [LC1291SequentialDigits.java](./math/enumeration/LC1291SequentialDigits.java) |
 
+<br>
+
+#### Number Theory
+
+| Problem Name                                        | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                          |
+| :-------------------------------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------- |
+| [LC2521] Distinct Prime Factors of Product of Array | Math + Number Theory | Medium     | `O(n * √m)`     | `O(k)`           | [LC2521DistinctPrimeFactorsOfProductOfArray.java](./math/numbertheory/LC2521DistinctPrimeFactorsOfProductOfArray.java) |
+
 ---
 
 ### 1. Sorting Algorithms
