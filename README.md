@@ -30,10 +30,11 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Greatest Common Divisor
 
-| Problem Name                  | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                   |
-| :---------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------- |
-| [LC] GCD of Odd and Even Sums | Math + Number Theory | Easy       | `O(log n)`      | `O(1)`           | [LC_GCDOfOddEvenSums.java](./math/gcd/LC_GCDOfOddEvenSums.java) |
-| [LC3867] GCD Pair Sum         | Math + GCD           | Medium     | `O(n log n)`    | `O(n)`           | [LC3867GCDPairSum.java](./math/gcd/LC3867GCDPairSum.java)       |
+| Problem Name                                   | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                         |
+| :--------------------------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------- |
+| [LC] GCD of Odd and Even Sums                  | Math + Number Theory | Easy       | `O(log n)`      | `O(1)`           | [LC_GCDOfOddEvenSums.java](./math/gcd/LC_GCDOfOddEvenSums.java)                                       |
+| [LC3867] GCD Pair Sum                          | Math + GCD           | Medium     | `O(n log n)`    | `O(n)`           | [LC3867GCDPairSum.java](./math/gcd/LC3867GCDPairSum.java)                                             |
+| [LC1979] Find Greatest Common Divisor of Array | Math + GCD           | Easy       | `O(n)`          | `O(1)`           | [LC1979FindGreatestCommonDivisorOfArray.java](./math/gcd/LC1979FindGreatestCommonDivisorOfArray.java) |
 
 <br>
 
