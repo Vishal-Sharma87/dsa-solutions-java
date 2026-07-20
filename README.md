@@ -106,7 +106,6 @@ Every solution here is documented the way you'd document production code — wit
 | [LC73] Set Matrix Zeroes             | Arrays / Matrix              | Medium     | `O(M*N)`        | `O(1)`           | [LC73SetMatrixZeroes.java](./arrays/medium/LC73SetMatrixZeroes.java)                         |
 | [LC75] Sort Colors                   | Arrays / Dutch National Flag | Medium     | `O(N)`          | `O(1)`           | [LC75SortColors.java](./arrays/medium/LC75SortColors.java)                                   |
 | [LC128] Longest Consecutive Sequence | Arrays / Hashing             | Medium     | `O(N)`          | `O(N)`           | [LC128LongestConsecutiveSequence.java](./arrays/medium/LC128LongestConsecutiveSequence.java) |
-| [LC189] Rotate Array                 | Arrays / Math                | Medium     | `O(N)`          | `O(1)`           | [LC189RotateArrayByK.java](./arrays/medium/LC189RotateArrayByK.java)                         |
 | [LC2149] Rearrange Array by Sign     | Arrays / Two Pointers        | Medium     | `O(N)`          | `O(N)`           | [LC2149RearrangeArrayBySign.java](./arrays/medium/LC2149RearrangeArrayBySign.java)           |
 
 <br>
@@ -126,10 +125,11 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Array Rotation related problems
 
-| Problem Name           | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                      |
-| :--------------------- | :---------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------- |
-| [LC1260] Shift 2D Grid | Arrays + Rotation | Easy       | `O(m × n)`      | `O(1)`           | [LC1260Shift2DGrid.java](./arrays/rotation/LC1260Shift2DGrid.java) |
-| [LC48] Rotate Image    | Arrays / Matrix   | Medium     | `O(N^2)`        | `O(1)`           | [LC48RotateMatrix.java](./arrays/rotation/LC48RotateMatrix.java)   |
+| Problem Name           | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                          |
+| :--------------------- | :---------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------- |
+| [LC189] Rotate Array   | Arrays / Math     | Medium     | `O(N)`          | `O(1)`           | [LC189RotateArrayByK.java](./arrays/rotation/LC189RotateArrayByK.java) |
+| [LC1260] Shift 2D Grid | Arrays + Rotation | Easy       | `O(m × n)`      | `O(1)`           | [LC1260Shift2DGrid.java](./arrays/rotation/LC1260Shift2DGrid.java)     |
+| [LC48] Rotate Image    | Arrays / Matrix   | Medium     | `O(N^2)`        | `O(1)`           | [LC48RotateMatrix.java](./arrays/rotation/LC48RotateMatrix.java)       |
 
 ---
 
