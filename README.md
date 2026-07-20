@@ -123,6 +123,14 @@ Every solution here is documented the way you'd document production code — wit
 | [LC493] Reverse Pairs              | Arrays / Divide & Conquer | Hard       | `O(N log N)`    | `O(N)`           | [LC493ReversePairs.java](./arrays/hard/LC493ReversePairs.java)                                   |
 | [GFG] Count Inversions             | Arrays / Divide & Conquer | Hard       | `O(N log N)`    | `O(N)`           | [GFG_CountInversion.java](./arrays/hard/GFG_CountInversion.java)                                 |
 
+<br>
+
+#### Array Rotation related problems
+
+| Problem Name           | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                      |
+| :--------------------- | :---------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------- |
+| [LC1260] Shift 2D Grid | Arrays + Rotation | Easy       | `O(m × n)`      | `O(1)`           | [LC1260Shift2DGrid.java](./arrays/rotation/LC1260Shift2DGrid.java) |
+
 ---
 
 ### 3. Binary Search
