@@ -46,11 +46,12 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
-#### Number Theory
+#### Advanced Math
 
-| Problem Name                                        | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                          |
-| :-------------------------------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------- |
-| [LC2521] Distinct Prime Factors of Product of Array | Math + Number Theory | Medium     | `O(n * √m)`     | `O(k)`           | [LC2521DistinctPrimeFactorsOfProductOfArray.java](./math/numbertheory/LC2521DistinctPrimeFactorsOfProductOfArray.java) |
+| Problem Name                                        | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                      |
+| :-------------------------------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [LC2521] Distinct Prime Factors of Product of Array | Math + Number Theory | Medium     | `O(n * √m)`     | `O(k)`           | [LC2521DistinctPrimeFactorsOfProductOfArray.java](./math/advanced/LC2521DistinctPrimeFactorsOfProductOfArray.java) |
+| [GFG] All Divisors of a Number                      | Math                 | Easy       | `O(√n)`         | `O(√n)`          | [GFG_AllDivisorsOfANumber.java](./math/advanced/GFG_AllDivisorsOfANumber.java)                                     |
 
 ---
 
