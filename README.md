@@ -179,25 +179,32 @@ Every solution here is documented the way you'd document production code — wit
 
 ### 4. Strings
 
-#### Easy
+#### Character Counter based problems (Frequency)
 
-| Problem Name                          | Topic                  | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                 |
-| :------------------------------------ | :--------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------- |
-| [LC151] Reverse Words in a String     | Strings / Two Pointers | Medium\*   | `O(N)`          | `O(N)`           | [LC151ReverseWords.java](./strings/easy/LC151ReverseWords.java)                               |
-| [LC242] Valid Anagram                 | Strings / Hashing      | Easy       | `O(N)`          | `O(1)`           | [LC242Anagram.java](./strings/easy/LC242Anagram.java)                                         |
-| [LC796] Rotate String                 | Strings / Matching     | Easy       | `O(N)`          | `O(N)`           | [LC796RotateString.java](./strings/easy/LC796RotateString.java)                               |
-| [LC1021] Remove Outermost Parentheses | Strings / Stack        | Easy       | `O(N)`          | `O(N)`           | [LC1021RemoveOutermostParenthesis.java](./strings/easy/LC1021RemoveOutermostParenthesis.java) |
-| [LC1903] Largest Odd Number in String | Strings / Math         | Easy       | `O(N)`          | `O(1)`           | [LC1903LargestOddNumInString.java](./strings/easy/LC1903LargestOddNumInString.java)           |
+| Problem Name                             | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                 |
+| :--------------------------------------- | :---------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------- |
+| [LC242] Valid Anagram                    | Strings / Hashing | Easy       | `O(N)`          | `O(1)`           | [LC242Anagram.java](./strings/easy/LC242Anagram.java)                                         |
+| [LC1021] Remove Outermost Parentheses    | Strings / Stack   | Easy       | `O(N)`          | `O(N)`           | [LC1021RemoveOutermostParenthesis.java](./strings/easy/LC1021RemoveOutermostParenthesis.java) |
+| [LC1781] Sum of Beauty of All Substrings | Strings / Hashing | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/medium/LC1781BeautyOfString.java)                       |
 
 <br>
 
-#### Medium
+#### Modiefied Traversal based problems
 
-| Problem Name                             | Topic                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                               |
-| :--------------------------------------- | :---------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------ |
-| [LC5] Longest Palindromic Substring      | Strings / Expand Center | Medium     | `O(N^2)`        | `O(1)`           | [LC5LongestPalindromicSubstring.java](./strings/medium/LC5LongestPalindromicSubstring.java) |
-| [LC1781] Sum of Beauty of All Substrings | Strings / Hashing       | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/medium/LC1781BeautyOfString.java)                     |
-| [LC6] Zigzag Conversion                  | Strings + Simulation    | Medium     | `O(n)`          | `O(n)`           | [LC6ZigzagConversion.java](./strings/medium/LC6ZigzagConversion.java)                       |
+| Problem Name                          | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                       |
+| :------------------------------------ | :------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------- |
+| [LC1903] Largest Odd Number in String | Strings / Math       | Easy       | `O(N)`          | `O(1)`           | [LC1903LargestOddNumInString.java](./strings/easy/LC1903LargestOddNumInString.java) |
+| [LC796] Rotate String                 | Strings / Matching   | Easy       | `O(N)`          | `O(N)`           | [LC796RotateString.java](./strings/easy/LC796RotateString.java)                     |
+| [LC6] Zigzag Conversion               | Strings + Simulation | Medium     | `O(n)`          | `O(n)`           | [LC6ZigzagConversion.java](./strings/medium/LC6ZigzagConversion.java)               |
+
+<br>
+
+#### Two Pointer
+
+| Problem Name                        | Topic                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                               |
+| :---------------------------------- | :---------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------ |
+| [LC151] Reverse Words in a String   | Strings / Two Pointers  | Medium\*   | `O(N)`          | `O(N)`           | [LC151ReverseWords.java](./strings/easy/LC151ReverseWords.java)                             |
+| [LC5] Longest Palindromic Substring | Strings / Expand Center | Medium     | `O(N^2)`        | `O(1)`           | [LC5LongestPalindromicSubstring.java](./strings/medium/LC5LongestPalindromicSubstring.java) |
 
 <br>
 
