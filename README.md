@@ -199,6 +199,14 @@ Every solution here is documented the way you'd document production code — wit
 | [LC1781] Sum of Beauty of All Substrings | Strings / Hashing       | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/medium/LC1781BeautyOfString.java)                     |
 | [LC6] Zigzag Conversion                  | Strings + Simulation    | Medium     | `O(n)`          | `O(n)`           | [LC6ZigzagConversion.java](./strings/medium/LC6ZigzagConversion.java)                       |
 
+<br>
+
+#### Preffix / Suffix
+
+| Problem Name                                 | Topic                             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                   |
+| :------------------------------------------- | :-------------------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------------- |
+| [LC3499] Maximize Active Section After Trade | Strings + Prefix/Suffix Traversal | Medium     | `O(n)`          | `O(n)`           | [LC3499MaximizeActiveSectionAfterTrade.java](./strings/prefixsuffix/LC3499MaximizeActiveSectionAfterTrade.java) |
+
 ---
 
 ### 5. Linked List
