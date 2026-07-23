@@ -149,6 +149,7 @@ public class QuickSort {
          *
          * Pivot = 7
          */
+        @SuppressWarnings("unused")
         int pivot = array[start];
 
         /*
