@@ -48,10 +48,11 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Advanced Math
 
-| Problem Name                                        | Topic                | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                      |
-| :-------------------------------------------------- | :------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------- |
-| [LC2521] Distinct Prime Factors of Product of Array | Math + Number Theory | Medium     | `O(n * √m)`     | `O(k)`           | [LC2521DistinctPrimeFactorsOfProductOfArray.java](./math/advanced/LC2521DistinctPrimeFactorsOfProductOfArray.java) |
-| [GFG] All Divisors of a Number                      | Math                 | Easy       | `O(√n)`         | `O(√n)`          | [GFG_AllDivisorsOfANumber.java](./math/advanced/GFG_AllDivisorsOfANumber.java)                                     |
+| Problem Name                                        | Topic                                        | Difficulty | Time Complexity  | Space Complexity | Solution Link                                                                                                      |
+| :-------------------------------------------------- | :------------------------------------------- | :--------- | :--------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [LC2521] Distinct Prime Factors of Product of Array | Math + Number Theory                         | Medium     | `O(n * √m)`      | `O(k)`           | [LC2521DistinctPrimeFactorsOfProductOfArray.java](./math/advanced/LC2521DistinctPrimeFactorsOfProductOfArray.java) |
+| [GFG] All Divisors of a Number                      | Math                                         | Easy       | `O(√n)`          | `O(√n)`          | [GFG_AllDivisorsOfANumber.java](./math/advanced/GFG_AllDivisorsOfANumber.java)                                     |
+| [LC204] Count Primes                                | Math + Advanced Math + Sieve of Eratosthenes | Medium     | `O(n log log n)` | `O(n)`           | [LC204CountPrimes.java](./math/advanced/LC204CountPrimes.java)                                                 |
 
 ---
 
