@@ -566,6 +566,14 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
+#### Depth first Search variation
+
+| Problem Name                                     | Topic      | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                           |
+| :----------------------------------------------- | :--------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------ |
+| [LC2265] Count Nodes Equal to Average of Subtree | Tree + DFS | Medium     | `O(n)`          | `O(h)`           | [LC2265CountNodesEqualToAverageOfSubtree.java](./tree/dfs/LC2265CountNodesEqualToAverageOfSubtree.java) |
+
+<br>
+
 #### Binary Tree Views
 
 | Problem Name                        | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                      |
