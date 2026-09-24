@@ -110,6 +110,18 @@ Every solution here is documented the way you'd document production code — wit
 
 ### 2. Array
 
+#### Traversal + Simulation
+
+| Problem Name                                          | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                           |
+| :---------------------------------------------------- | :-------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| [LC3550] Smallest Index With Digit Sum Equal to Index | Arrays + Traversal    | Easy       | `O(n * d)`      | `O(1)`           | [LC3550SmallestIndexWithDigitSumEqualToIndex.java](./arrays/traversal/LC3550SmallestIndexWithDigitSumEqualToIndex.java) |
+| [LC485] Max Consecutive Ones                          | Arrays / Traversal    | Easy       | `O(N)`          | `O(1)`           | [LC485MaxConsecutiveOnes.java](./arrays/traversal/LC485MaxConsecutiveOnes.java)                                         |
+| [GFG] Leaders in an Array                             | Arrays / Traversal    | Easy       | `O(N)`          | `O(N)`           | [LeadersInArray.java](./arrays/traversal/GFG_LeadersInArray.java)                                                       |
+| [LC2149] Rearrange Array by Sign                      | Arrays / Two Pointers | Medium     | `O(N)`          | `O(N)`           | [LC2149RearrangeArrayBySign.java](./arrays/traversal/LC2149RearrangeArrayBySign.java)                                   |
+| [LC88] Merge Sorted Array                             | Arrays / Two Pointers | Easy       | `O(M+N)`        | `O(1)`           | [LC88MergeSortedArraysInOne.java](./arrays/traversal/LC88MergeSortedArray.java)                                         |
+
+<br>
+
 #### Two Pointer
 
 | Problem Name                                   | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                   |
@@ -121,17 +133,6 @@ Every solution here is documented the way you'd document production code — wit
 | [GFG] Union of Two Sorted Arrays               | Arrays / Two Pointers | Easy       | `O(N+M)`        | `O(N+M)`         | [UnionOfTwoSortedArraysWithDuplicates.java](./arrays/two_pointer/GFG_UnionOfTwoSortedArraysWithDuplicates.java) |
 | [LC15] 3Sum                                    | Arrays / Two Pointers | Medium     | `O(N^2)`        | `O(1)`           | [LC15ThreeSum.java](./arrays/two_pointer/LC15ThreeSum.java)                                                     |
 | [LC18] 4Sum                                    | Arrays / Two Pointers | Medium     | `O(N^3)`        | `O(1)`           | [LC18FourSum.java](./arrays/two_pointer/LC18FourSum.java)                                                       |
-
-<br>
-
-#### Traversal + Simulation
-
-| Problem Name                     | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                         |
-| :------------------------------- | :-------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------ |
-| [LC485] Max Consecutive Ones     | Arrays / Traversal    | Easy       | `O(N)`          | `O(1)`           | [LC485MaxConsecutiveOnes.java](./arrays/traversal/LC485MaxConsecutiveOnes.java)       |
-| [GFG] Leaders in an Array        | Arrays / Traversal    | Easy       | `O(N)`          | `O(N)`           | [LeadersInArray.java](./arrays/traversal/GFG_LeadersInArray.java)                     |
-| [LC2149] Rearrange Array by Sign | Arrays / Two Pointers | Medium     | `O(N)`          | `O(N)`           | [LC2149RearrangeArrayBySign.java](./arrays/traversal/LC2149RearrangeArrayBySign.java) |
-| [LC88] Merge Sorted Array        | Arrays / Two Pointers | Easy       | `O(M+N)`        | `O(1)`           | [LC88MergeSortedArraysInOne.java](./arrays/traversal/LC88MergeSortedArray.java)       |
 
 <br>
 
