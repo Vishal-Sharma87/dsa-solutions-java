@@ -876,6 +876,14 @@ Every solution here is documented the way you'd document production code — wit
 
 ### 17. Greedy
 
+#### Sorting
+
+| Problem Name           | Topic            | Difficulty | Time Complexity        | Space Complexity | Solution Link                                                    |
+| :--------------------- | :--------------- | :--------- | :--------------------- | :--------------- | :--------------------------------------------------------------- |
+| [LC455] Assign Cookies | Greedy + Sorting | Easy       | `O(n log n + m log m)` | `O(1)`           | [LC455AssignCookies.java](./greedy/sort/LC455AssignCookies.java) |
+
+<br>
+
 #### Intervals
 
 | Problem Name                      | Topic                        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                             |
