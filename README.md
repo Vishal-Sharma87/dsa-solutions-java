@@ -885,6 +885,14 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
+#### Local choice
+
+| Problem Name            | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                              |
+| :---------------------- | :-------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------- |
+| [LC860] Lemonade Change | Greedy + Local Choice | Easy       | `O(n)`          | `O(1)`           | [LC860LemonadeChange.java](./greedy/local_choice/LC860LemonadeChange.java) |
+
+<br>
+
 #### Intervals
 
 | Problem Name                      | Topic                        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                             |
