@@ -879,9 +879,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Sorting
 
-| Problem Name           | Topic            | Difficulty | Time Complexity        | Space Complexity | Solution Link                                                    |
-| :--------------------- | :--------------- | :--------- | :--------------------- | :--------------- | :--------------------------------------------------------------- |
-| [LC455] Assign Cookies | Greedy + Sorting | Easy       | `O(n log n + m log m)` | `O(1)`           | [LC455AssignCookies.java](./greedy/sort/LC455AssignCookies.java) |
+| Problem Name                      | Topic            | Difficulty | Time Complexity        | Space Complexity | Solution Link                                                                    |
+| :-------------------------------- | :--------------- | :--------- | :--------------------- | :--------------- | :------------------------------------------------------------------------------- |
+| [LC455] Assign Cookies            | Greedy + Sorting | Easy       | `O(n log n + m log m)` | `O(1)`           | [LC455AssignCookies.java](./greedy/sort/LC455AssignCookies.java)                 |
+| [LC1710] Maximum Units on a Truck | Greedy + Sorting | Easy       | `O(n log n)`           | `O(n)`           | [LC1710MaximumUnitsOnATruck.java](./greedy/sort/LC1710MaximumUnitsOnATruck.java) |
 
 <br>
 
