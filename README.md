@@ -249,9 +249,10 @@ Every solution here is documented the way you'd document production code — wit
 
 #### LookUps
 
-| Problem Name                            | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                    |
-| :-------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------- |
-| [LC3718] Smallest Missing Multiple of K | Hashing + Lookup | Easy       | `O(n)`          | `O(n)`           | [LC3718SmallestMissingMultipleOfK.java](./hashing/lookups/LC3718SmallestMissingMultipleOfK.java) |
+| Problem Name                                    | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                               |
+| :---------------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------- |
+| [LC3718] Smallest Missing Multiple of K         | Hashing + Lookup | Easy       | `O(n)`          | `O(n)`           | [LC3718SmallestMissingMultipleOfK.java](./hashing/lookups/LC3718SmallestMissingMultipleOfK.java)            |
+| [LC1807] Evaluate the Bracket Pairs of a String | Hashing + Lookup | Medium     | `O(n + K)`      | `O(K)`           | [LC1807EvaluateTheBracketPairsOfAString.java](./hashing/lookups/LC1807EvaluateTheBracketPairsOfAString.java) |
 
 ---
 
