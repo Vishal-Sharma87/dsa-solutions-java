@@ -249,9 +249,9 @@ Every solution here is documented the way you'd document production code — wit
 
 #### LookUps
 
-| Problem Name                                    | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                               |
-| :---------------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------- |
-| [LC3718] Smallest Missing Multiple of K         | Hashing + Lookup | Easy       | `O(n)`          | `O(n)`           | [LC3718SmallestMissingMultipleOfK.java](./hashing/lookups/LC3718SmallestMissingMultipleOfK.java)            |
+| Problem Name                                    | Topic            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                |
+| :---------------------------------------------- | :--------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------------------------------- |
+| [LC3718] Smallest Missing Multiple of K         | Hashing + Lookup | Easy       | `O(n)`          | `O(n)`           | [LC3718SmallestMissingMultipleOfK.java](./hashing/lookups/LC3718SmallestMissingMultipleOfK.java)             |
 | [LC1807] Evaluate the Bracket Pairs of a String | Hashing + Lookup | Medium     | `O(n + K)`      | `O(K)`           | [LC1807EvaluateTheBracketPairsOfAString.java](./hashing/lookups/LC1807EvaluateTheBracketPairsOfAString.java) |
 
 ---
@@ -736,12 +736,13 @@ Every solution here is documented the way you'd document production code — wit
 
 #### DP on Grids
 
-| Problem Name            | Topic      | Difficulty | Time Complexity | Space Complexity | Solution Link                                                 |
-| :---------------------- | :--------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------ |
-| [LC62] Unique Paths     | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC62UniquePaths.java](./dp/grids/LC62UniquePaths.java)       |
-| [LC63] Unique Paths II  | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC63UniquePathsII.java](./dp/grids/LC63UniquePathsII.java)   |
-| [LC64] Minimum Path Sum | DP + Grids | Medium     | `O(m * n)`      | `O(n)`           | [LC64MinimumPathSum.java](./dp/grids/LC64MinimumPathSum.java) |
-| [LC120] Triangle        | DP + Grids | Medium     | `O(n^2)`        | `O(n)`           | [LC120Triangle.java](./dp/grids/LC120Triangle.java)           |
+| Problem Name                                               | Topic                     | Difficulty | Time Complexity      | Space Complexity     | Solution Link                                                                                                           |
+| :--------------------------------------------------------- | :------------------------ | :--------- | :------------------- | :------------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| [LC62] Unique Paths                                        | DP + Grids                | Medium     | `O(m * n)`           | `O(n)`               | [LC62UniquePaths.java](./dp/grids/LC62UniquePaths.java)                                                                 |
+| [LC63] Unique Paths II                                     | DP + Grids                | Medium     | `O(m * n)`           | `O(n)`               | [LC63UniquePathsII.java](./dp/grids/LC63UniquePathsII.java)                                                             |
+| [LC64] Minimum Path Sum                                    | DP + Grids                | Medium     | `O(m * n)`           | `O(n)`               | [LC64MinimumPathSum.java](./dp/grids/LC64MinimumPathSum.java)                                                           |
+| [LC120] Triangle                                           | DP + Grids                | Medium     | `O(n^2)`             | `O(n)`               | [LC120Triangle.java](./dp/grids/LC120Triangle.java)                                                                     |
+| [LC2267] Check if There Is a Valid Parentheses String Path | DP on Grids + Memoization | Hard       | `O(m * n * (m + n))` | `O(m * n * (m + n))` | [LC2267CheckIfThereIsAValidParenthesesStringPath.java](./dp/grids/LC2267CheckIfThereIsAValidParenthesesStringPath.java) |
 
 <br>
 
