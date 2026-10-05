@@ -412,10 +412,17 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Easy
 
-| Problem Name             | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                                  |
-| :----------------------- | :---- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------- |
-| [LC20] Valid Parentheses | Stack | Easy       | `O(N)`          | `O(N)`           | [LC20ValidParentheses.java](./stack/LC20ValidParentheses.java) |
-| [LC155] MinStack         | Stack | Medium     | `O(1)`          | `O(N)`           | [LC155MinStack.java.java](./stack/LC155MinStack.java)          |
+| Problem Name     | Topic | Difficulty | Time Complexity | Space Complexity | Solution Link                                         |
+| :--------------- | :---- | :--------- | :-------------- | :--------------- | :---------------------------------------------------- |
+| [LC155] MinStack | Stack | Medium     | `O(1)`          | `O(N)`           | [LC155MinStack.java.java](./stack/LC155MinStack.java) |
+
+<br>
+#### Easy
+
+| Problem Name                 | Topic               | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                    |
+| :--------------------------- | :------------------ | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------- |
+| [LC20] Valid Parentheses     | Stack               | Easy       | `O(N)`          | `O(N)`           | [LC20ValidParentheses.java](./stack/parentheses/LC20ValidParentheses.java)       |
+| [LC856] Score of Parentheses | Stack + Parentheses | Medium     | `O(n)`          | `O(n)`           | [LC856ScoreOfParentheses.java](./stack/parentheses/LC856ScoreOfParentheses.java) |
 
 <br>
 
