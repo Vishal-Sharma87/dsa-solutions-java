@@ -417,6 +417,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC155] MinStack | Stack | Medium     | `O(1)`          | `O(N)`           | [LC155MinStack.java.java](./stack/LC155MinStack.java) |
 
 <br>
+
 #### Easy
 
 | Problem Name                 | Topic               | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                    |
@@ -892,6 +893,14 @@ Every solution here is documented the way you'd document production code — wit
 | :-------------------------------- | :--------------- | :--------- | :--------------------- | :--------------- | :------------------------------------------------------------------------------- |
 | [LC455] Assign Cookies            | Greedy + Sorting | Easy       | `O(n log n + m log m)` | `O(1)`           | [LC455AssignCookies.java](./greedy/sort/LC455AssignCookies.java)                 |
 | [LC1710] Maximum Units on a Truck | Greedy + Sorting | Easy       | `O(n log n)`           | `O(n)`           | [LC1710MaximumUnitsOnATruck.java](./greedy/sort/LC1710MaximumUnitsOnATruck.java) |
+
+<br>
+
+#### Balancing and Counter
+
+| Problem Name                                  | Topic              | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                               |
+| :-------------------------------------------- | :----------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------- |
+| [LC921] Minimum Add to Make Parentheses Valid | Greedy + Balancing | Medium     | `O(n)`          | `O(1)`           | [LC921MinimumAddToMakeParenthesesValid.java](./greedy/balancing/LC921MinimumAddToMakeParenthesesValid.java) |
 
 <br>
 
