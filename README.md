@@ -263,7 +263,7 @@ Every solution here is documented the way you'd document production code — wit
 | Problem Name                             | Topic             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                 |
 | :--------------------------------------- | :---------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------- |
 | [LC242] Valid Anagram                    | Strings / Hashing | Easy       | `O(N)`          | `O(1)`           | [LC242Anagram.java](./strings/easy/LC242Anagram.java)                                         |
-| [LC1021] Remove Outermost Parentheses    | Strings / Stack   | Easy       | `O(N)`          | `O(N)`           | [LC1021RemoveOutermostParenthesis.java](./strings/easy/LC1021RemoveOutermostParenthesis.java) |
+| [LC1021] Remove Outermost Parentheses    | Strings / Stack   | Easy       | `O(N)`          | `O(N)`           | [LC1021RemoveOutermostParenthesis.java](./strings/easy/LC1021RemoveOutermostParentheses.java) |
 | [LC1781] Sum of Beauty of All Substrings | Strings / Hashing | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/medium/LC1781BeautyOfString.java)                       |
 
 <br>
