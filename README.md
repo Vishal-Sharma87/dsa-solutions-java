@@ -918,6 +918,7 @@ Every solution here is documented the way you'd document production code — wit
 | Problem Name                      | Topic                        | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                             |
 | :-------------------------------- | :--------------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------- |
 | [LC56] Merge Intervals            | Greedy / Sorting / Intervals | Medium     | `O(N log N)`    | `O(N)`           | [LC56MergeIntervals.java](./greedy/intervals/LC56MergeIntervals.java)                     |
+| [LC57] Insert Interval            | Greedy + Intervals           | Medium     | `O(n)`          | `O(n)`           | [LC57InsertInterval.java](./greedy/intervals/LC57InsertInterval.java)                     |
 | [LC1386] Cinema Seat Allocation   | Greedy + Intervals           | Medium     | `O(r)`          | `O(r)`           | [LC1386CinemaSeatAllocation.java](./greedy/intervals/LC1386CinemaSeatAllocation.java)     |
 | [LC1288] Remove Covered Intervals | Greedy + Sorting             | Medium     | `O(n log n)`    | `O(1)`           | [LC1288RemoveCoveredIntervals.java](./greedy/intervals/LC1288RemoveCoveredIntervals.java) |
 
