@@ -460,13 +460,14 @@ Every solution here is documented the way you'd document production code — wit
 
 ---
 
-### 9. Design Problems
+### 9. Design
 
-#### LRU cache
+#### Problems
 
-| Problem Name      | Topic         | Difficulty | Time Complexity | Space Complexity | Solution Link                                     |
-| :---------------- | :------------ | :--------- | :-------------- | :--------------- | :------------------------------------------------ |
-| [LC146] LRU cache | DLL / HashMap | Medium     | `O(1)` amort.   | `O(N)`           | [LC146LRUCache.java](./design/LC146LRUCache.java) |
+| Problem Name        | Topic                                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                |
+| :------------------ | :-------------------------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------- |
+| [LC146] LRU cache   | DLL / HashMap                           | Medium     | `O(1)` amort.   | `O(N)`           | [LC146LRUCache.java](./design/LC146LRUCache.java)            |
+| [LC729] My Calendar | Design + Doubly Linked List + Intervals | Medium     | `O(n)`          | `O(n)`           | [LC729MyCalendar.java](./design/LC729MyCalendar.java) |
 
 ---
 
