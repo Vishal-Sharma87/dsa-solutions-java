@@ -29,7 +29,7 @@ Every solution here is documented the way you'd document production code — wit
 | 6   | [Linked List](#6-linked-list)                  |
 | 7   | [Recursion](#7-recursion)                      |
 | 8   | [Stack and Queue](#8-stack-and-queue)          |
-| 9   | [Design Problems](#9-design-problems)          |
+| 9   | [Design Problems](#9-design)                   |
 | 10  | [Sliding Window ](#10-sliding-window)          |
 | 11  | [Heaps](#11-heaps)                             |
 | 12  | [Tree](#12-tree)                               |
@@ -259,14 +259,13 @@ Every solution here is documented the way you'd document production code — wit
 
 ### 5. Strings
 
-#### Character Counter based problems (Frequency)
+#### Hashing (Frequency)
 
-| Problem Name                             | Topic                       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                 |
-| :--------------------------------------- | :-------------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------- |
-| [LC242] Valid Anagram                    | Strings / Hashing           | Easy       | `O(N)`          | `O(1)`           | [LC242Anagram.java](./strings/easy/LC242Anagram.java)                                         |
-| [LC383] Ransom Note                      | Strings + Frequency Counter | Easy       | `O(m + n)`      | `O(1)`           | [LC383RansomNote.java](./strings/counter/LC383RansomNote.java)                                |
-| [LC1021] Remove Outermost Parentheses    | Strings / Stack             | Easy       | `O(N)`          | `O(N)`           | [LC1021RemoveOutermostParenthesis.java](./strings/easy/LC1021RemoveOutermostParentheses.java) |
-| [LC1781] Sum of Beauty of All Substrings | Strings / Hashing           | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/medium/LC1781BeautyOfString.java)                       |
+| Problem Name                             | Topic                       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                            |
+| :--------------------------------------- | :-------------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------- |
+| [LC242] Valid Anagram                    | Strings / Hashing           | Easy       | `O(N)`          | `O(1)`           | [LC242Anagram.java](./strings/hashing/LC242Anagram.java)                 |
+| [LC383] Ransom Note                      | Strings + Frequency Counter | Easy       | `O(m + n)`      | `O(1)`           | [LC383RansomNote.java](./strings/hashing/LC383RansomNote.java)           |
+| [LC1781] Sum of Beauty of All Substrings | Strings / Hashing           | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/hashing/LC1781BeautyOfString.java) |
 
 <br>
 
@@ -420,12 +419,13 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
-#### Easy
+#### Parantheses "()"
 
-| Problem Name                 | Topic               | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                    |
-| :--------------------------- | :------------------ | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------- |
-| [LC20] Valid Parentheses     | Stack               | Easy       | `O(N)`          | `O(N)`           | [LC20ValidParentheses.java](./stack/parentheses/LC20ValidParentheses.java)       |
-| [LC856] Score of Parentheses | Stack + Parentheses | Medium     | `O(n)`          | `O(n)`           | [LC856ScoreOfParentheses.java](./stack/parentheses/LC856ScoreOfParentheses.java) |
+| Problem Name                          | Topic                         | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                      |
+| :------------------------------------ | :---------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------- |
+| [LC20] Valid Parentheses              | Stack                         | Easy       | `O(N)`          | `O(N)`           | [LC20ValidParentheses.java](./stack/parentheses/LC20ValidParentheses.java)                         |
+| [LC856] Score of Parentheses          | Stack + Parentheses           | Medium     | `O(n)`          | `O(n)`           | [LC856ScoreOfParentheses.java](./stack/parentheses/LC856ScoreOfParentheses.java)                   |
+| [LC1021] Remove Outermost Parentheses | Strings / Stack / Parentheses | Easy       | `O(N)`          | `O(N)`           | [LC1021RemoveOutermostParenthesis.java](./stack/parentheses/LC1021RemoveOutermostParentheses.java) |
 
 <br>
 
@@ -464,9 +464,9 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Problems
 
-| Problem Name        | Topic                                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                                |
-| :------------------ | :-------------------------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------- |
-| [LC146] LRU cache   | DLL / HashMap                           | Medium     | `O(1)` amort.   | `O(N)`           | [LC146LRUCache.java](./design/LC146LRUCache.java)            |
+| Problem Name        | Topic                                   | Difficulty | Time Complexity | Space Complexity | Solution Link                                         |
+| :------------------ | :-------------------------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------- |
+| [LC146] LRU cache   | DLL / HashMap                           | Medium     | `O(1)` amort.   | `O(N)`           | [LC146LRUCache.java](./design/LC146LRUCache.java)     |
 | [LC729] My Calendar | Design + Doubly Linked List + Intervals | Medium     | `O(n)`          | `O(n)`           | [LC729MyCalendar.java](./design/LC729MyCalendar.java) |
 
 ---
