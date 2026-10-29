@@ -261,11 +261,12 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Hashing (Frequency)
 
-| Problem Name                             | Topic                       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                            |
-| :--------------------------------------- | :-------------------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------- |
-| [LC242] Valid Anagram                    | Strings / Hashing           | Easy       | `O(N)`          | `O(1)`           | [LC242Anagram.java](./strings/hashing/LC242Anagram.java)                 |
-| [LC383] Ransom Note                      | Strings + Frequency Counter | Easy       | `O(m + n)`      | `O(1)`           | [LC383RansomNote.java](./strings/hashing/LC383RansomNote.java)           |
-| [LC1781] Sum of Beauty of All Substrings | Strings / Hashing           | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/hashing/LC1781BeautyOfString.java) |
+| Problem Name                             | Topic                       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                |
+| :--------------------------------------- | :-------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------- |
+| [LC242] Valid Anagram                    | Strings / Hashing           | Easy       | `O(N)`          | `O(1)`           | [LC242Anagram.java](./strings/hashing/LC242Anagram.java)                     |
+| [LC383] Ransom Note                      | Strings + Frequency Counter | Easy       | `O(m + n)`      | `O(1)`           | [LC383RansomNote.java](./strings/hashing/LC383RansomNote.java)               |
+| [LC1781] Sum of Beauty of All Substrings | Strings / Hashing           | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/hashing/LC1781BeautyOfString.java)     |
+| [LC205] Isomorphic Strings               | Strings + Hashing           | Easy       | `O(n)`          | `O(1)`           | [LC205IsomorphicStrings.java](./strings/hashing/LC205IsomorphicStrings.java) |
 
 <br>
 
