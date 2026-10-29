@@ -916,14 +916,15 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Intervals
 
-| Problem Name                      | Topic                        | Difficulty | Time Complexity | Space Complexity          | Solution Link                                                                             |
-| :-------------------------------- | :--------------------------- | :--------- | :-------------- | :------------------------ | :---------------------------------------------------------------------------------------- |
-| [GFG] Meeting Rooms               | Greedy + Intervals           | Easy       | `O(n log n)`    | `O(1)` auxiliary for scan | [GFG_MeetingRooms.java](./greedy/intervals/GFG_MeetingRooms.java)                         |
-| [LC56] Merge Intervals            | Greedy / Sorting / Intervals | Medium     | `O(N log N)`    | `O(N)`                    | [LC56MergeIntervals.java](./greedy/intervals/LC56MergeIntervals.java)                     |
-| [LC57] Insert Interval            | Greedy + Intervals           | Medium     | `O(n)`          | `O(n)`                    | [LC57InsertInterval.java](./greedy/intervals/LC57InsertInterval.java)                     |
-| [LC1386] Cinema Seat Allocation   | Greedy + Intervals           | Medium     | `O(r)`          | `O(r)`                    | [LC1386CinemaSeatAllocation.java](./greedy/intervals/LC1386CinemaSeatAllocation.java)     |
-| [LC1288] Remove Covered Intervals | Greedy + Sorting             | Medium     | `O(n log n)`    | `O(1)`                    | [LC1288RemoveCoveredIntervals.java](./greedy/intervals/LC1288RemoveCoveredIntervals.java) |
-| [LC435] Non-overlapping Intervals | Greedy + Intervals           | Medium     | `O(n log n)`    | `O(n)`                    | [LC435NonOverlappingIntervals.java](./greedy/intervals/LC435NonOverlappingIntervals.java) |
+| Problem Name                        | Topic                        | Difficulty | Time Complexity | Space Complexity          | Solution Link                                                                             |
+| :---------------------------------- | :--------------------------- | :--------- | :-------------- | :------------------------ | :---------------------------------------------------------------------------------------- |
+| [GFG] Meeting Rooms                 | Greedy + Intervals           | Easy       | `O(n log n)`    | `O(1)` auxiliary for scan | [GFG_MeetingRooms.java](./greedy/intervals/GFG_MeetingRooms.java)                         |
+| [LC56] Merge Intervals              | Greedy / Sorting / Intervals | Medium     | `O(N log N)`    | `O(N)`                    | [LC56MergeIntervals.java](./greedy/intervals/LC56MergeIntervals.java)                     |
+| [LC57] Insert Interval              | Greedy + Intervals           | Medium     | `O(n)`          | `O(n)`                    | [LC57InsertInterval.java](./greedy/intervals/LC57InsertInterval.java)                     |
+| [LC1386] Cinema Seat Allocation     | Greedy + Intervals           | Medium     | `O(r)`          | `O(r)`                    | [LC1386CinemaSeatAllocation.java](./greedy/intervals/LC1386CinemaSeatAllocation.java)     |
+| [LC1288] Remove Covered Intervals   | Greedy + Sorting             | Medium     | `O(n log n)`    | `O(1)`                    | [LC1288RemoveCoveredIntervals.java](./greedy/intervals/LC1288RemoveCoveredIntervals.java) |
+| [LC435] Non-overlapping Intervals   | Greedy + Intervals           | Medium     | `O(n log n)`    | `O(n)`                    | [LC435NonOverlappingIntervals.java](./greedy/intervals/LC435NonOverlappingIntervals.java) |
+| [NaukariCode360] Employee Free Time | Greedy + Intervals + Sorting | Medium     | `O(M log M)`    | `O(M)`                    | [NaukriEmployeeFreeTime.java](./greedy/intervals/NaukriCode360EmployeeFreeTime.java)      |
 
 ---
 
