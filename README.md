@@ -475,6 +475,12 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
+#### Fixed Length Window
+
+| Problem Name                          | Topic                         | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                         |
+| :------------------------------------ | :---------------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------- |
+| [LC438] Find All Anagrams in a String | Sliding Window / Fixed Window | Medium     | `O(n + m)`      | `O(1)`           | [LC438FindAllAnagramsInAString.java](./slidingwindow/fixed_window/LC438FindAllAnagramsInAString.java) |
+
 #### Longest Subarrays
 
 | Problem Name                                                 | Topic                            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                     |
