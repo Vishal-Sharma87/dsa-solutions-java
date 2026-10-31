@@ -480,6 +480,9 @@ Every solution here is documented the way you'd document production code — wit
 | Problem Name                          | Topic                         | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                         |
 | :------------------------------------ | :---------------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------- |
 | [LC438] Find All Anagrams in a String | Sliding Window / Fixed Window | Medium     | `O(n + m)`      | `O(1)`           | [LC438FindAllAnagramsInAString.java](./slidingwindow/fixed_window/LC438FindAllAnagramsInAString.java) |
+| [LC567] Permutation in String         | Sliding Window + Hashing      | Medium     | `O(n)`          | `O(1)`           | [LC567PermutationInString.java](./slidingwindow/fixed_window/LC567PermutationInString.java)           |
+
+<br>
 
 #### Longest Subarrays
 
