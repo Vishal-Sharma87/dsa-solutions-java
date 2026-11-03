@@ -477,10 +477,11 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Fixed Length Window
 
-| Problem Name                          | Topic                         | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                         |
-| :------------------------------------ | :---------------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------- |
-| [LC438] Find All Anagrams in a String | Sliding Window / Fixed Window | Medium     | `O(n + m)`      | `O(1)`           | [LC438FindAllAnagramsInAString.java](./slidingwindow/fixed_window/LC438FindAllAnagramsInAString.java) |
-| [LC567] Permutation in String         | Sliding Window + Hashing      | Medium     | `O(n)`          | `O(1)`           | [LC567PermutationInString.java](./slidingwindow/fixed_window/LC567PermutationInString.java)           |
+| Problem Name                                      | Topic                         | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                         |
+| :------------------------------------------------ | :---------------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------- |
+| [LC438] Find All Anagrams in a String             | Sliding Window / Fixed Window | Medium     | `O(n + m)`      | `O(1)`           | [LC438FindAllAnagramsInAString.java](./slidingwindow/fixed_window/LC438FindAllAnagramsInAString.java) |
+| [LC567] Permutation in String                     | Sliding Window + Hashing      | Medium     | `O(n)`          | `O(1)`           | [LC567PermutationInString.java](./slidingwindow/fixed_window/LC567PermutationInString.java)           |
+| [LC1423] Maximum Points You Can Obtain From Cards | Sliding Window                | Medium     | `O(N)`          | `O(1)`           | [LC1423MaxPointsFromCards.java](./slidingwindow/fixed_window/LC1423MaxPointsFromCards.java)           |
 
 <br>
 
@@ -489,7 +490,11 @@ Every solution here is documented the way you'd document production code — wit
 | Problem Name                                                 | Topic                            | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                     |
 | :----------------------------------------------------------- | :------------------------------- | :--------- | :-------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [LC1004] Max Consecutive Ones III                            | Sliding Window                   | Medium     | `O(N)`          | `O(1)`           | [LC1004MaxConsecutiveOnesIII.java](./slidingwindow/longest_subarray/LC1004MaxConsecutiveOnesIII.java)                                             |
+| [LC3] Longest Substring Without Repeating Characters         | Sliding Window                   | Medium     | `O(N)`          | `O(1)`           | [LC3LongestSubstringWithoutRepeatingCharacters.java](./slidingwindow/longest_subarray/LC3LongestSubstringWithoutRepeatingCharacters.java)         |
+| [LC904] Fruit Into Baskets                                   | Sliding Window                   | Medium     | `O(N)`          | `O(1)`           | [LC904FruitIntoBaskets.java](./slidingwindow/longest_subarray/LC904FruitIntoBaskets.java)                                                         |
 | [GFG] Longest Subarray with Sum K                            | Sliding Window                   | Medium     | `O(N)`          | `O(N)`           | [GFG_LongestSubarrayWithSumK.java](./slidingwindow/longest_subarray/GFG_LongestSubarrayWithSumK.java)                                             |
+| [GFG] Longest Substring with K Uniques                       | Sliding Window                   | Medium     | `O(N)`          | `O(1)`           | [GFG_LongestSubstringWithKUniques.java](./slidingwindow/longest_subarray/GFG_LongestSubstringWithKUniques.java)                                   |
+| [LC424] Longest Repeating Character Replacement              | Sliding Window                   | Medium     | `O(N)`          | `O(1)`           | [LC424LongestRepeatingCharacterReplacement.java](./slidingwindow/longest_subarray/LC424LongestRepeatingCharacterReplacement.java)                 |
 | [LC3090] Maximum Length Substring With Two Occurrences       | Sliding Window + Frequency Array | Easy       | `O(n)`          | `O(1)`           | [LC3090MaximumLengthSubstringWithTwoOccurrences.java](./slidingwindow/longest_subarray/LC3090MaximumLengthSubstringWithTwoOccurrences.java)       |
 | [LC1695] Maximum Erasure Value                               | Sliding Window + HashSet         | Medium     | `O(n)` average  | `O(n)`           | [LC1695MaximumErasureValue.java](./slidingwindow/longest_subarray/LC1695MaximumErasureValue.java)                                                 |
 | [LC2958] Length of Longest Subarray With at Most K Frequency | Sliding Window + Hashing         | Medium     | `O(n)`          | `O(n)`           | [LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java](./slidingwindow/longest_subarray/LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java) |
@@ -503,30 +508,18 @@ Every solution here is documented the way you'd document production code — wit
 | Problem Name                                                      | Topic                         | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                    |
 | :---------------------------------------------------------------- | :---------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------- |
 | [LC2904] Shortest and Lexicographically Smallest Beautiful String | Sliding Window + Two Pointers | Medium     | `O(n^2)`        | `O(1)`           | [LC2904ShortestBeautifulSubstring.java](./slidingwindow/shortest_subarray/LC2904ShortestBeautifulSubstring.java) |
+| [LC76] Minimum Window Substring                                   | Sliding Window                | Hard       | `O(N + M)`      | `O(1)`           | [LC76MinimumWindowSubstring.java](./slidingwindow/shortest_subarray/LC76MinimumWindowSubstring.java)             |
 
 <br>
 
-#### Medium Problems
+#### Count Subarrays
 
-| Problem Name                                                  | Topic          | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                 |
-| :------------------------------------------------------------ | :------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-| [LC3] Longest Substring Without Repeating Characters          | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC3LongestSubstringWithoutRepeatingCharacters.java](./slidingwindow/medium/LC3LongestSubstringWithoutRepeatingCharacters.java)               |
-| [LC904] Fruit Into Baskets                                    | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC904FruitIntoBaskets.java](./slidingwindow/medium/LC904FruitIntoBaskets.java)                                                               |
-| [LC424] Longest Repeating Character Replacement               | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC424LongestRepeatingCharacterReplacement.java](./slidingwindow/medium/LC424LongestRepeatingCharacterReplacement.java)                       |
-| [LC930] Binary Subarrays With Sum                             | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC930BinarySubarraysWithSum.java](./slidingwindow/medium/LC930BinarySubarraysWithSum.java)                                                   |
-| [LC1248] Count Number of Nice Subarrays                       | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC1248CountNumberOfNiceSubarrays.java](./slidingwindow/medium/LC1248CountNumberOfNiceSubarrays.java)                                         |
-| [LC1358] Number of Substrings Containing All Three Characters | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC1358NumberOfSubstringsContainingAllThreeCharacters.java](./slidingwindow/medium/LC1358NumberOfSubstringsContainingAllThreeCharacters.java) |
-| [LC1423] Maximum Points You Can Obtain From Cards             | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC1423MaxPointsFromCards.java](./slidingwindow/medium/LC1423MaxPointsFromCards.java)                                                         |
-
-<br>
-
-#### Hard Problems
-
-| Problem Name                                | Topic          | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                             |
-| :------------------------------------------ | :------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------------------------------- |
-| [GFG] Longest Substring with K Uniques      | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [GFG_LongestSubstringWithKUniques.java](./slidingwindow/hard/GFG_LongestSubstringWithKUniques.java)       |
-| [LC992] Subarrays with K Different Integers | Sliding Window | Hard       | `O(N)`          | `O(N)`           | [LC992SubarraysWithKDistinctIntegers.java](./slidingwindow/hard/LC992SubarraysWithKDistinctIntegers.java) |
-| [LC76 ] Minimum Window Substring            | Sliding Window | Hard       | `O(N + M)`      | `O(1)`           | [LC76MinimumWindowSubstring.java](./slidingwindow/hard/LC76MinimumWindowSubstring.java)                   |
+| Problem Name                                                  | Topic          | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                                                         |
+| :------------------------------------------------------------ | :------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [LC930] Binary Subarrays With Sum                             | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC930BinarySubarraysWithSum.java](./slidingwindow/subarray_count/LC930BinarySubarraysWithSum.java)                                                   |
+| [LC1248] Count Number of Nice Subarrays                       | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC1248CountNumberOfNiceSubarrays.java](./slidingwindow/subarray_count/LC1248CountNumberOfNiceSubarrays.java)                                         |
+| [LC1358] Number of Substrings Containing All Three Characters | Sliding Window | Medium     | `O(N)`          | `O(1)`           | [LC1358NumberOfSubstringsContainingAllThreeCharacters.java](./slidingwindow/subarray_count/LC1358NumberOfSubstringsContainingAllThreeCharacters.java) |
+| [LC992] Subarrays with K Different Integers                   | Sliding Window | Hard       | `O(N)`          | `O(N)`           | [LC992SubarraysWithKDistinctIntegers.java](./slidingwindow/subarray_count/LC992SubarraysWithKDistinctIntegers.java)                                   |
 
 ---
 
