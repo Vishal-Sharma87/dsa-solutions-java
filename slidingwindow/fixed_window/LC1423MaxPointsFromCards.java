@@ -1,4 +1,4 @@
-package slidingwindow.medium;
+package slidingwindow.fixed_window;
 
 // Created at: 26 - April - 2025
 // Last revised at: 26 - April - 2025

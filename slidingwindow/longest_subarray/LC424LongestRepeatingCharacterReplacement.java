@@ -1,4 +1,4 @@
-package slidingwindow.medium;
+package slidingwindow.longest_subarray;
 
 // Created at: 24-April-2026
 // Last revised at: 24-April-2026

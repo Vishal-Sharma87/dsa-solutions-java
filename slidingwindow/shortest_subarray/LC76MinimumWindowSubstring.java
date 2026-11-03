@@ -1,4 +1,4 @@
-package slidingwindow.hard;
+package slidingwindow.shortest_subarray;
 
 // Created at: 27 - April - 2025
 // Last revised at: 27 - April - 2025

@@ -1,4 +1,4 @@
-package slidingwindow.hard;
+package slidingwindow.subarray_count;
 
 import java.util.HashMap;
 

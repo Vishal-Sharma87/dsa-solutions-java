@@ -1,4 +1,4 @@
-package slidingwindow.medium;
+package slidingwindow.subarray_count;
 
 // Created at: 25-April-2026
 // Last revised at: 25-April-2026
