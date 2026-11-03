@@ -494,6 +494,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC1695] Maximum Erasure Value                               | Sliding Window + HashSet         | Medium     | `O(n)` average  | `O(n)`           | [LC1695MaximumErasureValue.java](./slidingwindow/longest_subarray/LC1695MaximumErasureValue.java)                                                 |
 | [LC2958] Length of Longest Subarray With at Most K Frequency | Sliding Window + Hashing         | Medium     | `O(n)`          | `O(n)`           | [LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java](./slidingwindow/longest_subarray/LC2958LengthOfLongestSubarrayWithAtMostKFrequency.java) |
 | [LC1838] Frequency of the Most Frequent Element              | Sliding Window + Sorting         | Medium     | `O(n log n)`    | `O(1)` auxiliary | [LC1838FrequencyOfTheMostFrequentElement.java](./slidingwindow/longest_subarray/LC1838FrequencyOfTheMostFrequentElement.java)                     |
+| [LC2398] Maximum Number of Robots Within Budget              | Sliding Window + Monotonic Deque | Hard       | `O(n)`          | `O(n)`           | [LC2398MaximumNumberOfRobotsWithinBudget.java](./slidingwindow/longest_subarray/LC2398MaximumNumberOfRobotsWithinBudget.java)                     |
 
 <br>
 
