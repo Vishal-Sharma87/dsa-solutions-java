@@ -672,10 +672,11 @@ Every solution here is documented the way you'd document production code — wit
 
 #### Multi source BFS
 
-| Problem Name            | Topic                    | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                     |
-| :---------------------- | :----------------------- | :--------- | :-------------- | :--------------- | :-------------------------------------------------------------------------------- |
-| [LC994] Rotting Oranges | Graphs                   | Medium     | `O(m × n)`      | `O(m × n)`       | [LC994RottingOranges.java](./graph/bfs/multi_source_bfs/LC994RottingOranges.java) |
-| [LC934] Shortest Bridge | Graph + Multi-source BFS | Medium     | `O(n²)`         | `O(n²)`          | [LC934ShortestBridge.java](./graph/bfs/multi_source_bfs/LC934ShortestBridge.java) |
+| Problem Name                          | Topic                          | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                         |
+| :------------------------------------ | :----------------------------- | :--------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------- |
+| [LC994] Rotting Oranges               | Graphs                         | Medium     | `O(m × n)`      | `O(m × n)`       | [LC994RottingOranges.java](./graph/bfs/multi_source_bfs/LC994RottingOranges.java)                     |
+| [LC934] Shortest Bridge               | Graph + Multi-source BFS       | Medium     | `O(n²)`         | `O(n²)`          | [LC934ShortestBridge.java](./graph/bfs/multi_source_bfs/LC934ShortestBridge.java)                     |
+| [LC1162] As Far from Land as Possible | Graph + BFS / Multi-Source BFS | Medium     | `O(N²)`         | `O(N²)`          | [LC1162AsFarFromLandAsPossible.java](./graph/bfs/multi_source_bfs/LC1162AsFarFromLandAsPossible.java) |
 
 <br>
 
