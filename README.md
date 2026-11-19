@@ -259,7 +259,7 @@ Every solution here is documented the way you'd document production code — wit
 
 ### 5. Strings
 
-#### Hashing (Frequency)
+#### Hashing
 
 | Problem Name                             | Topic                       | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                |
 | :--------------------------------------- | :-------------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------------------- |
@@ -267,6 +267,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC383] Ransom Note                      | Strings + Frequency Counter | Easy       | `O(m + n)`      | `O(1)`           | [LC383RansomNote.java](./strings/hashing/LC383RansomNote.java)               |
 | [LC1781] Sum of Beauty of All Substrings | Strings / Hashing           | Medium     | `O(N^2)`        | `O(1)`           | [LC1781BeautyOfString.java](./strings/hashing/LC1781BeautyOfString.java)     |
 | [LC205] Isomorphic Strings               | Strings + Hashing           | Easy       | `O(n)`          | `O(1)`           | [LC205IsomorphicStrings.java](./strings/hashing/LC205IsomorphicStrings.java) |
+| [LC648] Replace Words                    | Strings + Hashing           | Medium     | `O(n * m)`      | `O(D + n)`       | [LC648ReplaceWords.java](./strings/hashing/LC648ReplaceWords.java)           |
 
 <br>
 
