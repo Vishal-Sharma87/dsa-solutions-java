@@ -290,6 +290,14 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
+#### Stack
+
+| Problem Name                     | Topic           | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                        |
+| :------------------------------- | :-------------- | :--------- | :-------------- | :--------------- | :----------------------------------------------------------------------------------- |
+| [LC844] Backspace String Compare | Strings + Stack | Easy       | `O(N + M)`      | `O(N + M)`       | [LC844BackspaceStringCompare.java](./strings/stack/LC844BackspaceStringCompare.java) |
+
+<br>
+
 #### Preffix / Suffix
 
 | Problem Name                                 | Topic                             | Difficulty | Time Complexity | Space Complexity | Solution Link                                                                                                   |
