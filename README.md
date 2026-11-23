@@ -472,6 +472,7 @@ Every solution here is documented the way you'd document production code — wit
 | [LC146] LRU cache                                  | DLL / HashMap + Design                  | Medium     | `O(1)` amort.   | `O(N)`           | [LC146LRUCache.java](./design/LC146LRUCache.java)                                                         |
 | [LC729] My Calendar                                | Design + Doubly Linked List + Intervals | Medium     | `O(n)`          | `O(n)`           | [LC729MyCalendar.java](./design/LC729MyCalendar.java)                                                     |
 | [LC211] Design Add and Search Words Data Structure | Design + Backtracking                   | Medium     | `O(26^W * L)`   | `O(L)`           | [LC211DesignAddAndSearchWordsDataStructure.java](./design/LC211DesignAddAndSearchWordsDataStructure.java) |
+| [LC677] Map Sum Pairs                              | Design + HashMap                        | Medium     | `O(N * P)`      | `O(N * L)`       | [LC677MapSumPairs.java](./design/LC677MapSumPairs.java)                                                   |
 
 ---
 
