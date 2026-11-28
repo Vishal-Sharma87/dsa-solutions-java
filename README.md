@@ -931,6 +931,7 @@ Every solution here is documented the way you'd document production code — wit
 
 | Problem Name        | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                    |
 | :------------------ | :-------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------- |
+| [LC55] Jump Game    | Greedy / Reachability | Medium     | `O(n)`          | `O(1)`           | [LC55JumpGame.java](./greedy/reachability/LC55JumpGame.java)     |
 | [LC45] Jump Game II | Greedy / Reachability | Medium     | `O(n)`          | `O(1)`           | [LC45JumpGameII.java](./greedy/reachability/LC45JumpGameII.java) |
 
 <br>
