@@ -927,6 +927,14 @@ Every solution here is documented the way you'd document production code — wit
 
 <br>
 
+#### Reachability
+
+| Problem Name        | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                    |
+| :------------------ | :-------------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------- |
+| [LC45] Jump Game II | Greedy / Reachability | Medium     | `O(n)`          | `O(1)`           | [LC45JumpGameII.java](./greedy/reachability/LC45JumpGameII.java) |
+
+<br>
+
 #### Local choice
 
 | Problem Name            | Topic                 | Difficulty | Time Complexity | Space Complexity | Solution Link                                                              |
